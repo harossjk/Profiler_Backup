@@ -1,0 +1,4505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FrmAddLimitLine_AddLine" xml:space="preserve">
+    <value>Add Limit Line</value>
+  </data>
+  <data name="FrmAddLimitLine_Limitvalue" xml:space="preserve">
+    <value>Limit value :</value>
+  </data>
+  <data name="FrmAddParameterItems_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="FrmAddParameterItems_AddParameter" xml:space="preserve">
+    <value>Add parameter item</value>
+  </data>
+  <data name="FrmAddParameterItems_AddRange" xml:space="preserve">
+    <value>Add Range</value>
+  </data>
+  <data name="FrmAddParameterItems_AutoComment" xml:space="preserve">
+    <value>Auto Comment Index increase</value>
+  </data>
+  <data name="FrmAddParameterItems_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmAddParameterItems_Msg_MultiBy1" xml:space="preserve">
+    <value>Please enter an address.</value>
+  </data>
+  <data name="FrmAddParameterItems_Msg_MultiBy2" xml:space="preserve">
+    <value>The start and end range address headers are not the same.</value>
+  </data>
+  <data name="FrmAddParameterItems_Msg_MultiBy3" xml:space="preserve">
+    <value>Please enter your Word address.</value>
+  </data>
+  <data name="FrmAddParameterItems_Msg_MultiBy4" xml:space="preserve">
+    <value>The start of the address is greater than the end.</value>
+  </data>
+  <data name="FrmAddParameterItems_Msg_MultiBy5" xml:space="preserve">
+    <value>The start of the address is the end.</value>
+  </data>
+  <data name="FrmAddParameterItems_Msg_NullValue" xml:space="preserve">
+    <value>If there is no input, the comment of the matching tag is automatically assigned.</value>
+  </data>
+  <data name="FrmAddParameterItems_Msg_OneBy1" xml:space="preserve">
+    <value>Please enter an address.</value>
+  </data>
+  <data name="FrmAddParameterItems_Msg_OneBy2" xml:space="preserve">
+    <value>Please enter your Word address.</value>
+  </data>
+  <data name="FrmAddParameterItems_SingleAdd" xml:space="preserve">
+    <value>Single addition</value>
+  </data>
+  <data name="FrmAddressInputDialog2_Adress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="FrmAddressInputDialog2_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FrmAddressInputDialog2_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="FrmAddressInputDialog2_ContactAdd" xml:space="preserve">
+    <value>Contact Add</value>
+  </data>
+  <data name="FrmAddressInputDialog2_ContactAddressInput" xml:space="preserve">
+    <value>Contact Address Input</value>
+  </data>
+  <data name="FrmAddressInputDialog2_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="FrmAddressInputDialog2_SelectClear" xml:space="preserve">
+    <value>Select Clear</value>
+  </data>
+  <data name="FrmAddressInputDialog2_SelectDelete" xml:space="preserve">
+    <value>Select Delete</value>
+  </data>
+  <data name="FrmAddressInputDialog2_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="FrmAddressInputDialog2_SizeWordAndBit" xml:space="preserve">
+    <value>Size [1 = Word] / [2 = DWord]  Type separated (Bit contact is independent of size)</value>
+  </data>
+  <data name="FrmChannel_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmChannel_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmChannel_collectLogSetting" xml:space="preserve">
+    <value>Collect Log Setting</value>
+  </data>
+  <data name="FrmChannel_CommunicationSettings" xml:space="preserve">
+    <value>Communication Settings</value>
+  </data>
+  <data name="FrmChannel_LogFilename" xml:space="preserve">
+    <value>Log Filename</value>
+  </data>
+  <data name="FrmChannel_LogSaveCycle" xml:space="preserve">
+    <value>Log Save Cycle</value>
+  </data>
+  <data name="FrmChannel_LogSaveCycleMin" xml:space="preserve">
+    <value>Log Save Cycle (min)</value>
+  </data>
+  <data name="FrmChannel_Msg_OkGuid1" xml:space="preserve">
+    <value>File names cannot contain special characters that cannot be created in the Windows folder.
+(\\ /: *? \ &lt;&gt; | ^)"</value>
+  </data>
+  <data name="FrmChannel_Msg_OkGuid2" xml:space="preserve">
+    <value>You did not test the connection. Do you want to save without communication test?
+(If the communication test is not in progress, there may be a problem when collecting later.)</value>
+  </data>
+  <data name="FrmChannel_Msg_OkGuid3" xml:space="preserve">
+    <value>Saved communication settings.</value>
+  </data>
+  <data name="FrmChannel_Msg_OkGuid4" xml:space="preserve">
+    <value>Communication settings have changed.
+Do you want to save the current contents?</value>
+  </data>
+  <data name="FrmChannel_RefreshView" xml:space="preserve">
+    <value>Refresh View</value>
+  </data>
+  <data name="FrmCollectModeSelect_AlwaysOnOffDeviceDisplay" xml:space="preserve">
+    <value>Always On/Off Device Display</value>
+  </data>
+  <data name="FrmCollectModeSelect_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FrmCollectModeSelect_CheckCriteria" xml:space="preserve">
+    <value>Check Criteria</value>
+  </data>
+  <data name="FrmCollectModeSelect_collectTargetSelectionContact" xml:space="preserve">
+    <value>Collect Target
+Select Contact</value>
+  </data>
+  <data name="FrmCollectModeSelect_DefaultStandardInputContact" xml:space="preserve">
+    <value>Default Standard
+Input Contact</value>
+  </data>
+  <data name="FrmCollectModeSelect_LogDateContact" xml:space="preserve">
+    <value>Log Date Contact</value>
+  </data>
+  <data name="FrmCollectModeSelect_Msg_collectLogMode" xml:space="preserve">
+    <value>You must select the mode of the collected logs.
+If it is different, it may result in incorrect Standard or no Standard.</value>
+  </data>
+  <data name="FrmCollectModeSelect_OperatLinkageTable" xml:space="preserve">
+    <value>Action Linkage
+Table</value>
+  </data>
+  <data name="FrmCollectModeSelect_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="FrmCollectModeSelect_Selectcollectmode" xml:space="preserve">
+    <value>Select collect mode</value>
+  </data>
+  <data name="FrmCollectModeSelect_UseCustomColors" xml:space="preserve">
+    <value>Use Custom Colors</value>
+  </data>
+  <data name="FrmColorPicker_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FrmColorPicker_ItemSpecifythecolor" xml:space="preserve">
+    <value>The Item Specify the color.</value>
+  </data>
+  <data name="FrmColorPicker_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="FrmColorPicker_SpecifyColors" xml:space="preserve">
+    <value>Specify Colors</value>
+  </data>
+  <data name="FrmConfigSetting_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FrmConfigSetting_Msg_Savefailed" xml:space="preserve">
+    <value>Save Failed</value>
+  </data>
+  <data name="FrmConfigSetting_Msg_Savesucess" xml:space="preserve">
+    <value>Save successfully.</value>
+  </data>
+  <data name="FrmConfigSetting_Option" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="FrmConfigSetting_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="FrmCycleMotionOption_AddCondition" xml:space="preserve">
+    <value>Add Condition</value>
+  </data>
+  <data name="FrmCycleMotionOption_AddStopElement" xml:space="preserve">
+    <value>Add Stop Element</value>
+  </data>
+  <data name="FrmCycleMotionOption_AnnotationFilterList" xml:space="preserve">
+    <value>Comment Filter List</value>
+  </data>
+  <data name="FrmCycleMotionOption_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmCycleMotionOption_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmCycleMotionOption_CycleOptionSetting" xml:space="preserve">
+    <value>Cycle(Cycle Motaion) Option Setting</value>
+  </data>
+  <data name="FrmCycleMotionOption_EndAddress" xml:space="preserve">
+    <value>End Address</value>
+  </data>
+  <data name="FrmCycleMotionOption_EndValue" xml:space="preserve">
+    <value>End Value</value>
+  </data>
+  <data name="FrmCycleMotionOption_HideAddressList" xml:space="preserve">
+    <value>Hide Address List</value>
+  </data>
+  <data name="FrmCycleMotionOption_HideCommentList" xml:space="preserve">
+    <value>Hide Comment List</value>
+  </data>
+  <data name="FrmCycleMotionOption_HideSetting" xml:space="preserve">
+    <value>Hide Setting</value>
+  </data>
+  <data name="FrmCycleMotionOption_Msg_btnSaveGuid1" xml:space="preserve">
+    <value>The setting information has been saved normally.</value>
+  </data>
+  <data name="FrmCycleMotionOption_Msg_btnSaveGuid2" xml:space="preserve">
+    <value>Failed to save setting information.</value>
+  </data>
+  <data name="FrmCycleMotionOption_Msg_btnSaveGuid3" xml:space="preserve">
+    <value>There is a contact not registered as a contact in the set process list.</value>
+  </data>
+  <data name="FrmCycleMotionOption_Msg_Exist" xml:space="preserve">
+    <value>Contact information does not exist in the list.</value>
+  </data>
+  <data name="FrmCycleMotionOption_msUp" xml:space="preserve">
+    <value> (ms) Up</value>
+  </data>
+  <data name="FrmCycleMotionOption_ProecessConditionSettings" xml:space="preserve">
+    <value>Proecess Condition Settings</value>
+  </data>
+  <data name="FrmCycleMotionOption_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="FrmCycleMotionOption_SelectDelete" xml:space="preserve">
+    <value>Select Delete</value>
+  </data>
+  <data name="FrmCycleMotionOption_StartAddress" xml:space="preserve">
+    <value>Start Address</value>
+  </data>
+  <data name="FrmCycleMotionOption_StartValue" xml:space="preserve">
+    <value>Start Value</value>
+  </data>
+  <data name="FrmCycleMotionOption_StepTimeLag" xml:space="preserve">
+    <value>Step Time Lag</value>
+  </data>
+  <data name="FrmCycleMotionOption_ToolTipAddCondition" xml:space="preserve">
+    <value>Add Condition</value>
+  </data>
+  <data name="FrmCycleMotionOption_ToolTipClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmCycleMotionOption_ToolTipSelectDelete" xml:space="preserve">
+    <value>Select Delete</value>
+  </data>
+  <data name="FrmCycleMotion_ChartClear" xml:space="preserve">
+    <value>Chart Clear</value>
+  </data>
+  <data name="FrmCycleMotion_ContactInformaiton" xml:space="preserve">
+    <value>Contact Informaiton</value>
+  </data>
+  <data name="FrmCycleMotion_CycleChart" xml:space="preserve">
+    <value>CycleChart (Cycle Motion)</value>
+  </data>
+  <data name="FrmCycleMotion_CycleContact" xml:space="preserve">
+    <value>Cycle Contact</value>
+  </data>
+  <data name="FrmCycleMotion_CycleOperatViewChart" xml:space="preserve">
+    <value>Cycle Motion View Chart</value>
+  </data>
+  <data name="FrmCycleMotion_FilterInterselction" xml:space="preserve">
+    <value> Filter</value>
+  </data>
+  <data name="FrmCycleMotion_GridLineDisplay" xml:space="preserve">
+    <value>Grid Line Display</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_CheckedChanged" xml:space="preserve">
+    <value>The cycle start time could not be found.</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_InitViewGuid1" xml:space="preserve">
+    <value>] Cycle Chart (Cycle Motion)</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_InitViewGuid2" xml:space="preserve">
+    <value>Cycle Chart (Cycle Motion)</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_IsValidGuid1" xml:space="preserve">
+    <value>No project created</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_IsValidGuid2" xml:space="preserve">
+    <value>Sorry, we can't verify the collected log information.</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_LoadDataGuid1" xml:space="preserve">
+    <value>Packetlog does not exist.</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_LoadDataGuid2" xml:space="preserve">
+    <value>The start and end points of the log and the start point of the first cycle cannot be found.</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_SetCycleTagGuid1" xml:space="preserve">
+    <value>Select only one Cycle contact.</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_SetCycleTagGuid2" xml:space="preserve">
+    <value>There is no log information of Cycle contact.</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_ShowCharGuid1" xml:space="preserve">
+    <value>There is no registered Cycle contact. Register Cycle contact first.</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_ShowCharGuid2" xml:space="preserve">
+    <value>No contact selected Please select the contact to be displayed on the chart</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_ShowCharGuid3" xml:space="preserve">
+    <value>There is no log information of registered Cycle.</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_VerifyStandardLogSGuid1" xml:space="preserve">
+    <value>Reference standard contact list does not exist.</value>
+  </data>
+  <data name="FrmCycleMotion_Msg_VerifyStandardLogSGuid2" xml:space="preserve">
+    <value>There is no collection log of reference output contact.</value>
+  </data>
+  <data name="FrmCycleMotion_ON" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="FrmCycleMotion_Option" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="FrmCycleMotion_Page" xml:space="preserve">
+    <value>Page :</value>
+  </data>
+  <data name="FrmCycleMotion_ProcessIntersection" xml:space="preserve">
+    <value> Process</value>
+  </data>
+  <data name="FrmCycleMotion_Registerselectioncontactcycle" xml:space="preserve">
+    <value>Register selection contact cycle…</value>
+  </data>
+  <data name="FrmCycleMotion_StepIntersecltion" xml:space="preserve">
+    <value> Step</value>
+  </data>
+  <data name="FrmCycleMotion_StopIntersection" xml:space="preserve">
+    <value> Stop</value>
+  </data>
+  <data name="FrmCycleMotion_ViewChart" xml:space="preserve">
+    <value>View Chart</value>
+  </data>
+  <data name="FrmDeleteLineList_Check" xml:space="preserve">
+    <value>All Check</value>
+  </data>
+  <data name="FrmDeleteLineList_Display" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="FrmDeleteLineList_RemoveLine" xml:space="preserve">
+    <value>Remove Limit Line</value>
+  </data>
+  <data name="FrmDeleteLineList_Uncheck" xml:space="preserve">
+    <value>All UnCheck</value>
+  </data>
+  <data name="FrmFilterContents_AddressFilter" xml:space="preserve">
+    <value>Address Filter</value>
+  </data>
+  <data name="FrmFilterContents_AlwaysOFFFilter" xml:space="preserve">
+    <value>Always OFF Filter</value>
+  </data>
+  <data name="FrmFilterContents_AlwaysONFilter" xml:space="preserve">
+    <value>Always ON Filter</value>
+  </data>
+  <data name="FrmFilterContents_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmFilterContents_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmFilterContents_CommentFilter" xml:space="preserve">
+    <value>Comment Filter</value>
+  </data>
+  <data name="FrmFilterContents_Default" xml:space="preserve">
+    <value>Set as default</value>
+  </data>
+  <data name="FrmFilterContents_FilterSettings" xml:space="preserve">
+    <value>Filter Settings</value>
+  </data>
+  <data name="FrmFilterContents_Msg_CustomHeaderButtonClickGuid1" xml:space="preserve">
+    <value>Saved as default filter item</value>
+  </data>
+  <data name="FrmFilterContents_Msg_FilterHelp" xml:space="preserve">
+    <value>User input screen for filter items to be excluded when automatically selecting a collect contact.
+Normal filters are applied to the contacts, whereas Step filters are applied if there are embedded contacts for that step.</value>
+  </data>
+  <data name="FrmFilterContents_SetpAddressFilter" xml:space="preserve">
+    <value>Setp Address Filter</value>
+  </data>
+  <data name="FrmFilterContents_StepCommentFilterList" xml:space="preserve">
+    <value>Step Comment Filter List</value>
+  </data>
+  <data name="FrmFilterNormalMode_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="FrmFilterNormalMode_AddressFilter" xml:space="preserve">
+    <value>Address Filter</value>
+  </data>
+  <data name="FrmFilterNormalMode_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="FrmFilterNormalMode_AllAdd" xml:space="preserve">
+    <value>All Check</value>
+  </data>
+  <data name="FrmFilterNormalMode_AllUncheck" xml:space="preserve">
+    <value>All Uncheck </value>
+  </data>
+  <data name="FrmFilterNormalMode_AlwaysOnOff" xml:space="preserve">
+    <value>Always On/Off</value>
+  </data>
+  <data name="FrmFilterNormalMode_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmFilterNormalMode_Check" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="FrmFilterNormalMode_Checkforeachcycle" xml:space="preserve">
+    <value>Check for each cycle</value>
+  </data>
+  <data name="FrmFilterNormalMode_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmFilterNormalMode_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="FrmFilterNormalMode_CommentFilter" xml:space="preserve">
+    <value>Comment Filter</value>
+  </data>
+  <data name="FrmFilterNormalMode_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="FrmFilterNormalMode_CycleEffectivecontact" xml:space="preserve">
+    <value>Cycle Effective
+contact</value>
+  </data>
+  <data name="FrmFilterNormalMode_CycleOption" xml:space="preserve">
+    <value>Cycle Option</value>
+  </data>
+  <data name="FrmFilterNormalMode_Cyclerepeatcount" xml:space="preserve">
+    <value>Cycle repeat count</value>
+  </data>
+  <data name="FrmFilterNormalMode_Cyclestartcondition" xml:space="preserve">
+    <value>Cycle start condition</value>
+  </data>
+  <data name="FrmFilterNormalMode_Cycletime" xml:space="preserve">
+    <value>Cycle time (ms)</value>
+  </data>
+  <data name="FrmFilterNormalMode_Cycletriggercondition" xml:space="preserve">
+    <value>Cycle trigger condition</value>
+  </data>
+  <data name="FrmFilterNormalMode_DateType" xml:space="preserve">
+    <value>Date Type</value>
+  </data>
+  <data name="FrmFilterNormalMode_DefaultStandardAddress" xml:space="preserve">
+    <value>Default Standard Address</value>
+  </data>
+  <data name="FrmFilterNormalMode_DownLevelSelectContactGroupApply" xml:space="preserve">
+    <value>Down Level Select Contact Group Apply</value>
+  </data>
+  <data name="FrmFilterNormalMode_FilterApply" xml:space="preserve">
+    <value>Filter Apply</value>
+  </data>
+  <data name="FrmFilterNormalMode_Filtercollect" xml:space="preserve">
+    <value>Filter collect</value>
+  </data>
+  <data name="FrmFilterNormalMode_FiltercollectSetting" xml:space="preserve">
+    <value>Filter collect Setting</value>
+  </data>
+  <data name="FrmFilterNormalMode_FilterOption" xml:space="preserve">
+    <value>Filter Option</value>
+  </data>
+  <data name="FrmFilterNormalMode_Initialize" xml:space="preserve">
+    <value>Initialize</value>
+  </data>
+  <data name="FrmFilterNormalMode_lblTitle" xml:space="preserve">
+    <value>After collecting according to the cycle conditions, the available option is Hunan Filter. Also, enter the cycle validity period.
+
+Cycle Trigger condition: Prerequisite for detecting Cycle start
+Case 1. In the case of'Check for each cycle': Always check whether the set condition is satisfied before starting the cycle
+Case 2. In case of'Check only the latest cycle': When the first collection starts and the conditions are satisfied, the trigger is no longer checked.
+
+Cycle start condition: The condition that the cycle starts
+Case 1. When the cycle start condition is set: When the trigger setting condition and the cycle start condition are satisfied, it is judged as the cycle start.
+Case 2. When the cycle start condition is not set: It is judged that the cycle starts when the time passes by the trigger setting condition and the cycle time setting value.
+
+Cycle end condition: The condition that the cycle ends or restarts
+Case 1. When the cycle start condition is set. After the cycle start, if the trigger setting condition and the cycle start condition are satisfied again, restart the cycle.
+Case 2. When the cycle start condition is not set: After the cycle starts, if the trigger setting condition is satisfied and the cycle time setting value has elapsed, the cycle restart trigger setting condition is not satisfied, and if the time elapses, the cycle ends</value>
+  </data>
+  <data name="FrmFilterNormalMode_Lowlevel" xml:space="preserve">
+    <value>Low level</value>
+  </data>
+  <data name="FrmFilterNormalMode_MaximumWordCount" xml:space="preserve">
+    <value>Maximum Word Count</value>
+  </data>
+  <data name="FrmFilterNormalMode_Minimumlogcount" xml:space="preserve">
+    <value>Minimum log count</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_AddUserTagGuid1" xml:space="preserve">
+    <value>Do you want to save the current settings and proceed with the user contact setup?</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_ApplyGuid1" xml:space="preserve">
+    <value>Apply filter</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_ApplyGuid2" xml:space="preserve">
+    <value>Applying partial collection filter …</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_ApplyGuid3" xml:space="preserve">
+    <value> The contact has been added for collection.</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_CheckedChangedGuid1" xml:space="preserve">
+    <value>Check for each cycle</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_CheckedChangedGuid2" xml:space="preserve">
+    <value>Check only the first cycle</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_ClearGuid1" xml:space="preserve">
+    <value>All contacts in the mode were excluded from collection.</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_FormClosingGuid1" xml:space="preserve">
+    <value>This does not apply if there is a changed value.
+Do you want to apply it?</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_IsValidateCycleKeyGuid1" xml:space="preserve">
+    <value>Sorry. Cycle valid contacts are contacts that are not registered in the project. Please register the contact first.</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_IsValidateCycleKeyGuid2" xml:space="preserve">
+    <value>Sorry. Cycle valid contact must be a bit contact.</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_IsValidateCycleKeyGuid3" xml:space="preserve">
+    <value>Sorry. Cycle start contacts are contacts that are not registered in the project. Please register the contact first.</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_IsValidateCycleKeyGuid4" xml:space="preserve">
+    <value>Sorry. Cycle Trigger contacts are contacts that are not registered in the project. Please register the contact first.</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_IsValidateCycleKeyGuid5" xml:space="preserve">
+    <value>If there is no cycle start address, the cycle time cannot be less than 100.</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_IsValidGuid1" xml:space="preserve">
+    <value>No project created</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_OkGuid1" xml:space="preserve">
+    <value>Applying project..</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_OkGuid2" xml:space="preserve">
+    <value>Update filter .. # 1/3</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_OkGuid3" xml:space="preserve">
+    <value>Update Model .. # 2/3</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_OkGuid4" xml:space="preserve">
+    <value>Update packet .. # 3/3</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_OkGuid5" xml:space="preserve">
+    <value>Your settings have been applied.</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_ShowFilterOptionGuid1" xml:space="preserve">
+    <value>Max Word Count: :</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_ShowFilterOptionGuid2" xml:space="preserve">
+    <value>Now Word
+Count</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_ShowFilterOptionGuid3" xml:space="preserve">
+    <value>Max Buffer Size</value>
+  </data>
+  <data name="FrmFilterNormalMode_Msg_ShowFilterOptionGuid4" xml:space="preserve">
+    <value>Now Buffer Size</value>
+  </data>
+  <data name="FrmFilterNormalMode_NowWordCount" xml:space="preserve">
+    <value>Now Word
+Count</value>
+  </data>
+  <data name="FrmFilterNormalMode_ProgramFile" xml:space="preserve">
+    <value>Program File</value>
+  </data>
+  <data name="FrmFilterNormalMode_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="FrmFilterNormalMode_SetpCommentFilter" xml:space="preserve">
+    <value>Setp Comment Filter</value>
+  </data>
+  <data name="FrmFilterNormalMode_SettingsOption" xml:space="preserve">
+    <value>Settings Option</value>
+  </data>
+  <data name="FrmFilterNormalMode_StepAddressFilter" xml:space="preserve">
+    <value>Step Address Filter</value>
+  </data>
+  <data name="FrmFilterNormalMode_Unapplied" xml:space="preserve">
+    <value>Unapplied</value>
+  </data>
+  <data name="FrmFilterNormalMode_Uncheck" xml:space="preserve">
+    <value>Uncheck </value>
+  </data>
+  <data name="FrmFilterNormalMode_UserContactSetting" xml:space="preserve">
+    <value>User Contact
+Setting</value>
+  </data>
+  <data name="FrmFilterNormalMode_WordCountRefresh" xml:space="preserve">
+    <value>Word Count Refresh</value>
+  </data>
+  <data name="FrmFragmentMode_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="FrmFragmentMode_AddressFilter" xml:space="preserve">
+    <value>Address Filter</value>
+  </data>
+  <data name="FrmFragmentMode_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="FrmFragmentMode_AllAdd" xml:space="preserve">
+    <value>All Check</value>
+  </data>
+  <data name="FrmFragmentMode_Allcollect" xml:space="preserve">
+    <value>Fragment collect</value>
+  </data>
+  <data name="FrmFragmentMode_AllCollectRecipeFixed" xml:space="preserve">
+    <value>Fragment Collect Recipe Fixed</value>
+  </data>
+  <data name="FrmFragmentMode_AllcollectSetting" xml:space="preserve">
+    <value>All collect Setting</value>
+  </data>
+  <data name="FrmFragmentMode_AlwaysOnOff" xml:space="preserve">
+    <value>Always On/Off</value>
+  </data>
+  <data name="FrmFragmentMode_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmFragmentMode_Check1" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="FrmFragmentMode_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmFragmentMode_CollectOption" xml:space="preserve">
+    <value>Collect Option</value>
+  </data>
+  <data name="FrmFragmentMode_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="FrmFragmentMode_CommentFilter" xml:space="preserve">
+    <value>Comment Filter</value>
+  </data>
+  <data name="FrmFragmentMode_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="FrmFragmentMode_Cycleendcondition" xml:space="preserve">
+    <value>Cycle end condition</value>
+  </data>
+  <data name="FrmFragmentMode_CycleOption" xml:space="preserve">
+    <value>Cycle Option</value>
+  </data>
+  <data name="FrmFragmentMode_CycleRecipeAddress" xml:space="preserve">
+    <value>Cycle Recipe Address</value>
+  </data>
+  <data name="FrmFragmentMode_Cyclestartcondition" xml:space="preserve">
+    <value>Cycle start condition</value>
+  </data>
+  <data name="FrmFragmentMode_Cycletriggercondition" xml:space="preserve">
+    <value>Cycle trigger condition</value>
+  </data>
+  <data name="FrmFragmentMode_DateType" xml:space="preserve">
+    <value>Date Type</value>
+  </data>
+  <data name="FrmFragmentMode_FilterApply1" xml:space="preserve">
+    <value>Filter Apply</value>
+  </data>
+  <data name="FrmFragmentMode_FilterOption" xml:space="preserve">
+    <value>Filter Option</value>
+  </data>
+  <data name="FrmFragmentMode_Fulloff" xml:space="preserve">
+    <value>All Uncheck </value>
+  </data>
+  <data name="FrmFragmentMode_Initialize1" xml:space="preserve">
+    <value>Initialize</value>
+  </data>
+  <data name="FrmFragmentMode_MaximumCycletime1" xml:space="preserve">
+    <value>Maximum Cycle time (ms)</value>
+  </data>
+  <data name="FrmFragmentMode_MinimumCycletime2" xml:space="preserve">
+    <value>Minimum Cycle time (ms)</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_AddUserTagGuid1" xml:space="preserve">
+    <value>Do you want to save the current settings and proceed with the user contact setup?</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_ApplyGuid2" xml:space="preserve">
+    <value>Apply filter</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_ApplyGuid3" xml:space="preserve">
+    <value>Applying fragment collection filters…</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_ApplyGuid4" xml:space="preserve">
+    <value> The contact has been added for collection.</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_ClearGuid1" xml:space="preserve">
+    <value>All contacts in the mode were excluded from collection.</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_FagmentHelp1" xml:space="preserve">
+    <value>Enter when the entire collect target is fixed. Keep blank if you don't want to lock!!</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_FormClosingGuid1" xml:space="preserve">
+    <value>This does not apply if there is a changed value.</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_FragmentHelp2" xml:space="preserve">
+    <value>Configure packets with reference Standard and sub-conditions info and target them for collect. Collects and collects by cycle through multiple packets based on set Cycle info and reference Standard info.</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_Msg_IsValidGuid1" xml:space="preserve">
+    <value>No project created</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_Msg_IsValidGuid2" xml:space="preserve">
+    <value>Sorry, you can't set Standard collect without the converted logic information.</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_OkGuid1" xml:space="preserve">
+    <value>Applying project..</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_OkGuid2" xml:space="preserve">
+    <value>Update filter .. # 1/3</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_OkGuid3" xml:space="preserve">
+    <value>Update Model .. # 2/3</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_OkGuid4" xml:space="preserve">
+    <value>Update packet .. # 3/3</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_OkGuid5" xml:space="preserve">
+    <value>Your settings have been applied.</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_VerifyGuid1" xml:space="preserve">
+    <value>Cycle contact or recipe contact is not registered.</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_VerifyGuid2" xml:space="preserve">
+    <value>Cycle start contact is not in contact list.</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_VerifyGuid3" xml:space="preserve">
+    <value>Cycle start contact is not bit contact.</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_VerifyGuid4" xml:space="preserve">
+    <value>Cycle end contact is not in contact list.</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_VerifyGuid5" xml:space="preserve">
+    <value>Cycle end contact is not bit contact.</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_VerifyGuid6" xml:space="preserve">
+    <value>The contact except Cycle is not in the contact list.</value>
+  </data>
+  <data name="FrmFragmentMode_Msg_VerifyGuid7" xml:space="preserve">
+    <value>Cycle exclusion contact is not bit contact.</value>
+  </data>
+  <data name="FrmFragmentMode_ONAContact1" xml:space="preserve">
+    <value>ON (A Contact)</value>
+  </data>
+  <data name="FrmFragmentMode_ProgramFile" xml:space="preserve">
+    <value>Program File</value>
+  </data>
+  <data name="FrmFragmentMode_SetpCommentFilter1" xml:space="preserve">
+    <value>Setp Comment Filter</value>
+  </data>
+  <data name="FrmFragmentMode_StandardcollectCycleRepeatCount" xml:space="preserve">
+    <value>Standard collect Cycle Repeat Count</value>
+  </data>
+  <data name="FrmFragmentMode_StepAddressFilter2" xml:space="preserve">
+    <value>Step Address Filter</value>
+  </data>
+  <data name="FrmFragmentMode_Unapplied" xml:space="preserve">
+    <value>Unapplied</value>
+  </data>
+  <data name="FrmFragmentMode_Uncheck1" xml:space="preserve">
+    <value>Uncheck </value>
+  </data>
+  <data name="FrmFragmentMode_UserContactSetting" xml:space="preserve">
+    <value>User Contact Setting</value>
+  </data>
+  <data name="FrmIntegerInputDialog_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmIntegerInputDialog_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FrmIntegerInputDialog_InputtheIntegerBelowelow" xml:space="preserve">
+    <value>Input the -1 integer below.</value>
+  </data>
+  <data name="FrmIntegerInputDialog_IntegerInput" xml:space="preserve">
+    <value>Integer Input</value>
+  </data>
+  <data name="FrmLoadVerticalLogicFile_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="FrmLoadVerticalLogicFile_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmLoadVerticalLogicFile_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FrmLoadVerticalLogicFile_CSVFilePath" xml:space="preserve">
+    <value>CSV File Path :</value>
+  </data>
+  <data name="FrmLoadVerticalLogicFile_CsvPartitionView" xml:space="preserve">
+    <value>Csv Partition View</value>
+  </data>
+  <data name="FrmLoadVerticalLogicFile_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="FrmLoadVerticalLogicFile_IntegrationMode" xml:space="preserve">
+    <value>Integration Mode</value>
+  </data>
+  <data name="FrmLoadVerticalLogicFile_Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="FrmLoadVerticalLogicFile_Msg_Add" xml:space="preserve">
+    <value>Please set the file path.</value>
+  </data>
+  <data name="FrmLoadVerticalLogicFile_Msg_OpenCSV" xml:space="preserve">
+    <value>Enter the UPM of the CSV file first.</value>
+  </data>
+  <data name="FrmLoadVerticalLogicFile_MultipleLogicChartSetting" xml:space="preserve">
+    <value>Multiple Logic Chart Setting</value>
+  </data>
+  <data name="FrmLoadVerticalLogicFile_PartitionMode" xml:space="preserve">
+    <value>Partition Mode</value>
+  </data>
+  <data name="FrmLoadVerticalLogicFile_UPMFilePath" xml:space="preserve">
+    <value>UPM File Path :</value>
+  </data>
+  <data name="FrmLogicChartPresetErrorResult_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FrmLogicChartPresetErrorResult_Msg_ContactsOverlap" xml:space="preserve">
+    <value>2. contacts overlap with the following address. If you reset the Operat link table, the problem will be eliminated in the future</value>
+  </data>
+  <data name="FrmLogicChartPresetErrorResult_Msg_NoContacts" xml:space="preserve">
+    <value>1. No contacts found with the following address: If you reset the link table, the problem will be eliminated in the future</value>
+  </data>
+  <data name="FrmLogicChartPresetErrorResult_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="FrmLogicChartPresetErrorResult_OperatLinkChart" xml:space="preserve">
+    <value>Action Link Chart\n Error Screen</value>
+  </data>
+  <data name="FrmLogicChart_AddBaseline" xml:space="preserve">
+    <value>Add Baseline</value>
+  </data>
+  <data name="FrmLogicChart_AddMeasurementLine" xml:space="preserve">
+    <value>Add Measurement Line</value>
+  </data>
+  <data name="FrmLogicChart_BaselineSet1" xml:space="preserve">
+    <value>Baseline Set 1</value>
+  </data>
+  <data name="FrmLogicChart_BaselineSet2" xml:space="preserve">
+    <value>Baseline Set 2</value>
+  </data>
+  <data name="FrmLogicChart_BaselineSet3" xml:space="preserve">
+    <value>Baseline Set 3</value>
+  </data>
+  <data name="FrmLogicChart_BottomofselectionItemMove" xml:space="preserve">
+    <value>Bottom of selection Item Move</value>
+  </data>
+  <data name="FrmLogicChart_ChartCapture" xml:space="preserve">
+    <value>Chart Capture</value>
+  </data>
+  <data name="FrmLogicChart_ChartExcelExport" xml:space="preserve">
+    <value>Chart Excel Export</value>
+  </data>
+  <data name="FrmLogicChart_Coilusedascondition" xml:space="preserve">
+    <value>Coil used as condition</value>
+  </data>
+  <data name="FrmLogicChart_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="FrmLogicChart_CustomizeYAxisRange" xml:space="preserve">
+    <value>Y Axis User Range</value>
+  </data>
+  <data name="FrmLogicChart_Cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="FrmLogicChart_CycleTimeAnalysisReport" xml:space="preserve">
+    <value>Cycle Time Analysis Report</value>
+  </data>
+  <data name="FrmLogicChart_FindAddress" xml:space="preserve">
+    <value>Find Address</value>
+  </data>
+  <data name="FrmLogicChart_InputDeviceView" xml:space="preserve">
+    <value>Input Device View</value>
+  </data>
+  <data name="FrmLogicChart_Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="FrmLogicChart_LogicChart" xml:space="preserve">
+    <value>Logic Chart</value>
+  </data>
+  <data name="FrmLogicChart_Logicinfo" xml:space="preserve">
+    <value>Logic info</value>
+  </data>
+  <data name="FrmLogicChart_MinMaxAvgTime" xml:space="preserve">
+    <value>Contact Min/Max/Avg Time Report</value>
+  </data>
+  <data name="FrmLogicChart_MotaionTimeReport" xml:space="preserve">
+    <value>Action Time Report</value>
+  </data>
+  <data name="FrmLogicChart_MoveNexttransitionpoint" xml:space="preserve">
+    <value>Move Next transition point</value>
+  </data>
+  <data name="FrmLogicChart_MovePrevtransitionpoint" xml:space="preserve">
+    <value>Move Previous transition point</value>
+  </data>
+  <data name="FrmLogicChart_Msg_CaptureChartGuid1" xml:space="preserve">
+    <value>Capture complete!</value>
+  </data>
+  <data name="FrmLogicChart_Msg_CaptureChartGuid2" xml:space="preserve">
+    <value>The image file was not created. Please try again.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ChartScreenSizeGuid1" xml:space="preserve">
+    <value>Max screen switching</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ChartScreenSizeGuid2" xml:space="preserve">
+    <value>Default Screen Switch</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ChartSortByCriteria" xml:space="preserve">
+    <value>Align after setting the baseline 1,2.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_CopybyDragDrop" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="FrmLogicChart_Msg_DataExport" xml:space="preserve">
+    <value>Exporting step contact information …</value>
+  </data>
+  <data name="FrmLogicChart_Msg_DeleteGanttItemGuid1" xml:space="preserve">
+    <value>Are you sure you want to delete the selected item?</value>
+  </data>
+  <data name="FrmLogicChart_Msg_DeleteGanttItemGuid2" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="FrmLogicChart_Msg_DeleteGanttItemGuid3" xml:space="preserve">
+    <value>Are you sure you want to delete the entire item?</value>
+  </data>
+  <data name="FrmLogicChart_Msg_DoWork" xml:space="preserve">
+    <value>Please close the document and try again.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ExportChartToExcelGuid1" xml:space="preserve">
+    <value>Excel save</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ExportChartToExcelGuid2" xml:space="preserve">
+    <value>Excel file is open.
+Please close and proceed.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_FrmLogicChart" xml:space="preserve">
+    <value>Expand condition</value>
+  </data>
+  <data name="FrmLogicChart_Msg_GenerateReport" xml:space="preserve">
+    <value>Please set the analysis area first through baseline 1 and baseline 2 !!</value>
+  </data>
+  <data name="FrmLogicChart_Msg_GetValidCycleIndexGuid1" xml:space="preserve">
+    <value>No history of steps has been collected within the Cycle range.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_GetValidCycleIndexGuid2" xml:space="preserve">
+    <value>No history of steps has been collected.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_HasProjectGuid1" xml:space="preserve">
+    <value>Packetlog does not exist.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_HasProjectGuid2" xml:space="preserve">
+    <value>The start and end points of the log and the start point of the first cycle cannot be found.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ImportActionTableGuid1" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ImportActionTableGuid2" xml:space="preserve">
+    <value>Open Action Linkage Table...</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ImportActionTableGuid3" xml:space="preserve">
+    <value>There is no saved action schedule.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ImportActionTableGuid4" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ImportActionTableGuid5" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ImportActionTableGuid6" xml:space="preserve">
+    <value>You have finished loading the action linkage table.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_InputDeviceShowGuid1" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="FrmLogicChart_Msg_InputDeviceShowGuid2" xml:space="preserve">
+    <value>The history of the user list is displayed.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_InputDeviceShowGuid3" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="FrmLogicChart_Msg_IsStandardTagItem" xml:space="preserve">
+    <value>Default Standard</value>
+  </data>
+  <data name="FrmLogicChart_Msg_LoadDelayGuid1" xml:space="preserve">
+    <value>Logic (MDC) Chart</value>
+  </data>
+  <data name="FrmLogicChart_Msg_LoadDelayGuid2" xml:space="preserve">
+    <value>Loading screen…</value>
+  </data>
+  <data name="FrmLogicChart_Msg_mnuDeleteSeriesItemGuid1" xml:space="preserve">
+    <value>Are you sure you want to delete the selection?</value>
+  </data>
+  <data name="FrmLogicChart_Msg_mnuDeleteSeriesItemGuid2" xml:space="preserve">
+    <value>Are you sure you want to delete the entire item?</value>
+  </data>
+  <data name="FrmLogicChart_Msg_mnuSelectItemDisplay" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ProgressChanged" xml:space="preserve">
+    <value>Please wait.. (</value>
+  </data>
+  <data name="FrmLogicChart_Msg_RunWorkerCompleted" xml:space="preserve">
+    <value>Contact data export complete!</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SaveActionTableGuid1" xml:space="preserve">
+    <value>Saved Action Linkage Table.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SaveActionTableGuid2" xml:space="preserve">
+    <value>Action Linkage Table has been saved.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SelNodeCount" xml:space="preserve">
+    <value>The number of items selected is {0}</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SetExcelFrameGuid1" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SetExcelFrameGuid2" xml:space="preserve">
+    <value>Start value</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SetExcelFrameGuid3" xml:space="preserve">
+    <value>End value</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SetExcelFrameGuid4" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SetExcelFrameGuid5" xml:space="preserve">
+    <value>Explanation</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ShowChartTag" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ShowLogicDiagram" xml:space="preserve">
+    <value>The selected item is not a step.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ShowNormalTagLogSGuid1" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ShowNormalTagLogSGuid2" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ShowSubCallGuid1" xml:space="preserve">
+    <value>Baseline standard collection is not subject to subcondition collection.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_ShowSubCallGuid2" xml:space="preserve">
+    <value>The subcondition does not exist.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SortGantItemBy2ndGuid1" xml:space="preserve">
+    <value>Please select only one item.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SortGantItemBy2ndGuid2" xml:space="preserve">
+    <value>Items belonging to other items cannot be sorted by.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SortGantItemBy2ndGuid3" xml:space="preserve">
+    <value>Items other than contacts cannot be sorted by.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SortGanttItemGuid1" xml:space="preserve">
+    <value>Please select only one item.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SortGanttItemGuid2" xml:space="preserve">
+    <value>Items belonging to other items cannot be sorted by.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_SortGanttItemGuid3" xml:space="preserve">
+    <value>Items other than contacts cannot be sorted by.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_TimeReportSE" xml:space="preserve">
+    <value>Report only the top contacts of the chart. If the top item is Step, it is excluded from the target. Do you want to continue?</value>
+  </data>
+  <data name="FrmLogicChart_Msg_TimeReportSS" xml:space="preserve">
+    <value>Report only the top contacts of the chart. If the top item is Step, it is excluded from the target. Do you want to continue?</value>
+  </data>
+  <data name="FrmLogicChart_Msg_VerifyStandardLogSGuid1" xml:space="preserve">
+    <value>Reference standard contact list does not exist.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_VerifyStandardLogSGuid2" xml:space="preserve">
+    <value>There is no collect log of base standard contact.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_WriteLogToExcelGuid1" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="FrmLogicChart_Msg_WriteLogToExcelGuid2" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="FrmLogicChart_OperatLinkageTable" xml:space="preserve">
+    <value>Action Linkage Table</value>
+  </data>
+  <data name="FrmLogicChart_Paste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="FrmLogicChart_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="FrmLogicChart_SaveAs" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="FrmLogicChart_SelectAllCheck" xml:space="preserve">
+    <value>All Item Check</value>
+  </data>
+  <data name="FrmLogicChart_SelectAllUnCheck" xml:space="preserve">
+    <value>All UnCheck</value>
+  </data>
+  <data name="FrmLogicChart_SelectItemCheck" xml:space="preserve">
+    <value>Select Item Check</value>
+  </data>
+  <data name="FrmLogicChart_SelectItemClear" xml:space="preserve">
+    <value>All Item delete</value>
+  </data>
+  <data name="FrmLogicChart_SelectItemCountView" xml:space="preserve">
+    <value>Select Item Count View</value>
+  </data>
+  <data name="FrmLogicChart_SelectItemDelete" xml:space="preserve">
+    <value>Select Item Delete</value>
+  </data>
+  <data name="FrmLogicChart_SelectItemDisplay" xml:space="preserve">
+    <value>Select Item Display</value>
+  </data>
+  <data name="FrmLogicChart_SelectItemMDCChartView" xml:space="preserve">
+    <value>Select Item MDC Chart View</value>
+  </data>
+  <data name="FrmLogicChart_SelectItemSortBy1st" xml:space="preserve">
+    <value>Select Item Sort (by 1st)</value>
+  </data>
+  <data name="FrmLogicChart_SelectItemSortBy2st" xml:space="preserve">
+    <value>Select Item Sort (by 2st)</value>
+  </data>
+  <data name="FrmLogicChart_SelectItemUnCheck" xml:space="preserve">
+    <value>Select Item UnCheck</value>
+  </data>
+  <data name="FrmLogicChart_SelectStandardLogicDiagramView" xml:space="preserve">
+    <value>Select Standard Logic Diagram(Logic) View</value>
+  </data>
+  <data name="FrmLogicChart_Set1BaseLineMotaionTimeReport1SE" xml:space="preserve">
+    <value>Set 1 BaseLine Action Time Report(Start-&gt;End)</value>
+  </data>
+  <data name="FrmLogicChart_Set1BaseLineMotaionTimeReport1SS" xml:space="preserve">
+    <value>Set 1 BaseLine Action Time Report(Start-&gt;Start)</value>
+  </data>
+  <data name="FrmLogicChart_Set1BaseLineMotaionTimeReport2SE" xml:space="preserve">
+    <value>Set 2 BaseLine Action Time Report(Start-&gt;End)</value>
+  </data>
+  <data name="FrmLogicChart_Set1BaseLineMotaionTimeReport2SS" xml:space="preserve">
+    <value>Set 2 BaseLine Action Time Report(Start-&gt;Start)</value>
+  </data>
+  <data name="FrmLogicChart_Set1BaseLineMotaionTimeReport3SE" xml:space="preserve">
+    <value>Set 3 BaseLine Action Time Report(Start-&gt;End)</value>
+  </data>
+  <data name="FrmLogicChart_Set1BaseLineMotaionTimeReport3SS" xml:space="preserve">
+    <value>Set 3 BaseLine Action Time Report(Start-&gt;Start)</value>
+  </data>
+  <data name="FrmLogicChart_SetCamera1Blue" xml:space="preserve">
+    <value>Set 1 Camera 1 (Blue Line)</value>
+  </data>
+  <data name="FrmLogicChart_SetCamera1Green" xml:space="preserve">
+    <value>Set 2 Camera 1 (Green Line)</value>
+  </data>
+  <data name="FrmLogicChart_SetCamera1Orange" xml:space="preserve">
+    <value>Set 3 Camera 1 (Orange Line)</value>
+  </data>
+  <data name="FrmLogicChart_SetCamera2Blue" xml:space="preserve">
+    <value>Set 1 Camera 2 (Blue Line)</value>
+  </data>
+  <data name="FrmLogicChart_SetCamera2Green" xml:space="preserve">
+    <value>Set 2 Camera 2 (Green Line)</value>
+  </data>
+  <data name="FrmLogicChart_SetCamera2Orange" xml:space="preserve">
+    <value>Set 3 Camera 2 (Orange Line)</value>
+  </data>
+  <data name="FrmLogicChart_SetSelecteditemColor" xml:space="preserve">
+    <value>Set Selected item Color</value>
+  </data>
+  <data name="FrmLogicChart_Sort" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="FrmLogicChart_SortByBaseline" xml:space="preserve">
+    <value>Sort By Baseline</value>
+  </data>
+  <data name="FrmLogicChart_TopofselectionItemMove" xml:space="preserve">
+    <value>Top of selection Item Move</value>
+  </data>
+  <data name="FrmLogicChart_UserSettingRowMove" xml:space="preserve">
+    <value>User Setting Row Move</value>
+  </data>
+  <data name="FrmLogicChart_Viewthelocationconditionsbelow" xml:space="preserve">
+    <value>View Low Conditions</value>
+  </data>
+  <data name="FrmLogicChart_YAxisAutoRange" xml:space="preserve">
+    <value>Y Axis Auto Range</value>
+  </data>
+  <data name="FrmLogicDiagram_AllTabDelete" xml:space="preserve">
+    <value>All Tab Delete…</value>
+  </data>
+  <data name="FrmLogicDiagram_LogicDiagram" xml:space="preserve">
+    <value>Logic Diagram</value>
+  </data>
+  <data name="FrmLogicDiagram_Logicinfo" xml:space="preserve">
+    <value>Logic info</value>
+  </data>
+  <data name="FrmLogicDiagram_LogLookupResults" xml:space="preserve">
+    <value>Log Lookup Results</value>
+  </data>
+  <data name="FrmLogicDiagram_MaximizeExpression" xml:space="preserve">
+    <value>Maximize Expression
+info...</value>
+  </data>
+  <data name="FrmLogicDiagram_MinimizeExpression" xml:space="preserve">
+    <value>Minimize Expression
+info...</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_CaptureScreenShotGuid1" xml:space="preserve">
+    <value>No diagram selected.</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_CaptureScreenShotGuid2" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_CaptureScreenShotGuid3" xml:space="preserve">
+    <value>Save Failed!!</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_DoubleClickedGuid1" xml:space="preserve">
+    <value>No diagram is selected, so no contacts can be represented in the diagram.
+First select the step you want from the Step list.</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_GetValidCycleIndexGuid1" xml:space="preserve">
+    <value>No history of steps has been collected within the Cycle range.</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_GetValidCycleIndexGuid2" xml:space="preserve">
+    <value>No history of steps has been collected.</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_InitialDataGuid1" xml:space="preserve">
+    <value>Packetlog does not exist.</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_InitialDataGuid2" xml:space="preserve">
+    <value>The start and end points of the log and the start point of the first cycle cannot be found.</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_InitViewGuid1" xml:space="preserve">
+    <value>No project created</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_InitViewGuid2" xml:space="preserve">
+    <value>Sorry, you can't set output collection without the converted logic information.</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_IsExistTabGuid1" xml:space="preserve">
+    <value>Is already open.</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_LoadDelayGuid1" xml:space="preserve">
+    <value>Logic diagram</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_LoadDelayGuid2" xml:space="preserve">
+    <value>Loading screen…</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_LoadDelayGuid3" xml:space="preserve">
+    <value>There is no converted logic information so close the current screen.</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_ShowLogicChartGuid1" xml:space="preserve">
+    <value>Logic Chart(MDC)</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_ShowLogicChartGuid2" xml:space="preserve">
+    <value>Loading screen…</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_VerifyStandardLogSGuid1" xml:space="preserve">
+    <value>Reference standard contact list does not exist.</value>
+  </data>
+  <data name="FrmLogicDiagram_Msg_VerifyStandardLogSGuid2" xml:space="preserve">
+    <value>There is no collection log of reference standard contact.</value>
+  </data>
+  <data name="FrmLogicDiagram_ONOFFTimeChange" xml:space="preserve">
+    <value>ON/OFF Time Change</value>
+  </data>
+  <data name="FrmLogicDiagram_SelectStandardLogicChartView" xml:space="preserve">
+    <value>Select Standard Logic Chart(MDC) View…</value>
+  </data>
+  <data name="FrmLogicDiagram_SelectStandardViewwithNewTab" xml:space="preserve">
+    <value>Select Standard View with New Tab…</value>
+  </data>
+  <data name="FrmLogicDiagram_SelectTabDelete" xml:space="preserve">
+    <value>Select Tab Delete…</value>
+  </data>
+  <data name="FrmLogicDiagram_SelectTabScreenshotSave" xml:space="preserve">
+    <value>Select Tab Screenshot Save…</value>
+  </data>
+  <data name="FrmLogicDiagram_ShowTimeinfo" xml:space="preserve">
+    <value>Display Time info…</value>
+  </data>
+  <data name="FrmLogicDiagram_UnShowTimeinfo" xml:space="preserve">
+    <value>UnDisplay Time info…</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_AllTabDelete" xml:space="preserve">
+    <value>All Tab Delete…</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_LogicDiagram" xml:space="preserve">
+    <value>Logic Diagram</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Logicinfo" xml:space="preserve">
+    <value>Logic info</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_LogLookupResults" xml:space="preserve">
+    <value>Log Lookup Results</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_MaximizeExpression" xml:space="preserve">
+    <value>Maximize Expression
+info...</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_MinimizeExpression" xml:space="preserve">
+    <value>Minimize Expression
+info...</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_CaptureScreenShotGuid1" xml:space="preserve">
+    <value>No diagram selected.</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_CaptureScreenShotGuid2" xml:space="preserve">
+    <value>Saved</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_CaptureScreenShotGuid3" xml:space="preserve">
+    <value>Save Failed!!</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_DoubleClickedGuid1" xml:space="preserve">
+    <value>No diagram is selected, so no contacts can be represented in the diagram.
+First select the step you want from the Step list.</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_GetValidCycleIndexGuid1" xml:space="preserve">
+    <value>No history of steps has been collected within the Cycle range.</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_GetValidCycleIndexGuid2" xml:space="preserve">
+    <value>No history of steps has been collected.</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_InitialDataGuid1" xml:space="preserve">
+    <value>The packet log does not exist.</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_InitialDataGuid2" xml:space="preserve">
+    <value>The start and end points of the log and the start point of the first cycle cannot be found.</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_IsExistTabGuid1" xml:space="preserve">
+    <value>Is already open.</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_IsValidGuid1" xml:space="preserve">
+    <value>No project created</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_IsValidGuid2" xml:space="preserve">
+    <value>Sorry, you can't set output collection without the converted logic information.</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_LoadDelayGuid1" xml:space="preserve">
+    <value>Logic diagram</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_LoadDelayGuid2" xml:space="preserve">
+    <value>Loading screen…</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_LoadDelayGuid3" xml:space="preserve">
+    <value>There is no converted logic information so close the current screen.</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_ShowLogicChartGuid1" xml:space="preserve">
+    <value>Logic Chart(MDC)</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_ShowLogicChartGuid2" xml:space="preserve">
+    <value>Loading screen…</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_VerifyStandardLogSGuid1" xml:space="preserve">
+    <value>Reference standard contact list does not exist.</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_Msg_VerifyStandardLogSGuid2" xml:space="preserve">
+    <value>The collection log of the reference standard contact does not exist.</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_ONOFFTimeChange" xml:space="preserve">
+    <value>ON/OFF Time Change</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_SelectStandardLogicChartView" xml:space="preserve">
+    <value>Select Standard Logic Chart(MDC) View…</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_SelectStandardViewwithNewTab" xml:space="preserve">
+    <value>Select Standard View with New Tab…</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_SelectTabDelete" xml:space="preserve">
+    <value>Select Tab Delete…</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_SelectTabScreenshotSave" xml:space="preserve">
+    <value>Select Tab Screenshot Save…</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_ShowTimeinfo" xml:space="preserve">
+    <value>UnDisplay Time info…</value>
+  </data>
+  <data name="FrmLogicDiagram_V2_UnShowTimeinfo" xml:space="preserve">
+    <value>Display Time info…</value>
+  </data>
+  <data name="FrmLogicManager_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmLogicManager_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmLogicManager_Fileformat" xml:space="preserve">
+    <value>File format</value>
+  </data>
+  <data name="FrmLogicManager_Fileformat2" xml:space="preserve">
+    <value>It's a file format.</value>
+  </data>
+  <data name="FrmLogicManager_Filename" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="FrmLogicManager_FileSize" xml:space="preserve">
+    <value>File Size</value>
+  </data>
+  <data name="FrmLogicManager_FileSize2" xml:space="preserve">
+    <value>It's a file size.</value>
+  </data>
+  <data name="FrmLogicManager_Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="FrmLogicManager_Logictransformation" xml:space="preserve">
+    <value>Logic Conversion</value>
+  </data>
+  <data name="FrmLogicManager_Msg_AddGuid1" xml:space="preserve">
+    <value>Sorry. The selected file type cannot be read.</value>
+  </data>
+  <data name="FrmLogicManager_Msg_AddGuid2" xml:space="preserve">
+    <value>Have same file. Do you want to overwrite it?</value>
+  </data>
+  <data name="FrmLogicManager_Msg_CheckLogicFileGuid1" xml:space="preserve">
+    <value>Step No.</value>
+  </data>
+  <data name="FrmLogicManager_Msg_ConvertGuid1" xml:space="preserve">
+    <value>Converting logic</value>
+  </data>
+  <data name="FrmLogicManager_Msg_ConvertGuid2" xml:space="preserve">
+    <value>Please wait…</value>
+  </data>
+  <data name="FrmLogicManager_Msg_LogicHelp" xml:space="preserve">
+    <value>Automatically analyze the PLC logic through the IL file of the PLC to structure the contact list, the relationship between the Standard and the condition.</value>
+  </data>
+  <data name="FrmLogicManager_Msg_OkGuid1" xml:space="preserve">
+    <value>Please load the LS CSV file with the relevant IL.</value>
+  </data>
+  <data name="FrmLogicManager_Msg_OpenGuid1" xml:space="preserve">
+    <value>The manufacturer is mixed with different PLC Csv files.
+Please check again.</value>
+  </data>
+  <data name="FrmLogicManager_Msg_OpenGuid2" xml:space="preserve">
+    <value>Please make sure the file you want to convert is open.</value>
+  </data>
+  <data name="FrmLogicManager_Msg_OpenGuid3" xml:space="preserve">
+    <value>Import IL and CSV files of LS PLC program together.
+If you do not see the IL file in the import, make sure the filter setting is LS.</value>
+  </data>
+  <data name="FrmLogicManager_Msg_ProgessChangedGuid1" xml:space="preserve">
+    <value>Please wait.. (</value>
+  </data>
+  <data name="FrmLogicManager_Msg_VerifyCsvFormatGuid1" xml:space="preserve">
+    <value>Of selected files</value>
+  </data>
+  <data name="FrmLogicManager_Msg_VerifyCsvFormatGuid2" xml:space="preserve">
+    <value>There is a format problem with the files !!</value>
+  </data>
+  <data name="FrmLogicManager_Msg_VerifyCsvFormatGuid3" xml:space="preserve">
+    <value>Of selected files</value>
+  </data>
+  <data name="FrmLogicManager_Msg_VerifyCsvFormatGuid4" xml:space="preserve">
+    <value>There is a format problem with the files !!</value>
+  </data>
+  <data name="FrmLogicManager_Transformation" xml:space="preserve">
+    <value>Transformation</value>
+  </data>
+  <data name="FrmLogicManager_Transformationresult" xml:space="preserve">
+    <value>Transformation result</value>
+  </data>
+  <data name="FrmLogManager_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmLogManager_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FrmLogManager_Clear" xml:space="preserve">
+    <value>Select Clear</value>
+  </data>
+  <data name="FrmLogManager_collectDatainfo" xml:space="preserve">
+    <value>Collect Data info</value>
+  </data>
+  <data name="FrmLogManager_collectFileinfo" xml:space="preserve">
+    <value>Collect File info</value>
+  </data>
+  <data name="FrmLogManager_collectLog" xml:space="preserve">
+    <value>Collect Log</value>
+  </data>
+  <data name="FrmLogManager_collectLoginfo" xml:space="preserve">
+    <value>Load collect data</value>
+  </data>
+  <data name="FrmLogManager_collectmode" xml:space="preserve">
+    <value>Collect mode</value>
+  </data>
+  <data name="FrmLogManager_DataCount" xml:space="preserve">
+    <value>Data Count</value>
+  </data>
+  <data name="FrmLogManager_EndTime" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="FrmLogManager_Fileformat" xml:space="preserve">
+    <value>File format</value>
+  </data>
+  <data name="FrmLogManager_Filename" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="FrmLogManager_FilenamefromtheLoad" xml:space="preserve">
+    <value>Filename from the Load</value>
+  </data>
+  <data name="FrmLogManager_FilePath" xml:space="preserve">
+    <value>File Path</value>
+  </data>
+  <data name="FrmLogManager_FileSize" xml:space="preserve">
+    <value>File Size</value>
+  </data>
+  <data name="FrmLogManager_Filetype" xml:space="preserve">
+    <value>File type</value>
+  </data>
+  <data name="FrmLogManager_Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="FrmLogManager_Msg_CSVHelp" xml:space="preserve">
+    <value>This screen calls up collect data in CSV format generated through partial collect and full collect. A partial collect log is a CSV file with the words Normal in the file name and Fragment in the entire collect.</value>
+  </data>
+  <data name="FrmLogManager_Msg_HelpOpenClick" xml:space="preserve">
+    <value>Unable to retrieve logs because there is another working file among the selected files.</value>
+  </data>
+  <data name="FrmLogManager_Msg_Loadcollect" xml:space="preserve">
+    <value>Load collect Log…</value>
+  </data>
+  <data name="FrmLogManager_Msg_NoProjectCreated" xml:space="preserve">
+    <value>No project created.</value>
+  </data>
+  <data name="FrmLogManager_Msg_safilesize" xml:space="preserve">
+    <value>It's a file size.</value>
+  </data>
+  <data name="FrmLogManager_StartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="FrmMachineInputDialog_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FrmMachineInputDialog_Msg_InputDialogHelp1" xml:space="preserve">
+    <value>In the future, a folder is created with the name of the target equipment and the collect log is saved.</value>
+  </data>
+  <data name="FrmMachineInputDialog_Msg_InputDialogHelp2" xml:space="preserve">
+    <value>Please enter the target facility.</value>
+  </data>
+  <data name="FrmMachineInputDialog_Msg_ShownGuid1" xml:space="preserve">
+    <value>The Facility name cannot use special characters that cannot be created in the Windows folder.
+(\\ /: *? \ &lt;&gt; | ^)"</value>
+  </data>
+  <data name="FrmMachineInputDialog_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="FrmMachineInputDialog_Targetfacility" xml:space="preserve">
+    <value>Target facility</value>
+  </data>
+  <data name="FrmMachineInputDialog_Targetfacilityinfo" xml:space="preserve">
+    <value>Target facility info</value>
+  </data>
+  <data name="FrmMain_AbouttheColorofaBaseline" xml:space="preserve">
+    <value>About the Color of a Baseline</value>
+  </data>
+  <data name="FrmMain_AddChart" xml:space="preserve">
+    <value>Add Chart</value>
+  </data>
+  <data name="FrmMain_Allcollect" xml:space="preserve">
+    <value>Fragment collect</value>
+  </data>
+  <data name="FrmMain_AnalysisScreen" xml:space="preserve">
+    <value>Analysis Screen</value>
+  </data>
+  <data name="FrmMain_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmMain_Baselinemode" xml:space="preserve">
+    <value>Baseline split mode</value>
+  </data>
+  <data name="FrmMain_BaseLineSet1" xml:space="preserve">
+    <value>BaseLine Set 1</value>
+  </data>
+  <data name="FrmMain_BaseLineSet2" xml:space="preserve">
+    <value>BaseLine Set 2</value>
+  </data>
+  <data name="FrmMain_BaseLineSet3" xml:space="preserve">
+    <value>BaseLine Set 3</value>
+  </data>
+  <data name="FrmMain_collectControl" xml:space="preserve">
+    <value>Collect Control</value>
+  </data>
+  <data name="FrmMain_collectFolder" xml:space="preserve">
+    <value>Collect Folder</value>
+  </data>
+  <data name="FrmMain_collectLog" xml:space="preserve">
+    <value>Collect Log</value>
+  </data>
+  <data name="FrmMain_collectMessageScreen" xml:space="preserve">
+    <value>Collect Message Screen</value>
+  </data>
+  <data name="FrmMain_collectStatusScreen" xml:space="preserve">
+    <value>Collect Status Screen</value>
+  </data>
+  <data name="FrmMain_CommentModify" xml:space="preserve">
+    <value>Comment Modify</value>
+  </data>
+  <data name="FrmMain_CommunicationSettings" xml:space="preserve">
+    <value>Communication Settings</value>
+  </data>
+  <data name="FrmMain_ConfigSettings" xml:space="preserve">
+    <value>Config Settings</value>
+  </data>
+  <data name="FrmMain_ContactSetting" xml:space="preserve">
+    <value>Contact Setting</value>
+  </data>
+  <data name="FrmMain_CycleChart" xml:space="preserve">
+    <value>CycleChart
+(Cycle Motion)</value>
+  </data>
+  <data name="FrmMain_DDEAScreen" xml:space="preserve">
+    <value>DDEA Screen</value>
+  </data>
+  <data name="FrmMain_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="FrmMain_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="FrmMain_Filtercollect" xml:space="preserve">
+    <value>Filter collect</value>
+  </data>
+  <data name="FrmMain_FiltercollectSettings" xml:space="preserve">
+    <value>Filter collect Settings</value>
+  </data>
+  <data name="FrmMain_FilterSettings" xml:space="preserve">
+    <value>Filter Settings</value>
+  </data>
+  <data name="FrmMain_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="FrmMain_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="FrmMain_LeftRightZoom" xml:space="preserve">
+    <value>Left/Right Zoom (%)</value>
+  </data>
+  <data name="FrmMain_LogCount" xml:space="preserve">
+    <value>Log Count</value>
+  </data>
+  <data name="FrmMain_LogicChart" xml:space="preserve">
+    <value>Logic Chart (MDC)</value>
+  </data>
+  <data name="FrmMain_LogicChartLineFunction" xml:space="preserve">
+    <value>Logic Chart Line Function</value>
+  </data>
+  <data name="FrmMain_LogicChartViewTool" xml:space="preserve">
+    <value>Logic Chart View Tool</value>
+  </data>
+  <data name="FrmMain_LogicConversion" xml:space="preserve">
+    <value>Logic Conversion</value>
+  </data>
+  <data name="FrmMain_LogicDiagram" xml:space="preserve">
+    <value>Logic Diagram (Logic)</value>
+  </data>
+  <data name="FrmMain_MaximumScreenSwitching" xml:space="preserve">
+    <value>Maximum Screen Switching</value>
+  </data>
+  <data name="FrmMain_MSg_ApplyFilteredProjectGuid1" xml:space="preserve">
+    <value>[INFO] Uncollectable Contact Collection Apply Completed</value>
+  </data>
+  <data name="FrmMain_MSg_ApplyFilteredProjectGuid2" xml:space="preserve">
+    <value>[INFO] Uncollectable Contact Collection Apply Fail</value>
+  </data>
+  <data name="FrmMain_MSg_ChartScreenSizeGuid1" xml:space="preserve">
+    <value>Default screen transition</value>
+  </data>
+  <data name="FrmMain_MSg_ChartScreenSizeGuid2" xml:space="preserve">
+    <value>Max screen transition</value>
+  </data>
+  <data name="FrmMain_MSg_CheckedChanged" xml:space="preserve">
+    <value>DDEA is not currently running. It can be executed after the collection is in progress.</value>
+  </data>
+  <data name="FrmMain_MSg_CollectionEnd" xml:space="preserve">
+    <value>[Info] Stop collecting</value>
+  </data>
+  <data name="FrmMain_MSg_CollectionStart" xml:space="preserve">
+    <value>[INFO] Start collecting</value>
+  </data>
+  <data name="FrmMain_MSg_Exit" xml:space="preserve">
+    <value>Do you want to exit the program?</value>
+  </data>
+  <data name="FrmMain_MSg_InformationSaveEnd" xml:space="preserve">
+    <value>Do you want to save all information and exit?</value>
+  </data>
+  <data name="FrmMain_MSg_InputInformation" xml:space="preserve">
+    <value>There is no plant information in the current project. The plant information affects where the logs are stored for future collection.
+Please enter the equipment information. </value>
+  </data>
+  <data name="FrmMain_MSg_IsValid" xml:space="preserve">
+    <value>No project created Please create a project first.</value>
+  </data>
+  <data name="FrmMain_MSg_MultiChart" xml:space="preserve">
+    <value>Already have multiple logic charts.
+Do you want to open a new window?</value>
+  </data>
+  <data name="FrmMain_MSg_NotInformaiotn" xml:space="preserve">
+    <value>Sorry. There is no facility information, so normal progress is difficult.</value>
+  </data>
+  <data name="FrmMain_MSg_NotMode" xml:space="preserve">
+    <value>Collection mode is not set. Please select a collection mode.</value>
+  </data>
+  <data name="FrmMain_MSg_NotOpenFile" xml:space="preserve">
+    <value>Sorry. Collector cannot open project files.</value>
+  </data>
+  <data name="FrmMain_MSg_NotOpenProject" xml:space="preserve">
+    <value>Sorry. Open project failed.</value>
+  </data>
+  <data name="FrmMain_MSg_NotProjectSave" xml:space="preserve">
+    <value>Sorry. Saving project failed.</value>
+  </data>
+  <data name="FrmMain_MSg_NotSendProjectFile" xml:space="preserve">
+    <value>Sorry. You cannot transfer project files to the collector.</value>
+  </data>
+  <data name="FrmMain_MSg_OpenLogPath" xml:space="preserve">
+    <value>When you save the project, the collection log is saved in the LogData folder.
+Please save the project first.</value>
+  </data>
+  <data name="FrmMain_MSg_PartialCollection" xml:space="preserve">
+    <value>Partial collect</value>
+  </data>
+  <data name="FrmMain_MSg_ProjectLoadingGuid1" xml:space="preserve">
+    <value>Open project</value>
+  </data>
+  <data name="FrmMain_MSg_ProjectLoadingGuid2" xml:space="preserve">
+    <value>Please wait…</value>
+  </data>
+  <data name="FrmMain_MSg_ProjectSaveGuid1" xml:space="preserve">
+    <value>Save project</value>
+  </data>
+  <data name="FrmMain_MSg_ProjectSaveGuid2" xml:space="preserve">
+    <value>Please wait…</value>
+  </data>
+  <data name="FrmMain_MSg_Questions" xml:space="preserve">
+    <value>One or more subcollection packets.
+Optimal collection packets are one packet.
+Do you want to Proceed?</value>
+  </data>
+  <data name="FrmMain_MSg_ReceiveMessageFromDDEAGuid1" xml:space="preserve">
+    <value>[INFO] Number of Packets Collected</value>
+  </data>
+  <data name="FrmMain_MSg_ReceiveMessageFromDDEAGuid10" xml:space="preserve">
+    <value>[INFO]</value>
+  </data>
+  <data name="FrmMain_MSg_ReceiveMessageFromDDEAGuid2" xml:space="preserve">
+    <value>[INFO] Complete collection</value>
+  </data>
+  <data name="FrmMain_MSg_ReceiveMessageFromDDEAGuid3" xml:space="preserve">
+    <value>[INFO] Ready to collect</value>
+  </data>
+  <data name="FrmMain_MSg_ReceiveMessageFromDDEAGuid4" xml:space="preserve">
+    <value>[Error] Error while collecting</value>
+  </data>
+  <data name="FrmMain_MSg_ReceiveMessageFromDDEAGuid5" xml:space="preserve">
+    <value>Sorry. The collection stops due to an error while the collection is in progress.</value>
+  </data>
+  <data name="FrmMain_MSg_ReceiveMessageFromDDEAGuid6" xml:space="preserve">
+    <value>[INFO] PLC collection is retrying and retrying is called after 3 minutes of collection call to PLC and the collection ends when it is not allowed to repeat 20 times.</value>
+  </data>
+  <data name="FrmMain_MSg_ReceiveMessageFromDDEAGuid7" xml:space="preserve">
+    <value>[INFO] Collection completed</value>
+  </data>
+  <data name="FrmMain_MSg_ReceiveMessageFromDDEAGuid8" xml:space="preserve">
+    <value>[INFO] Project file loading success</value>
+  </data>
+  <data name="FrmMain_MSg_ReceiveMessageFromDDEAGuid9" xml:space="preserve">
+    <value>[INFO] Error or filter contact check successful</value>
+  </data>
+  <data name="FrmMain_MSg_RunMonitorGuid1" xml:space="preserve">
+    <value>Run collection</value>
+  </data>
+  <data name="FrmMain_MSg_RunMonitorGuid2" xml:space="preserve">
+    <value>Preparing for collection.</value>
+  </data>
+  <data name="FrmMain_MSg_RunMonitorGuid3" xml:space="preserve">
+    <value>Preparing to run server</value>
+  </data>
+  <data name="FrmMain_MSg_RunMonitorGuid4" xml:space="preserve">
+    <value>Sorry. The server failed to run.</value>
+  </data>
+  <data name="FrmMain_MSg_RunMonitorGuid5" xml:space="preserve">
+    <value>The collector is preparing to run.</value>
+  </data>
+  <data name="FrmMain_MSg_RunMonitorGuid6" xml:space="preserve">
+    <value>Sorry. Collector failed to run.</value>
+  </data>
+  <data name="FrmMain_MSg_SaveAsGuid1" xml:space="preserve">
+    <value>Save project</value>
+  </data>
+  <data name="FrmMain_MSg_SaveAsGuid2" xml:space="preserve">
+    <value>Please wait…</value>
+  </data>
+  <data name="FrmMain_MSg_SaveAsGuid3" xml:space="preserve">
+    <value>Sorry. Saving project failed.</value>
+  </data>
+  <data name="FrmMain_MSg_SaveModelInfo" xml:space="preserve">
+    <value>Do you want to save all information and exit?</value>
+  </data>
+  <data name="FrmMain_MSg_SendDDEAProjectGuid1" xml:space="preserve">
+    <value>[INFO] Project file transfer successful for use by DDEA</value>
+  </data>
+  <data name="FrmMain_MSg_SendDDEAProjectGuid2" xml:space="preserve">
+    <value>[ERROR] Project file transfer failed for use by DDEA</value>
+  </data>
+  <data name="FrmMain_MSg_SendMessageToDDEAGuid1" xml:space="preserve">
+    <value>[ERROR]</value>
+  </data>
+  <data name="FrmMain_MSg_Standardcollection" xml:space="preserve">
+    <value>Standard collection</value>
+  </data>
+  <data name="FrmMain_MSg_StartMonitoGuid1" xml:space="preserve">
+    <value>Save the project normally and start collecting.</value>
+  </data>
+  <data name="FrmMain_MSg_StopMonitorGuid1" xml:space="preserve">
+    <value>Preparing status timer.</value>
+  </data>
+  <data name="FrmMain_MSg_StopMonitorGuid2" xml:space="preserve">
+    <value>Collecting end</value>
+  </data>
+  <data name="FrmMain_MSg_StopMonitorGuid3" xml:space="preserve">
+    <value>Preparing for collection.</value>
+  </data>
+  <data name="FrmMain_MSg_StopMonitorGuid4" xml:space="preserve">
+    <value>Collection status timer is ending.</value>
+  </data>
+  <data name="FrmMain_MSg_StopMonitorGuid5" xml:space="preserve">
+    <value>Collector is shutting down.
+(Within 5 seconds)</value>
+  </data>
+  <data name="FrmMain_MSg_StopMonitorGuid6" xml:space="preserve">
+    <value>The server is shutting down.</value>
+  </data>
+  <data name="FrmMain_MSg_TimeChart" xml:space="preserve">
+    <value>There is no collected log information. 
+Please execute the collection log first.</value>
+  </data>
+  <data name="FrmMain_MSg_VerifyChannelGuid1" xml:space="preserve">
+    <value>The communication test did not proceed.
+Please perform a communication test first.</value>
+  </data>
+  <data name="FrmMain_MSg_VerifyChannelGuid2" xml:space="preserve">
+    <value>The communication test did not proceed.
+The collection cannot proceed.</value>
+  </data>
+  <data name="FrmMain_MSg_VerifyFragmentModeGuid1" xml:space="preserve">
+    <value>There are no contacts for fragment collections. Please confirm.</value>
+  </data>
+  <data name="FrmMain_MSg_VerifyNormalModeGuid1" xml:space="preserve">
+    <value>There are no contacts for collection. Please confirm.</value>
+  </data>
+  <data name="FrmMain_MSg_VerifyStandardModeGuid1" xml:space="preserve">
+    <value>There are no Standard collection target contacts. Please confirm.</value>
+  </data>
+  <data name="FrmMain_MSg_ViewCycleOperat" xml:space="preserve">
+    <value>There is no collected log information. Please execute the collection log first.</value>
+  </data>
+  <data name="FrmMain_MultipleLogicChart" xml:space="preserve">
+    <value>Multiple Logic Chart</value>
+  </data>
+  <data name="FrmMain_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="FrmMain_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="FrmMain_OpencollectData" xml:space="preserve">
+    <value>Load collect Data</value>
+  </data>
+  <data name="FrmMain_Option" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="FrmMain_Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="FrmMain_ParameterCollect" xml:space="preserve">
+    <value>Parameter Collect</value>
+  </data>
+  <data name="FrmMain_ParameterCollectSetting" xml:space="preserve">
+    <value>Parameter Collect Setting</value>
+  </data>
+  <data name="FrmMain_Partialcollect" xml:space="preserve">
+    <value>Partial collect</value>
+  </data>
+  <data name="FrmMain_PartialcollectSettings" xml:space="preserve">
+    <value>Partial collect Settings</value>
+  </data>
+  <data name="FrmMain_Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="FrmMain_Ratioinitialization" xml:space="preserve">
+    <value>Ratio initialization</value>
+  </data>
+  <data name="FrmMain_RemoveInactiveContacts" xml:space="preserve">
+    <value>Remove Inactive Contacts</value>
+  </data>
+  <data name="FrmMain_RibbonMenu_ParameterCompare" xml:space="preserve">
+    <value>Compare Parameter</value>
+  </data>
+  <data name="FrmMain_RibbonMenu_TrendAnalysis" xml:space="preserve">
+    <value>TrendAnalysis Chart</value>
+  </data>
+  <data name="FrmMain_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="FrmMain_SaveAs" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="FrmMain_ScreenControl" xml:space="preserve">
+    <value>Screen Control</value>
+  </data>
+  <data name="FrmMain_ScreenRatio" xml:space="preserve">
+    <value>Screen Ratio</value>
+  </data>
+  <data name="FrmMain_SelectBaseline" xml:space="preserve">
+    <value>Select Baseline</value>
+  </data>
+  <data name="FrmMain_Selectcontactvalue" xml:space="preserve">
+    <value>Select contact value</value>
+  </data>
+  <data name="FrmMain_Set1Color" xml:space="preserve">
+    <value>Set1 Color:Blue</value>
+  </data>
+  <data name="FrmMain_Set2Color" xml:space="preserve">
+    <value>Set2 Color:Green</value>
+  </data>
+  <data name="FrmMain_Set3Color" xml:space="preserve">
+    <value>Set3 Color:Orange</value>
+  </data>
+  <data name="FrmMain_SetupScreen" xml:space="preserve">
+    <value>Setup Screen</value>
+  </data>
+  <data name="FrmMain_ShowHide" xml:space="preserve">
+    <value>Show / Hide Description</value>
+  </data>
+  <data name="FrmMain_Standardcollect" xml:space="preserve">
+    <value>Standard collect</value>
+  </data>
+  <data name="FrmMain_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="FrmMain_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="FrmMain_SynchronizeTimeMove" xml:space="preserve">
+    <value>Synchronize Time Move</value>
+  </data>
+  <data name="FrmMain_System" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="FrmMain_Systeminfo" xml:space="preserve">
+    <value>System info</value>
+  </data>
+  <data name="FrmMain_ThemeChange" xml:space="preserve">
+    <value>Theme Change</value>
+  </data>
+  <data name="FrmMain_TimeLag" xml:space="preserve">
+    <value>Time Lag(ms)</value>
+  </data>
+  <data name="FrmMain_Tool" xml:space="preserve">
+    <value>Tool</value>
+  </data>
+  <data name="FrmMain_UpDownZoom" xml:space="preserve">
+    <value>Up/Down Zoom (%)</value>
+  </data>
+  <data name="FrmMain_UserSettings" xml:space="preserve">
+    <value>User Settings</value>
+  </data>
+  <data name="FrmMain_ViewBaseline1" xml:space="preserve">
+    <value>View Baseline 1</value>
+  </data>
+  <data name="FrmMain_ViewBaseline2" xml:space="preserve">
+    <value>View Baseline 2</value>
+  </data>
+  <data name="FrmMain_Viewingameasurementline" xml:space="preserve">
+    <value>Viewing a measurement line</value>
+  </data>
+  <data name="FrmMain_ViewMDCAxisLines" xml:space="preserve">
+    <value>View MDC Axis Lines</value>
+  </data>
+  <data name="FrmMain_ViewPoint1" xml:space="preserve">
+    <value>View Point 1</value>
+  </data>
+  <data name="FrmMain_ViewPoint2" xml:space="preserve">
+    <value>View Point 2</value>
+  </data>
+  <data name="FrmMdcChartAxis_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FrmMdcChartAxis_Displaystatus" xml:space="preserve">
+    <value>Display status</value>
+  </data>
+  <data name="FrmMdcChartAxis_LaxisSetting" xml:space="preserve">
+    <value>L axis Setting</value>
+  </data>
+  <data name="FrmMdcChartAxis_MaxValue" xml:space="preserve">
+    <value>MaxValue</value>
+  </data>
+  <data name="FrmMdcChartAxis_MDCChartaxisRange" xml:space="preserve">
+    <value>MDC Chart axis Range</value>
+  </data>
+  <data name="FrmMdcChartAxis_MinValue" xml:space="preserve">
+    <value>MinValue</value>
+  </data>
+  <data name="FrmMdcChartAxis_Msg_CheckedChangedGuid1" xml:space="preserve">
+    <value>Show screen</value>
+  </data>
+  <data name="FrmMdcChartAxis_Msg_CheckedChangedGuid2" xml:space="preserve">
+    <value>Unshow</value>
+  </data>
+  <data name="FrmMdcChartAxis_Msg_CheckedChangedGuid3" xml:space="preserve">
+    <value>Show screen</value>
+  </data>
+  <data name="FrmMdcChartAxis_Msg_CheckedChangedGuid4" xml:space="preserve">
+    <value>Unshow</value>
+  </data>
+  <data name="FrmMdcChartAxis_RaxisSetting" xml:space="preserve">
+    <value>R axis Setting</value>
+  </data>
+  <data name="FrmMdcChartAxis_Setting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="FrmMdcChartAxis_ShowScreen" xml:space="preserve">
+    <value>Display Screen</value>
+  </data>
+  <data name="FrmMonitorMessage_CollectMessage" xml:space="preserve">
+    <value>Collect Message</value>
+  </data>
+  <data name="FrmMonitorStatus_AllCycle" xml:space="preserve">
+    <value>All Cycle</value>
+  </data>
+  <data name="FrmMonitorStatus_AllPacket" xml:space="preserve">
+    <value>All Packet</value>
+  </data>
+  <data name="FrmMonitorStatus_collectinfo" xml:space="preserve">
+    <value>Collect info</value>
+  </data>
+  <data name="FrmMonitorStatus_CollectMachineName" xml:space="preserve">
+    <value>Collect: Machine Name</value>
+  </data>
+  <data name="FrmMonitorStatus_collectMode" xml:space="preserve">
+    <value>Collect Mode</value>
+  </data>
+  <data name="FrmMonitorStatus_Collector" xml:space="preserve">
+    <value>Collector</value>
+  </data>
+  <data name="FrmMonitorStatus_collectStart" xml:space="preserve">
+    <value>Collect Start</value>
+  </data>
+  <data name="FrmMonitorStatus_collectStatuseinfo" xml:space="preserve">
+    <value>Collect Statuse info</value>
+  </data>
+  <data name="FrmMonitorStatus_collectTargetinfo" xml:space="preserve">
+    <value>Collect Target info</value>
+  </data>
+  <data name="FrmMonitorStatus_Cycle" xml:space="preserve">
+    <value>Cycle</value>
+  </data>
+  <data name="FrmMonitorStatus_DateType" xml:space="preserve">
+    <value>Date Type</value>
+  </data>
+  <data name="FrmMonitorStatus_Defaultrecipe" xml:space="preserve">
+    <value>Default recipe</value>
+  </data>
+  <data name="FrmMonitorStatus_Expectedtocomplete" xml:space="preserve">
+    <value>Expected to complete</value>
+  </data>
+  <data name="FrmMonitorStatus_Msg_InitViewGuid1" xml:space="preserve">
+    <value>Colect target</value>
+  </data>
+  <data name="FrmMonitorStatus_Msg_UpdateCollectModeGuid1" xml:space="preserve">
+    <value>Partial collect</value>
+  </data>
+  <data name="FrmMonitorStatus_Msg_UpdateCollectModeGuid2" xml:space="preserve">
+    <value>Standard collect</value>
+  </data>
+  <data name="FrmMonitorStatus_Msg_UpdateCollectModeGuid3" xml:space="preserve">
+    <value>Fragment collect</value>
+  </data>
+  <data name="FrmMonitorStatus_Msg_UpdateCollectModeGuid4" xml:space="preserve">
+    <value>LOB collect</value>
+  </data>
+  <data name="FrmMonitorStatus_Msg_UpdateCollectModeGuid5" xml:space="preserve">
+    <value>Filter collect</value>
+  </data>
+  <data name="FrmMonitorStatus_NowCycle" xml:space="preserve">
+    <value>Now Cycle</value>
+  </data>
+  <data name="FrmMonitorStatus_NowRecipe" xml:space="preserve">
+    <value>Now Recipe</value>
+  </data>
+  <data name="FrmMonitorStatus_Operationinfo" xml:space="preserve">
+    <value>Action info</value>
+  </data>
+  <data name="FrmMonitorStatus_Packetinfo" xml:space="preserve">
+    <value>Packet info</value>
+  </data>
+  <data name="FrmMonitorStatus_Recipeinfo" xml:space="preserve">
+    <value>Recipe info</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_CustomizeYAxisRange" xml:space="preserve">
+    <value>Y Axis User Range</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_LogicChart" xml:space="preserve">
+    <value>Logic Chart</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_AddChartProjectGuid1" xml:space="preserve">
+    <value>Collect Log</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_AddChartProjectGuid2" xml:space="preserve">
+    <value>Loading collection log …</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ClearGuid1" xml:space="preserve">
+    <value>Are you sure you want to delete the entire item?</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_DeleteGuid1" xml:space="preserve">
+    <value>Are you sure you want to delete the selected item?</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_DeleteGuid2" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_DeleteSeriesItemGuid1" xml:space="preserve">
+    <value>Are you sure you want to delete the selection?</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_DrawAddChartToPart" xml:space="preserve">
+    <value>Up to 5 facility can be called up.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_DrawDynamicalChart" xml:space="preserve">
+    <value>Up to 5 facility can be called up.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_DrawIntegratioModeGuid1" xml:space="preserve">
+    <value>Up to 5 facility can be called up.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_DrawIntegratioModeGuid2" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_GenerateReport" xml:space="preserve">
+    <value>Please set the analysis area first through baseline 1 and baseline 2 !!</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_GetTagListGuid1" xml:space="preserve">
+    <value>"Sorry. Contact information with address {0} could not be found.
+Please re-establish the linkage table so that there will be no problem later."</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_GetTagListGuid3" xml:space="preserve">
+    <value>"Sorry. There are {1} contacts with address {0}. 
+Configure the linkage table as the first contact point. Please re-configure and the problem will disappear later."</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_GetValidCycleIndexGuid1" xml:space="preserve">
+    <value>No history of steps has been collected within the Cycle range.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_GetValidCycleIndexGuid2" xml:space="preserve">
+    <value>No history of steps has been collected.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ImportActionTableGuid1" xml:space="preserve">
+    <value>Please execute by clicking the chart / tree area.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ImportActionTableGuid2" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ImportActionTableGuid3" xml:space="preserve">
+    <value>Open Action Linkage Table...</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ImportActionTableGuid4" xml:space="preserve">
+    <value>Failed to load action chain.
+Make sure Profiler UPM or MCSC + UPM is open.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ImportActionTableGuid5" xml:space="preserve">
+    <value>There is no saved action schedule.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ImportActionTableGuid6" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ImportActionTableGuid7" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ImportActionTableGuid8" xml:space="preserve">
+    <value>You have finished loading the action linkage table.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_InputDeviceShowGuid1" xml:space="preserve">
+    <value>Please execute by clicking the chart / tree area.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_InputDeviceShowGuid2" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_InputDeviceShowGuid3" xml:space="preserve">
+    <value>The history of the user list is displayed.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_IsStandardTagItem" xml:space="preserve">
+    <value>Default Standard</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ItemClickGuid1" xml:space="preserve">
+    <value>Max screen switching</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ItemClickGuid2" xml:space="preserve">
+    <value>Default Screen Switch</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_NodeCounGuid1" xml:space="preserve">
+    <value>The number of items selected is {0}</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_OpenFileS" xml:space="preserve">
+    <value>Failed to open project file.
+When searching for a UPM file, make sure that you have selected and opened the correct filter condition.
+(Select Filter-&gt; Profiler Upm File / MCSC Upm File)</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ReportSEGuid1" xml:space="preserve">
+    <value>No equipment is selected for reporting.
+Please select and try again.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ReportSEGuid2" xml:space="preserve">
+    <value>Report only the top contacts of the chart. If the top item is Step, it is excluded from the target. Do you want to continue?</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ReportSSGuid1" xml:space="preserve">
+    <value>No equipment is selected for reporting.
+Please select and try again.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ReportSSGuid2" xml:space="preserve">
+    <value>Report only the top contacts of the chart. If the top item is Step, it is excluded from the target. Do you want to continue?</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SaveActionTableGuid1" xml:space="preserve">
+    <value>Saved Action Linkage Table.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SaveActionTableGuid2" xml:space="preserve">
+    <value>Action Linkage Table has been saved.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ScreenSizeGuid1" xml:space="preserve">
+    <value>Max screen switching</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ScreenSizeGuid2" xml:space="preserve">
+    <value>Default Screen Switch</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SelectItemDisplayGuid1" xml:space="preserve">
+    <value>Select Item Display</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SelectItemDisplayGuid2" xml:space="preserve">
+    <value>Showing selections …</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SelectItemDisplayGuid3" xml:space="preserve">
+    <value>* Please select a choice. *
+ -Do you want to add equipment? Click [Yes].
+ -Do you want to add equipment contact? Click [No].</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SeriesItemsGuid1" xml:space="preserve">
+    <value>Are you sure you want to delete the entire item?</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SetStandardPointGuid1" xml:space="preserve">
+    <value>Please select a standard bar.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ShowLogGuid1" xml:space="preserve">
+    <value>The selected item is not a step.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ShowNormalTagLogSGuid1" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ShowNormalTagLogSGuid2" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ShowSeriesChart" xml:space="preserve">
+    <value>R Axis</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ShowSubCallGuid1" xml:space="preserve">
+    <value>Reference output contacts are not subject to subcondition collection.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_ShowSubCallGuid2" xml:space="preserve">
+    <value>The subcondition does not exist.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SortByCriterionGuid" xml:space="preserve">
+    <value>Align after setting the baseline.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SortCriteriaGuid1" xml:space="preserve">
+    <value>Align after setting the baseline.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SortGantItemByGuid1" xml:space="preserve">
+    <value>Please select only one item.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SortGantItemByGuid2" xml:space="preserve">
+    <value>Items belonging to other items cannot be sorted by.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SortGantItemByGuid3" xml:space="preserve">
+    <value>Items other than contacts cannot be sorted by.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SortGanttItemGuid1" xml:space="preserve">
+    <value>Please select only one item.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SortGanttItemGuid2" xml:space="preserve">
+    <value>Items belonging to other items cannot be sorted by.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_Msg_SortGanttItemGuid3" xml:space="preserve">
+    <value>Items other than contacts cannot be sorted by.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_MultipleLogicChart" xml:space="preserve">
+    <value>Multiple Logic Chart</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_SelectAllCheck" xml:space="preserve">
+    <value>All item Check</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_SelectAllUnCheck" xml:space="preserve">
+    <value>All item UnCheck</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_SelectItemCheck" xml:space="preserve">
+    <value>Select Item Check</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_SelectItemClear" xml:space="preserve">
+    <value>All Item delete…</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_SelectItemDelete" xml:space="preserve">
+    <value>Select Item Delete</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_SelectItemUnCheck" xml:space="preserve">
+    <value>Select Item UnCheck</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart2_YAxisAutoRange" xml:space="preserve">
+    <value>Y Axis Auto Range</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_CustomizeYAxisRange" xml:space="preserve">
+    <value>Customize Y Axis Range</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_LogicChart" xml:space="preserve">
+    <value>Logic Chart</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Loginfromation" xml:space="preserve">
+    <value>Log info</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_AddTagContact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_AreaSortByCriterion" xml:space="preserve">
+    <value>Align after setting the baseline.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ChartScreenSizeGuid1" xml:space="preserve">
+    <value>Max screen switching</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ChartScreenSizeGuid2" xml:space="preserve">
+    <value>Default Screen Switch</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ClearGanttItem" xml:space="preserve">
+    <value>Are you sure you want to delete the entire item?</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ClearSeriesItems" xml:space="preserve">
+    <value>Are you sure you want to delete the entire item?</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_DeleteGanttItemGuid1" xml:space="preserve">
+    <value>Are you sure you want to delete the selected item?</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_DeleteGanttItemGuid2" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_DeleteSeriesItem" xml:space="preserve">
+    <value>Are you sure you want to delete the selection?</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_DrawAddChartToPart" xml:space="preserve">
+    <value>Up to 5 facility can be called up.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_DrawDynamicalChart" xml:space="preserve">
+    <value>Up to 5 facility can be called up.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_DrawIntegratioMode" xml:space="preserve">
+    <value>Up to 5 facility can be called up.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_DrawIntegratioMode1" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_GenerateReportGuid1" xml:space="preserve">
+    <value>Action Linkage Table has been saved.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_GenerateReportGuid2" xml:space="preserve">
+    <value>Please set the analysis area first through baseline 1 and baseline 2 !!</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_GetTagListGuid1" xml:space="preserve">
+    <value>"Sorry. Contact information with address {0} could not be found.
+Please re-establish the linkage table so that there will be no problem later."</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_GetTagListGuid2" xml:space="preserve">
+    <value>"Sorry. There are {1} contacts with address {0}.
+Configure the linkage table as the first contact point. Please re-configure and the problem will disappear later."</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_GetValidCycleIndexGuid1" xml:space="preserve">
+    <value>No history of steps has been collected within the Cycle range.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_GetValidCycleIndexGuid2" xml:space="preserve">
+    <value>No history of steps has been collected.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ImportActionTableGuid1" xml:space="preserve">
+    <value>Please execute by clicking the chart / tree area.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ImportActionTableGuid2" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ImportActionTableGuid3" xml:space="preserve">
+    <value>Open Action Linkage Table...</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ImportActionTableGuid4" xml:space="preserve">
+    <value>Failed to load action chain.
+Make sure Profiler UPM or MCSC + UPM is open.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ImportActionTableGuid5" xml:space="preserve">
+    <value>There is no saved action schedule.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ImportActionTableGuid6" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ImportActionTableGuid7" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ImportActionTableGuid8" xml:space="preserve">
+    <value>You have finished loading the action linkage table.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_IsStandardTagItem" xml:space="preserve">
+    <value>Default Standard</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_OpenFileSGuid1" xml:space="preserve">
+    <value>Collect Log</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_OpenFileSGuid2" xml:space="preserve">
+    <value>Loading collection log …</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_OpenFileSGuid3" xml:space="preserve">
+    <value>Failed to open project file.
+When searching for a UPM file, make sure that you have selected and opened the correct filter condition.
+(Select Filter-&gt; Profiler Upm File / MCSC Upm File)</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_SaveActionTable" xml:space="preserve">
+    <value>Saved Action Linkage Table.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_SelNodeCount" xml:space="preserve">
+    <value>The number of items selected is {0}</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_SetStandardPointGuid1" xml:space="preserve">
+    <value>Please select a standard bar.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_SetUI_AddChartProjectGuid1" xml:space="preserve">
+    <value>Collect Log</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_SetUI_AddChartProjectGuid2" xml:space="preserve">
+    <value>Loading collection log …</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_SetUI_ScreenSizeGuid1" xml:space="preserve">
+    <value>Max screen switching</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_SetUI_ScreenSizeGuid2" xml:space="preserve">
+    <value>Default Screen Switch</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ShowLogicDiagram" xml:space="preserve">
+    <value>The selected item is not a step.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ShowNormalTagLogSGuid1" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ShowNormalTagLogSGuid2" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ShowSubCallGuid1" xml:space="preserve">
+    <value>Base Standard contacts are not subject to subcondition collection.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_ShowSubCallGuid2" xml:space="preserve">
+    <value>The subcondition does not exist.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_SortGantItemBy2Guid1" xml:space="preserve">
+    <value>Please select only one item.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_SortGantItemBy2Guid2" xml:space="preserve">
+    <value>Items belonging to other items cannot be sorted by.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_SortGantItemBy2Guid3" xml:space="preserve">
+    <value>Items other than contacts cannot be sorted by.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_SortGanttItemGuid1" xml:space="preserve">
+    <value>Please select only one item.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_SortGanttItemGuid2" xml:space="preserve">
+    <value>Items belonging to other items cannot be sorted by.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_SortGanttItemGuid3" xml:space="preserve">
+    <value>Items other than contacts cannot be sorted by.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_TimeReportSEGuid1" xml:space="preserve">
+    <value>No equipment is selected for reporting.
+Please select and try again.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_TimeReportSEGuid2" xml:space="preserve">
+    <value>Report only the top contacts of the chart. If the top item is Step, it is excluded from the target. Do you want to continue?</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_TimeReportSSGuid1" xml:space="preserve">
+    <value>No equipment is selected for reporting.
+Please select and try again.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_TimeReportSSGuid2" xml:space="preserve">
+    <value>Report only the top contacts of the chart. If the top item is Step, it is excluded from the target. Do you want to continue?</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_UEventSelectItemDisplayGuid1" xml:space="preserve">
+    <value>Select Item Display</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_UEventSelectItemDisplayGuid2" xml:space="preserve">
+    <value>Showing selections …</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_UEventSelectItemDisplayGuid3" xml:space="preserve">
+    <value>* Please select a choice. *
+ -Do you want to add equipment? Click [Yes].
+ -Do you want to add equipment contact? Click [No].</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_UEventSelectItemDisplayGuid4" xml:space="preserve">
+    <value>Select Item Display</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_UEventSelectItemDisplayGuid5" xml:space="preserve">
+    <value>Showing selections …</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_UEventSortCriteriaGuid1" xml:space="preserve">
+    <value>Align after setting the baseline.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_UserInputDeviceShowGuid1" xml:space="preserve">
+    <value>Please execute by clicking the chart / tree area.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_UserInputDeviceShowGuid2" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_Msg_UserInputDeviceShowGuid3" xml:space="preserve">
+    <value>The history of the user list is displayed.</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_MultipleLogicChart" xml:space="preserve">
+    <value>Multiple Logic Chart</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_SelectAllCheck" xml:space="preserve">
+    <value>All item Check</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_SelectAllUnCheck" xml:space="preserve">
+    <value>All item UnCheck</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_SelectItemCheck" xml:space="preserve">
+    <value>Select Item Check</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_SelectItemClear" xml:space="preserve">
+    <value>All Item delete…</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_SelectItemDelete" xml:space="preserve">
+    <value>Select Item Delete</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_SelectItemUnCheck" xml:space="preserve">
+    <value>Select Item UnCheck</value>
+  </data>
+  <data name="FrmNewVerticalLogicChart_YAxisAutoRange" xml:space="preserve">
+    <value>Y Axis Auto Range</value>
+  </data>
+  <data name="FrmNormalMode_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="FrmNormalMode_AddressFilter" xml:space="preserve">
+    <value>Address Filter</value>
+  </data>
+  <data name="FrmNormalMode_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="FrmNormalMode_AllAdd" xml:space="preserve">
+    <value>All Check</value>
+  </data>
+  <data name="FrmNormalMode_AllUncheck" xml:space="preserve">
+    <value>All Uncheck </value>
+  </data>
+  <data name="FrmNormalMode_AlwaysOnOff" xml:space="preserve">
+    <value>Always On/Off</value>
+  </data>
+  <data name="FrmNormalMode_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmNormalMode_Check" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="FrmNormalMode_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmNormalMode_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="FrmNormalMode_CommentFilter" xml:space="preserve">
+    <value>Comment Filter</value>
+  </data>
+  <data name="FrmNormalMode_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="FrmNormalMode_DateType" xml:space="preserve">
+    <value>Date Type</value>
+  </data>
+  <data name="FrmNormalMode_DefaultStandardAddress" xml:space="preserve">
+    <value>Default Standard Address</value>
+  </data>
+  <data name="FrmNormalMode_DownLevelSelectContactGroupApply" xml:space="preserve">
+    <value>Down Level Select Contact Group Apply</value>
+  </data>
+  <data name="FrmNormalMode_FilterApply" xml:space="preserve">
+    <value>Filter Apply</value>
+  </data>
+  <data name="FrmNormalMode_FilterOption" xml:space="preserve">
+    <value>Filter Option</value>
+  </data>
+  <data name="FrmNormalMode_Initialize" xml:space="preserve">
+    <value>Initialize</value>
+  </data>
+  <data name="FrmNormalMode_Lowlevel" xml:space="preserve">
+    <value>Low level</value>
+  </data>
+  <data name="FrmNormalMode_MaximumWordCount" xml:space="preserve">
+    <value>Maximum Word Count</value>
+  </data>
+  <data name="FrmNormalMode_Msg_ApplyGuid1" xml:space="preserve">
+    <value>Apply filter</value>
+  </data>
+  <data name="FrmNormalMode_Msg_ApplyGuid2" xml:space="preserve">
+    <value>Applying partial collection filters…</value>
+  </data>
+  <data name="FrmNormalMode_Msg_ApplyGuid3" xml:space="preserve">
+    <value> The contact has been added for collection.</value>
+  </data>
+  <data name="FrmNormalMode_Msg_ClearGuid1" xml:space="preserve">
+    <value>All contacts in the mode were excluded from collection.</value>
+  </data>
+  <data name="FrmNormalMode_Msg_FormClosingGuid1" xml:space="preserve">
+    <value>This does not apply if there is a changed value.
+Do you want to apply it?</value>
+  </data>
+  <data name="FrmNormalMode_Msg_IsValidGuid1" xml:space="preserve">
+    <value>No project created</value>
+  </data>
+  <data name="FrmNormalMode_Msg_OkGuid1" xml:space="preserve">
+    <value>Set the buffer size so that it does not exceed 99.</value>
+  </data>
+  <data name="FrmNormalMode_Msg_OkGuid2" xml:space="preserve">
+    <value>Applying project..</value>
+  </data>
+  <data name="FrmNormalMode_Msg_OkGuid3" xml:space="preserve">
+    <value>Update filter .. # 1/3</value>
+  </data>
+  <data name="FrmNormalMode_Msg_OkGuid4" xml:space="preserve">
+    <value>Update Model .. # 2/3</value>
+  </data>
+  <data name="FrmNormalMode_Msg_OkGuid5" xml:space="preserve">
+    <value>Update packet .. # 3/3</value>
+  </data>
+  <data name="FrmNormalMode_Msg_OkGuid6" xml:space="preserve">
+    <value>Your settings have been applied.</value>
+  </data>
+  <data name="FrmNormalMode_Msg_ShowFilterOptionGuid1" xml:space="preserve">
+    <value>Max Word Count: :</value>
+  </data>
+  <data name="FrmNormalMode_Msg_ShowFilterOptionGuid2" xml:space="preserve">
+    <value>Now Word
+Count</value>
+  </data>
+  <data name="FrmNormalMode_Msg_ShowFilterOptionGuid3" xml:space="preserve">
+    <value>Max Buffer Size</value>
+  </data>
+  <data name="FrmNormalMode_Msg_ShowFilterOptionGuid4" xml:space="preserve">
+    <value>Now Buffer Size</value>
+  </data>
+  <data name="FrmNormalMode_Msg_UserTagGuid1" xml:space="preserve">
+    <value>Do you want to save the current settings and proceed with the user contact setup?</value>
+  </data>
+  <data name="FrmNormalMode_NowWordCount" xml:space="preserve">
+    <value>Now Word
+Count</value>
+  </data>
+  <data name="FrmNormalMode_Organizes" xml:space="preserve">
+    <value>
+Organizes the selected contacts into one packet and collects the change state of the contacts from the PLC through that packet.
+
+a. If [Default Output Address] of [Settings Options] is entered, only the entered address is added as a collection contact
+
+b. If [Default Output Address] of [Settings Option] is not entered, the collection contacts are screened by the [Maximum Word Count] and [Low Level] settings for the final output contacts on the logic</value>
+  </data>
+  <data name="FrmNormalMode_Partialcollect" xml:space="preserve">
+    <value>Partial collect</value>
+  </data>
+  <data name="FrmNormalMode_PartialcollectSettings" xml:space="preserve">
+    <value>Partial collect Settings</value>
+  </data>
+  <data name="FrmNormalMode_ProgramFile" xml:space="preserve">
+    <value>Program File</value>
+  </data>
+  <data name="FrmNormalMode_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="FrmNormalMode_SetpCommentFilter" xml:space="preserve">
+    <value>Setp Comment Filter</value>
+  </data>
+  <data name="FrmNormalMode_SettingOption" xml:space="preserve">
+    <value>Setting Option</value>
+  </data>
+  <data name="FrmNormalMode_StepAddressFilter" xml:space="preserve">
+    <value>Step Address Filter</value>
+  </data>
+  <data name="FrmNormalMode_Unapplied" xml:space="preserve">
+    <value>Unapplied</value>
+  </data>
+  <data name="FrmNormalMode_Uncheck" xml:space="preserve">
+    <value>Uncheck </value>
+  </data>
+  <data name="FrmNormalMode_UserContactSetting" xml:space="preserve">
+    <value>User Contact
+Setting</value>
+  </data>
+  <data name="FrmNormalMode_WordCountRefresh" xml:space="preserve">
+    <value>Word Count Refresh</value>
+  </data>
+  <data name="FrmNotice_AllcollectPacketCount" xml:space="preserve">
+    <value>Fragment collect Packet Count</value>
+  </data>
+  <data name="FrmNotice_CycelEnd" xml:space="preserve">
+    <value>Cycel End</value>
+  </data>
+  <data name="FrmNotice_CycleStart" xml:space="preserve">
+    <value>Cycle Start</value>
+  </data>
+  <data name="FrmNotice_Cycletriggercondition" xml:space="preserve">
+    <value>Cycle trigger condition</value>
+  </data>
+  <data name="FrmNotice_Defaultinfo" xml:space="preserve">
+    <value>Default info</value>
+  </data>
+  <data name="FrmNotice_EA" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="FrmNotice_Existence" xml:space="preserve">
+    <value>Existence</value>
+  </data>
+  <data name="FrmNotice_Facilitynamechange" xml:space="preserve">
+    <value>Facility name
+change</value>
+  </data>
+  <data name="FrmNotice_FilePath" xml:space="preserve">
+    <value>File Path</value>
+  </data>
+  <data name="FrmNotice_Logictransformation" xml:space="preserve">
+    <value>Logic transformation</value>
+  </data>
+  <data name="FrmNotice_LogSavePath" xml:space="preserve">
+    <value>Log Save Path</value>
+  </data>
+  <data name="FrmNotice_MaximumCycletime" xml:space="preserve">
+    <value>Maximum Cycle time</value>
+  </data>
+  <data name="FrmNotice_MinimumCycletime" xml:space="preserve">
+    <value>Minimum Cycle time</value>
+  </data>
+  <data name="FrmNotice_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="FrmNotice_PartialcollectPacketCount" xml:space="preserve">
+    <value>Partial collect Packet Count</value>
+  </data>
+  <data name="FrmNotice_Productinfo" xml:space="preserve">
+    <value>Product info</value>
+  </data>
+  <data name="FrmNotice_Projectinfo" xml:space="preserve">
+    <value>Project info</value>
+  </data>
+  <data name="FrmNotice_Registrationcontactcount" xml:space="preserve">
+    <value>Registration contact count</value>
+  </data>
+  <data name="FrmNotice_Systeminfo" xml:space="preserve">
+    <value>System info</value>
+  </data>
+  <data name="FrmNotice_Targetfacility" xml:space="preserve">
+    <value>Target facility</value>
+  </data>
+  <data name="FrmNotice_Versioninfo" xml:space="preserve">
+    <value>Version info</value>
+  </data>
+  <data name="FrmParameterMode_AddItem" xml:space="preserve">
+    <value>Add Item</value>
+  </data>
+  <data name="FrmParameterMode_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="FrmParameterMode_AllCheck" xml:space="preserve">
+    <value>All Check</value>
+  </data>
+  <data name="FrmParameterMode_AllDel" xml:space="preserve">
+    <value>All Delete</value>
+  </data>
+  <data name="FrmParameterMode_AllUncheck" xml:space="preserve">
+    <value>All Uncheck</value>
+  </data>
+  <data name="FrmParameterMode_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmParameterMode_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmParameterMode_Collect" xml:space="preserve">
+    <value>Collect</value>
+  </data>
+  <data name="FrmParameterMode_CollectSet" xml:space="preserve">
+    <value>Parameter collection setting</value>
+  </data>
+  <data name="FrmParameterMode_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="FrmParameterMode_CountRenew" xml:space="preserve">
+    <value>Word count Renew</value>
+  </data>
+  <data name="FrmParameterMode_CurrCount" xml:space="preserve">
+    <value>Current Word
+Count:</value>
+  </data>
+  <data name="FrmParameterMode_Del" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="FrmParameterMode_LoadProject" xml:space="preserve">
+    <value>Load project contacts</value>
+  </data>
+  <data name="FrmParameterMode_Msg_AddItem" xml:space="preserve">
+    <value>Is a duplicate address.</value>
+  </data>
+  <data name="FrmParameterMode_Msg_AllDel" xml:space="preserve">
+    <value>Are you sure you want to delete all?</value>
+  </data>
+  <data name="FrmParameterMode_Msg_Del" xml:space="preserve">
+    <value>Are you sure you want to delete the selected item?</value>
+  </data>
+  <data name="FrmParameterMode_Renew" xml:space="preserve">
+    <value>Renew</value>
+  </data>
+  <data name="FrmParameterMode_SelectCheck" xml:space="preserve">
+    <value>Select Check</value>
+  </data>
+  <data name="FrmParameterMode_SelectedUncheck" xml:space="preserve">
+    <value>Selected Uncheck</value>
+  </data>
+  <data name="FrmParameterMode_Title" xml:space="preserve">
+    <value>It is set in advance to collect the parameter values ​​of the PLC.
+Machine, Unit, Comment can be edited by the user
+(Even if applied, it does not affect the original comment information)</value>
+  </data>
+  <data name="FrmParameterView_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="FrmParameterView_Paramcomparison" xml:space="preserve">
+    <value>Parameter comparison</value>
+  </data>
+  <data name="FrmParameterView_Status" xml:space="preserve">
+    <value>Fluctuation Status</value>
+  </data>
+  <data name="FrmParameterView_Title" xml:space="preserve">
+    <value>Machine / Unit / Comment values ​​are displayed based on the current parameter collection settings.
+ If the Machine / Unit / Comment value is empty, check the parameter collection settings.</value>
+  </data>
+  <data name="FrmRefreshParameter_LinkAddressInput" xml:space="preserve">
+    <value>Link Address Input</value>
+  </data>
+  <data name="FrmRefreshParameter_Msg_RefreshHelp" xml:space="preserve">
+    <value>You can edit the info of the link area of ​​Melsec PLC contact point.</value>
+  </data>
+  <data name="FrmRunningTimeReport_ExcelExport" xml:space="preserve">
+    <value>Excel Export</value>
+  </data>
+  <data name="FrmRunningTimeReport_Msg_CreatorGuid1" xml:space="preserve">
+    <value>Action time report cycle section: {0}</value>
+  </data>
+  <data name="FrmRunningTimeReport_Msg_LoadGuid1" xml:space="preserve">
+    <value>The cycle cannot be found in the signal history.</value>
+  </data>
+  <data name="FrmRunningTimeReport_Msg_ResolveDeviceTimeLogGuid1" xml:space="preserve">
+    <value>[ Start time : {0} ][ End time: {1} ][ Cycle : {2} ][ Cycle section: {3}</value>
+  </data>
+  <data name="FrmRunningTimeReport_Msg_SetBandedGridCycleColumnGuid1" xml:space="preserve">
+    <value>Cylce :</value>
+  </data>
+  <data name="FrmRunningTimeReport_Msg_SetBandedGridCycleColumnGuid2" xml:space="preserve">
+    <value>Step time</value>
+  </data>
+  <data name="FrmRunningTimeReport_Msg_SetBandedGridCycleColumnGuid3" xml:space="preserve">
+    <value>Operat Time</value>
+  </data>
+  <data name="FrmRunningTimeReport_Msg_SetBandedGridCycleColumnGuid4" xml:space="preserve">
+    <value>Operat Time Total</value>
+  </data>
+  <data name="FrmRunningTimeReport_Msg_SetBandedGridCycleColumnGuid5" xml:space="preserve">
+    <value>Operat count</value>
+  </data>
+  <data name="FrmRunningTimeReport_Msg_SetBandedGridTagColumnGuid1" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="FrmRunningTimeReport_Msg_SetBandedGridTagColumnGuid2" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="FrmRunningTimeReport_Msg_TimeResolveDataExcelExportGuid1" xml:space="preserve">
+    <value>Signal Action time analysis</value>
+  </data>
+  <data name="FrmRunningTimeReport_OperatAnalysisResultExportExcel" xml:space="preserve">
+    <value>Action Analysis Result Export Excel</value>
+  </data>
+  <data name="FrmRunningTimeReport_SignalAnalysis" xml:space="preserve">
+    <value>Signal Analysis</value>
+  </data>
+  <data name="FrmRunningTimeReport_SignalAnalysisSummary" xml:space="preserve">
+    <value>Signal Analysis Summary</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FrmSetCycleReportValue_CycleCount" xml:space="preserve">
+    <value>Cycle Count :</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="FrmSetCycleReportValue_EndAddress" xml:space="preserve">
+    <value>End Address</value>
+  </data>
+  <data name="FrmSetCycleReportValue_EndValue" xml:space="preserve">
+    <value>End Value</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Msg_ExportGuid1" xml:space="preserve">
+    <value>Cycle number not entered.</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Msg_ExportGuid2" xml:space="preserve">
+    <value>There is nothing to export.</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Msg_ExportGuid3" xml:space="preserve">
+    <value>Do you want to proceed without the empty value?</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Msg_ExportGuid4" xml:space="preserve">
+    <value>Excel | * .xlsx</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Msg_ExportGuid5" xml:space="preserve">
+    <value>The file is open. Please execute after checking.</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Msg_SetExcelFrameGuid1" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Msg_SetExcelFrameGuid2" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Msg_SetExcelFrameGuid3" xml:space="preserve">
+    <value>Adress</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Msg_SetExcelFrameGuid4" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Msg_SetExcelFrameGuid5" xml:space="preserve">
+    <value>Work_</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Msg_SetExcelFrameGuid6" xml:space="preserve">
+    <value>Start time</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Msg_SetExcelFrameGuid7" xml:space="preserve">
+    <value>End time</value>
+  </data>
+  <data name="FrmSetCycleReportValue_Msg_SetExcelFrameGuid8" xml:space="preserve">
+    <value>Elapsed time</value>
+  </data>
+  <data name="FrmSetCycleReportValue_OperatTimeAnalysis" xml:space="preserve">
+    <value>Action Time Analysis</value>
+  </data>
+  <data name="FrmSetCycleReportValue_StartAddress" xml:space="preserve">
+    <value>Start Address</value>
+  </data>
+  <data name="FrmSetCycleReportValue_StartTime" xml:space="preserve">
+    <value>Start Time :</value>
+  </data>
+  <data name="FrmSetCycleReportValue_StartValue" xml:space="preserve">
+    <value>Start Value</value>
+  </data>
+  <data name="FrmSetLineAxisProeprty_AxisX" xml:space="preserve">
+    <value>X axis (Time)</value>
+  </data>
+  <data name="FrmSetLineAxisProeprty_AxisY" xml:space="preserve">
+    <value>Y axis (Constant)</value>
+  </data>
+  <data name="FrmSetLineAxisProeprty_DisplayInterval" xml:space="preserve">
+    <value>Display scale
+interval:</value>
+  </data>
+  <data name="FrmSetLineAxisProeprty_Range" xml:space="preserve">
+    <value>Range :</value>
+  </data>
+  <data name="FrmSetLineAxisProeprty_ScaleInterval" xml:space="preserve">
+    <value>Scale interval setting</value>
+  </data>
+  <data name="FrmSetMoveRow_LineCount" xml:space="preserve">
+    <value>Line Count :</value>
+  </data>
+  <data name="FrmSetMoveRow_RowLineSettting" xml:space="preserve">
+    <value>Row Line Settting</value>
+  </data>
+  <data name="FrmSplashScreen_Loading" xml:space="preserve">
+    <value>Profiler Loading…</value>
+  </data>
+  <data name="FrmSplashScreen_Manufacturer" xml:space="preserve">
+    <value>Manufacturer: UDMTEK Co,ltd</value>
+  </data>
+  <data name="FrmSplashScreen_Product" xml:space="preserve">
+    <value>Product name: Profiler V3</value>
+  </data>
+  <data name="FrmStandardMode_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="FrmStandardMode_AddressFilter" xml:space="preserve">
+    <value>Address Filter</value>
+  </data>
+  <data name="FrmStandardMode_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="FrmStandardMode_AllAdd" xml:space="preserve">
+    <value>All Check</value>
+  </data>
+  <data name="FrmStandardMode_AlwaysOnOff" xml:space="preserve">
+    <value>Always On/Off</value>
+  </data>
+  <data name="FrmStandardMode_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmStandardMode_Check" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="FrmStandardMode_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmStandardMode_collectOption" xml:space="preserve">
+    <value>collect Option</value>
+  </data>
+  <data name="FrmStandardMode_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="FrmStandardMode_CommentFilter" xml:space="preserve">
+    <value>Comment Filter</value>
+  </data>
+  <data name="FrmStandardMode_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="FrmStandardMode_Cycleendcondition" xml:space="preserve">
+    <value>Cycle end condition</value>
+  </data>
+  <data name="FrmStandardMode_CycleOption" xml:space="preserve">
+    <value>Cycle Option</value>
+  </data>
+  <data name="FrmStandardMode_CycleRecipeAddress" xml:space="preserve">
+    <value>Cycle Recipe Address</value>
+  </data>
+  <data name="FrmStandardMode_Cyclestartcondition" xml:space="preserve">
+    <value>Cycle start condition</value>
+  </data>
+  <data name="FrmStandardMode_Cycletriggercondition" xml:space="preserve">
+    <value>Cycle trigger condition</value>
+  </data>
+  <data name="FrmStandardMode_DateType" xml:space="preserve">
+    <value>Date Type</value>
+  </data>
+  <data name="FrmStandardMode_FilterApply" xml:space="preserve">
+    <value>Filter Apply</value>
+  </data>
+  <data name="FrmStandardMode_FilterOption" xml:space="preserve">
+    <value>Filter Option</value>
+  </data>
+  <data name="FrmStandardMode_Fulloff" xml:space="preserve">
+    <value>All Uncheck </value>
+  </data>
+  <data name="FrmStandardMode_Initialize" xml:space="preserve">
+    <value>Initialize</value>
+  </data>
+  <data name="FrmStandardMode_MaximumCycletimems1" xml:space="preserve">
+    <value>Maximum Cycle time (ms)</value>
+  </data>
+  <data name="FrmStandardMode_MinimumCycletimems2" xml:space="preserve">
+    <value>Minimum Cycle time (ms)</value>
+  </data>
+  <data name="FrmStandardMode_Msg_AddUserGuid1" xml:space="preserve">
+    <value>Do you want to save the current settings and proceed with the user contact setup?</value>
+  </data>
+  <data name="FrmStandardMode_Msg_ApplyGuid1" xml:space="preserve">
+    <value>Apply filter</value>
+  </data>
+  <data name="FrmStandardMode_Msg_ApplyGuid2" xml:space="preserve">
+    <value>Applying Standard collect filter…</value>
+  </data>
+  <data name="FrmStandardMode_Msg_ApplyGuid3" xml:space="preserve">
+    <value> The contact has been added for collection.</value>
+  </data>
+  <data name="FrmStandardMode_Msg_ClearGuid1" xml:space="preserve">
+    <value>All contacts in the mode were excluded from collection.</value>
+  </data>
+  <data name="FrmStandardMode_Msg_FormClosingGuid1" xml:space="preserve">
+    <value>This does not apply if there is a changed value.
+Do you want to apply it?</value>
+  </data>
+  <data name="FrmStandardMode_Msg_IsValidGuid1" xml:space="preserve">
+    <value>No project created</value>
+  </data>
+  <data name="FrmStandardMode_Msg_IsValidGuid2" xml:space="preserve">
+    <value>Sorry, you can't set Standard collect without the converted logic information.</value>
+  </data>
+  <data name="FrmStandardMode_Msg_IsValidGuid3" xml:space="preserve">
+    <value>Standard collect Settings</value>
+  </data>
+  <data name="FrmStandardMode_Msg_OKGuid1" xml:space="preserve">
+    <value>Applying project..</value>
+  </data>
+  <data name="FrmStandardMode_Msg_OKGuid2" xml:space="preserve">
+    <value>Update contact .. # 1/4</value>
+  </data>
+  <data name="FrmStandardMode_Msg_OKGuid3" xml:space="preserve">
+    <value>Update filter option .. # 2/4</value>
+  </data>
+  <data name="FrmStandardMode_Msg_OKGuid4" xml:space="preserve">
+    <value>Update Cycle Information .. # 3/4</value>
+  </data>
+  <data name="FrmStandardMode_Msg_OKGuid5" xml:space="preserve">
+    <value>Update packet .. # 4/4</value>
+  </data>
+  <data name="FrmStandardMode_Msg_OKGuid6" xml:space="preserve">
+    <value>Your settings have been applied.</value>
+  </data>
+  <data name="FrmStandardMode_Msg_VerifyGuid1" xml:space="preserve">
+    <value>Cycle contact or recipe contact is not registered.</value>
+  </data>
+  <data name="FrmStandardMode_Msg_VerifyGuid2" xml:space="preserve">
+    <value>Cycle start contact is not in contact list.</value>
+  </data>
+  <data name="FrmStandardMode_Msg_VerifyGuid3" xml:space="preserve">
+    <value>Cycle start contact is not bit contact.</value>
+  </data>
+  <data name="FrmStandardMode_Msg_VerifyGuid4" xml:space="preserve">
+    <value>Cycle end contact is not in contact list.</value>
+  </data>
+  <data name="FrmStandardMode_Msg_VerifyGuid5" xml:space="preserve">
+    <value>Cycle end contact is not bit contact.</value>
+  </data>
+  <data name="FrmStandardMode_Msg_VerifyGuid6" xml:space="preserve">
+    <value>The contact except Cycle is not in the contact list.</value>
+  </data>
+  <data name="FrmStandardMode_Msg_VerifyGuid7" xml:space="preserve">
+    <value>Cycle exclusion contact is not bit contact.</value>
+  </data>
+  <data name="FrmStandardMode_NowWordCount" xml:space="preserve">
+    <value>Now Word
+Count</value>
+  </data>
+  <data name="FrmStandardMode_ONAContact" xml:space="preserve">
+    <value>ON (A Contact)</value>
+  </data>
+  <data name="FrmStandardMode_ProgramFile" xml:space="preserve">
+    <value>Program File</value>
+  </data>
+  <data name="FrmStandardMode_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="FrmStandardMode_SetpCommentFilter" xml:space="preserve">
+    <value>Setp Comment Filter</value>
+  </data>
+  <data name="FrmStandardMode_Standardcollect" xml:space="preserve">
+    <value>Standard collect</value>
+  </data>
+  <data name="FrmStandardMode_StandardcollectCycleRepeatCount" xml:space="preserve">
+    <value>Standard collect Cycle Repeat Count</value>
+  </data>
+  <data name="FrmStandardMode_StandardcollectSetting" xml:space="preserve">
+    <value>Standard collect Setting</value>
+  </data>
+  <data name="FrmStandardMode_StandarHelp" xml:space="preserve">
+    <value>As a preliminary preparation for the entire acquisition, the acquisition is performed on the bit Standard contacts to select the reference Standard for data matching.</value>
+  </data>
+  <data name="FrmStandardMode_StepAddressFilter" xml:space="preserve">
+    <value>Step Address Filter</value>
+  </data>
+  <data name="FrmStandardMode_Unapplied" xml:space="preserve">
+    <value>Unapplied</value>
+  </data>
+  <data name="FrmStandardMode_Uncheck" xml:space="preserve">
+    <value>Uncheck </value>
+  </data>
+  <data name="FrmStandardMode_UserContactSetting" xml:space="preserve">
+    <value>User Contact Setting</value>
+  </data>
+  <data name="FrmStandardMode_WordCountRefresh" xml:space="preserve">
+    <value>Word Count Refresh</value>
+  </data>
+  <data name="FrmStandardTagEditor_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="FrmStandardTagEditor_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmStandardTagEditor_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmStandardTagEditor_collectOption" xml:space="preserve">
+    <value>Collect Option</value>
+  </data>
+  <data name="FrmStandardTagEditor_collectstatus" xml:space="preserve">
+    <value>Collect status</value>
+  </data>
+  <data name="FrmStandardTagEditor_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="FrmStandardTagEditor_Cycleendcondition" xml:space="preserve">
+    <value>Cycle end condition</value>
+  </data>
+  <data name="FrmStandardTagEditor_CycleOption" xml:space="preserve">
+    <value>Cycle Option</value>
+  </data>
+  <data name="FrmStandardTagEditor_CycleRecipeAddress" xml:space="preserve">
+    <value>Cycle Recipe Address</value>
+  </data>
+  <data name="FrmStandardTagEditor_Cyclestartcondition" xml:space="preserve">
+    <value>Cycle start condition</value>
+  </data>
+  <data name="FrmStandardTagEditor_Cycletriggercondition" xml:space="preserve">
+    <value>Cycle trigger condition</value>
+  </data>
+  <data name="FrmStandardTagEditor_DateType" xml:space="preserve">
+    <value>Date Type</value>
+  </data>
+  <data name="FrmStandardTagEditor_DefaultAnalysis" xml:space="preserve">
+    <value>Default Analysis</value>
+  </data>
+  <data name="FrmStandardTagEditor_DefaultStandard" xml:space="preserve">
+    <value>Default Standard</value>
+  </data>
+  <data name="FrmStandardTagEditor_DefaultStandardCreate" xml:space="preserve">
+    <value>Default Standard Create</value>
+  </data>
+  <data name="FrmStandardTagEditor_FilterApply" xml:space="preserve">
+    <value>Filter Apply</value>
+  </data>
+  <data name="FrmStandardTagEditor_Initialize" xml:space="preserve">
+    <value>Initialize</value>
+  </data>
+  <data name="FrmStandardTagEditor_LoadLogData" xml:space="preserve">
+    <value>Load Log Data</value>
+  </data>
+  <data name="FrmStandardTagEditor_Lowcollect" xml:space="preserve">
+    <value>Low collect</value>
+  </data>
+  <data name="FrmStandardTagEditor_MaximumCycletimems1" xml:space="preserve">
+    <value>Maximum Cycle time (ms)</value>
+  </data>
+  <data name="FrmStandardTagEditor_MinimumCycletimems2" xml:space="preserve">
+    <value>Minimum Cycle time (ms)</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_AnlayseLogHistoryGuid1" xml:space="preserve">
+    <value>Packetlog does not exist.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_AnlayseLogHistoryGuid2" xml:space="preserve">
+    <value>The start and end points of the log and the start point of the first cycle cannot be found.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_AnlayseLogHistoryGuid3" xml:space="preserve">
+    <value>There was a problem applying the logs.
+The cycle information of the project may be different or the log may be a problem.
+Please check again</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_ApplyGuid1" xml:space="preserve">
+    <value>Applying project</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_FormClosingGuid1" xml:space="preserve">
+    <value>This does not apply if there is a changed value.
+Do you want to apply it?</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_IsLogOpenedGuid1" xml:space="preserve">
+    <value>There is no log information collected by standard collection.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_IsLogOpenedGuid2" xml:space="preserve">
+    <value>Generate reference Standard</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_IsValidGuid1" xml:space="preserve">
+    <value>No project created</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_IsValidGuid2" xml:space="preserve">
+    <value>Sorry, you can't set output collection without the converted logic information.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_IsValidGuid3" xml:space="preserve">
+    <value>Generate reference Standard</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_IsValidGuid4" xml:space="preserve">
+    <value>There is no Cycle setting information.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_OkGuid1" xml:space="preserve">
+    <value>Applying project</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_OkGuid2" xml:space="preserve">
+    <value>Update Model .. # 1/2</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_OkGuid3" xml:space="preserve">
+    <value>Update packet .. # 2/2</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_OkGuid4" xml:space="preserve">
+    <value>Your settings have been applied.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_OpenLogGuid1" xml:space="preserve">
+    <value>Collect Log</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_OpenLogGuid2" xml:space="preserve">
+    <value>Loading collection log …</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_OpenLogGuid3" xml:space="preserve">
+    <value>Sorry. The standard output collection log cannot be retrieved.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_OpenLogGuid4" xml:space="preserve">
+    <value>You have imported {0} reference standard collect logs.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_StandarTagHelp1" xml:space="preserve">
+    <value>The process of screening reference Standards based on collected Standard data as a pre-preparation for a complete acquisition.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_StandarTagHelp2" xml:space="preserve">
+    <value>Enter when the entire collect target is fixed. Keep blank if you don't want to lock!!</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_VerifyGuid1" xml:space="preserve">
+    <value>Baseline Standard Collection Settings</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_VerifyGuid2" xml:space="preserve">
+    <value>Cycle contact or recipe contact is not registered.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_VerifyGuid3" xml:space="preserve">
+    <value>Cycle start contact is not in contact list.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_VerifyGuid4" xml:space="preserve">
+    <value>Cycle start contact is not bit contact.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_VerifyGuid5" xml:space="preserve">
+    <value>Cycle end contact is not in contact list.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_VerifyGuid6" xml:space="preserve">
+    <value>Cycle end contact is not bit contact.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_VerifyGuid7" xml:space="preserve">
+    <value>The contact except Cycle is not in the contact list.</value>
+  </data>
+  <data name="FrmStandardTagEditor_Msg_VerifyGuid8" xml:space="preserve">
+    <value>Cycle exclusion contact is not bit contact.</value>
+  </data>
+  <data name="FrmStandardTagEditor_NowCount" xml:space="preserve">
+    <value>Now Count</value>
+  </data>
+  <data name="FrmStandardTagEditor_ONAContact" xml:space="preserve">
+    <value>ON (A Contact)</value>
+  </data>
+  <data name="FrmStandardTagEditor_ProgramFile" xml:space="preserve">
+    <value>Program File</value>
+  </data>
+  <data name="FrmStandardTagEditor_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="FrmStandardTagEditor_StandardcollectCycleRepeatCount" xml:space="preserve">
+    <value>Standard collect Cycle Repeat Count</value>
+  </data>
+  <data name="FrmStandardTagEditor_Standardcollectinfo" xml:space="preserve">
+    <value>Standard collect info</value>
+  </data>
+  <data name="FrmStandardTagEditor_WordCountRefresh" xml:space="preserve">
+    <value>Word Count Refresh</value>
+  </data>
+  <data name="FrmStepSelector_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FrmStepSelector_CommandSyntax" xml:space="preserve">
+    <value>Command Syntax</value>
+  </data>
+  <data name="FrmStepSelector_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="FrmStepSelector_StepSelect" xml:space="preserve">
+    <value>Step Select</value>
+  </data>
+  <data name="FrmTagTable_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="FrmTagTable_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmTagTable_ChangetoDword" xml:space="preserve">
+    <value>Change
+Dword</value>
+  </data>
+  <data name="FrmTagTable_ChangetoWord" xml:space="preserve">
+    <value>Change
+Word</value>
+  </data>
+  <data name="FrmTagTable_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmTagTable_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="FrmTagTable_ContactSetting" xml:space="preserve">
+    <value>Contact Setting</value>
+  </data>
+  <data name="FrmTagTable_Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="FrmTagTable_DateType" xml:space="preserve">
+    <value>Date Type</value>
+  </data>
+  <data name="FrmTagTable_LinkAddress" xml:space="preserve">
+    <value>Link Address</value>
+  </data>
+  <data name="FrmTagTable_Msg_AddUserTagGuid1" xml:space="preserve">
+    <value>User contact has been added.
+Number of added contacts:</value>
+  </data>
+  <data name="FrmTagTable_Msg_AddUserTagGuid2" xml:space="preserve">
+    <value>-Number of overlap contacts:</value>
+  </data>
+  <data name="FrmTagTable_Msg_AddUserTagGuid3" xml:space="preserve">
+    <value>(Overlap Contact Address:</value>
+  </data>
+  <data name="FrmTagTable_Msg_ChangeDWordGuid1" xml:space="preserve">
+    <value>"{0} contacts out of {1} totals changed to Word.
+(If there is a System contact or an existing Word address, it will not change.) "</value>
+  </data>
+  <data name="FrmTagTable_Msg_ChangeWordGuid1" xml:space="preserve">
+    <value>"{0} contacts out of {1} totals changed to Word.
+(If there is a System contact or an existing Word address, it will not change.) "</value>
+  </data>
+  <data name="FrmTagTable_Msg_DeleteUserTagGuid1" xml:space="preserve">
+    <value>Are you sure you want to delete the selected {0} user contacts?</value>
+  </data>
+  <data name="FrmTagTable_Msg_DeleteUserTagGuid3" xml:space="preserve">
+    <value>The selected user contact has been deleted</value>
+  </data>
+  <data name="FrmTagTable_Msg_FormClosingGuid1" xml:space="preserve">
+    <value>There may be modifications. Do you want to save everything and exit?</value>
+  </data>
+  <data name="FrmTagTable_Msg_IsValidGuid1" xml:space="preserve">
+    <value>No project created</value>
+  </data>
+  <data name="FrmTagTable_Msg_OKGuid1" xml:space="preserve">
+    <value>Your settings have been applied.</value>
+  </data>
+  <data name="FrmTagTable_Msg_TagTableHelp" xml:space="preserve">
+    <value>You can display info about the contacts to be used in the profiler and add/delete/change user contacts.</value>
+  </data>
+  <data name="FrmTagTable_ProgramFile" xml:space="preserve">
+    <value>Program File</value>
+  </data>
+  <data name="FrmTagTable_UserContactAdd" xml:space="preserve">
+    <value>User Contact
+Add</value>
+  </data>
+  <data name="FrmTagTable_UserContactDelete" xml:space="preserve">
+    <value>User Contact
+Delete</value>
+  </data>
+  <data name="FrmTextInputDialog_AddressInput" xml:space="preserve">
+    <value>Address Input</value>
+  </data>
+  <data name="FrmTextInputDialog_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmTextInputDialog_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="FrmTextInputDialog_Contentbelow" xml:space="preserve">
+    <value>Please enter the content below.</value>
+  </data>
+  <data name="FrmTrendLineChart_TrendAnalysis" xml:space="preserve">
+    <value>TrendAnalysis Chart</value>
+  </data>
+  <data name="FrmUserSignalInputValue_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="FrmUserSignalInputValue_Result" xml:space="preserve">
+    <value>Result :</value>
+  </data>
+  <data name="FrmUserSignalInputValue_UserValueModify" xml:space="preserve">
+    <value>User Value Modify</value>
+  </data>
+  <data name="FrmUserTagInputDialog_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="FrmUserTagInputDialog_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FrmUserTagInputDialog_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FrmUserTagInputDialog_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="FrmUserTagInputDialog_ContactAdd" xml:space="preserve">
+    <value>Contact
+Add</value>
+  </data>
+  <data name="FrmUserTagInputDialog_labelControl1" xml:space="preserve">
+    <value>* Size [1 = Word] / [2 = DWord] Type is divided (Bit contact is size independent)</value>
+  </data>
+  <data name="FrmUserTagInputDialog_SelectClear" xml:space="preserve">
+    <value>Select All
+Clear</value>
+  </data>
+  <data name="FrmUserTagInputDialog_SelectDelete" xml:space="preserve">
+    <value>Select
+Delete</value>
+  </data>
+  <data name="FrmUserTagInputDialog_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="FrmUserTagInputDialog_UserContactAdd" xml:space="preserve">
+    <value>User Contact Add
+Do you want to apply it?
+You can analyze it in a consistent way.</value>
+  </data>
+  <data name="UCAddressTypeColor_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="UCAddressTypeColor_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="UCAddressTypeColor_OverlapHeader" xml:space="preserve">
+    <value>Overlap Header</value>
+  </data>
+  <data name="UCChannelConfig_Defaultcommunicationsetting" xml:space="preserve">
+    <value>1. Default communication setting</value>
+  </data>
+  <data name="UCChannelConfig_Detailedcommunicationsetting" xml:space="preserve">
+    <value>2. Detailed communication setting</value>
+  </data>
+  <data name="UCChannelConfig_Msg_GetConfig" xml:space="preserve">
+    <value>There is no setting.</value>
+  </data>
+  <data name="UCChannelConfig_Msg_SetConfig" xml:space="preserve">
+    <value>Enter the hexadecimal number for the I / O Address (ex: 03FF).</value>
+  </data>
+  <data name="UCChannelConfig_Msg_Thereisnothingtoset" xml:space="preserve">
+    <value>There is nothing to set.</value>
+  </data>
+  <data name="UCChannelConfig_NetworkNoinput" xml:space="preserve">
+    <value>Network No input, 1 or more input is possible</value>
+  </data>
+  <data name="UCChannelConfig_Othercommunicationsetting" xml:space="preserve">
+    <value>3. Other communication setting</value>
+  </data>
+  <data name="UCChannelConfig_PCsidesettings" xml:space="preserve">
+    <value>-PC side settings-</value>
+  </data>
+  <data name="UCChannelConfig_PLCsidesettings" xml:space="preserve">
+    <value>-PLC side settings-</value>
+  </data>
+  <data name="UCChannelConfig_StationNoinput" xml:space="preserve">
+    <value>Station No input, 1 or more input is possible</value>
+  </data>
+  <data name="UCChannelTest_AreaLimitinfo" xml:space="preserve">
+    <value>Area Limit info</value>
+  </data>
+  <data name="UCChannelTest_collectAddressInput" xml:space="preserve">
+    <value>Collect Address Input</value>
+  </data>
+  <data name="UCChannelTest_collectProgress" xml:space="preserve">
+    <value>Collect Progress</value>
+  </data>
+  <data name="UCChannelTest_Connectiontest" xml:space="preserve">
+    <value>Connection test</value>
+  </data>
+  <data name="UCChannelTest_Manualtest" xml:space="preserve">
+    <value>Manual test</value>
+  </data>
+  <data name="UCChannelTest_Msg_btnEasyCollectStart" xml:space="preserve">
+    <value>There is no input contact.</value>
+  </data>
+  <data name="UCChannelTest_Msg_btnEasyCollectStopGuid1" xml:space="preserve">
+    <value>Easy collection</value>
+  </data>
+  <data name="UCChannelTest_Msg_btnEasyCollectStopGuid2" xml:space="preserve">
+    <value>The log has been saved.</value>
+  </data>
+  <data name="UCChannelTest_Msg_btnEasyCollectStopGuid3" xml:space="preserve">
+    <value>Easy collection</value>
+  </data>
+  <data name="UCChannelTest_Msg_Connect" xml:space="preserve">
+    <value>Connection failed
+Please check your communication settings.</value>
+  </data>
+  <data name="UCChannelTest_Msg_Disconnect" xml:space="preserve">
+    <value>Unlock failed
+Please check your communication settings.</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualDataGuid1" xml:space="preserve">
+    <value>There is no input contact.</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualDataGuid2" xml:space="preserve">
+    <value>Easy collection</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualDataGuid3" xml:space="preserve">
+    <value>Error has occurred more than 10 times and stops.</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualGuid1" xml:space="preserve">
+    <value>There is no input contact.</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualGuid2" xml:space="preserve">
+    <value>Easy collection</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestHelp1" xml:space="preserve">
+    <value>Communication connection test progress and
+Check various info of PLC.</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestHelp2" xml:space="preserve">
+    <value>After connecting the communication with the set PLC communication info,
+Collect registered contacts.</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestLSChannelGuid1" xml:space="preserve">
+    <value>There is no input contact.</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestLSChannelGuid2" xml:space="preserve">
+    <value>Easy collection</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestLSChannelGuid3" xml:space="preserve">
+    <value>Test Monitoring Item registration failed</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestMitsuChannelGuid1" xml:space="preserve">
+    <value>Collect Failure Error Code: {0} Count = {1}</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestMitsuChannelGuid2" xml:space="preserve">
+    <value>Collection testing</value>
+  </data>
+  <data name="UCChannelTest_Scanplcinfo" xml:space="preserve">
+    <value>Scan plc info</value>
+  </data>
+  <data name="UCChannelTest_Simplecollect" xml:space="preserve">
+    <value>Simple</value>
+  </data>
+  <data name="UCChannelTest_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="UCChannelTest_Stateplcinfo" xml:space="preserve">
+    <value>State plc info</value>
+  </data>
+  <data name="UCChannelTest_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="UCChannelTest_Test" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="UCConnectionTest_collectAddressInput" xml:space="preserve">
+    <value>Collect Address Input</value>
+  </data>
+  <data name="UCConnectionTest_collectCycle" xml:space="preserve">
+    <value>Collect Cycle</value>
+  </data>
+  <data name="UCConnectionTest_collectProgress" xml:space="preserve">
+    <value>Collect Progress</value>
+  </data>
+  <data name="UCConnectionTest_Connect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="UCConnectionTest_Continuousstart" xml:space="preserve">
+    <value>Continuous start</value>
+  </data>
+  <data name="UCConnectionTest_Manualtest" xml:space="preserve">
+    <value>Manual test</value>
+  </data>
+  <data name="UCConnectionTest_Monitorcontrol" xml:space="preserve">
+    <value>Monitor control</value>
+  </data>
+  <data name="UCConnectionTest_Msg_btnConnect" xml:space="preserve">
+    <value>Connection failed
+Please check your communication settings.</value>
+  </data>
+  <data name="UCConnectionTest_Msg_btnDisConnect" xml:space="preserve">
+    <value>Unlock failed
+Please check your communication settings.</value>
+  </data>
+  <data name="UCConnectionTest_Msg_ConnectionTestHelp1" xml:space="preserve">
+    <value>Send command again immediately after acquisition with no waiting time</value>
+  </data>
+  <data name="UCConnectionTest_Msg_ReadSelfData" xml:space="preserve">
+    <value>Error has occurred more than 10 times and stops.</value>
+  </data>
+  <data name="UCConnectionTest_Msg_tmrPlcInfoStart" xml:space="preserve">
+    <value>Collect Failure Error Code: {0} Count = {1}</value>
+  </data>
+  <data name="UCConnectionTest_PLCinfo" xml:space="preserve">
+    <value>PLC info</value>
+  </data>
+  <data name="UCConnectionTest_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="UCConnectionTest_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="UCConnectionTest_Uncheck" xml:space="preserve">
+    <value>Uncheck </value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp1" xml:space="preserve">
+    <value>When selecting CCLink, input IO address, save and collect
+It is initialized when setting info is opened.</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp2" xml:space="preserve">
+    <value>Network No input, 1 or more input is possible</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp3" xml:space="preserve">
+    <value>Station No input, 1 or more input is possible</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp4" xml:space="preserve">
+    <value>Connect Type detailed communication settings</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp5" xml:space="preserve">
+    <value>There is nothing to set.</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp6" xml:space="preserve">
+    <value>PLC basic communication setting connected with PC</value>
+  </data>
+  <data name="UCConnectSetting_Msg_GetConfig" xml:space="preserve">
+    <value>There is no setting.</value>
+  </data>
+  <data name="UCConnectSetting_Msg_SetConfig" xml:space="preserve">
+    <value>Enter the hexadecimal number for the I / O Address (ex: 03FF).</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_AddBaseline" xml:space="preserve">
+    <value>Add Baseline</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_AddMeasurementLine" xml:space="preserve">
+    <value>Add Measurement Line</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_AllItemDelete" xml:space="preserve">
+    <value>All Item Delete</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_BaselineSet1" xml:space="preserve">
+    <value>Baseline Set 1</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_BaselineSet2" xml:space="preserve">
+    <value>Baseline Set 2</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_BaselineSet3" xml:space="preserve">
+    <value>Baseline Set 3</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_DefaultContactBaselinesetting" xml:space="preserve">
+    <value>Default Contact Baseline setting</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_FindAddress" xml:space="preserve">
+    <value>Find Address</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_InputDeviceView" xml:space="preserve">
+    <value>Input Device View</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_Modifyuserlog" xml:space="preserve">
+    <value>Modify user log</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_MotaionTimeReport" xml:space="preserve">
+    <value>Motaion Time Report</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_MoveNexttransitionpoint" xml:space="preserve">
+    <value>Move Next transition point</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_MovePrevtransitionpoint" xml:space="preserve">
+    <value>Move Prev transition point</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_operatLinkageTable" xml:space="preserve">
+    <value>operat Linkage Table</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SaveAs" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SelectItemDelete" xml:space="preserve">
+    <value>Select Item Delete</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SelectItemMDCChartView" xml:space="preserve">
+    <value>Select Item MDC Chart View</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SelectItemSort1st" xml:space="preserve">
+    <value>Select Item Sort (by 1st)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SelectItemSort2st" xml:space="preserve">
+    <value>Select Item Sort (by 2st)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SelectStandardLogicDiagram" xml:space="preserve">
+    <value>Select Standard Logic Diagram(Logic) View</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_Set1BaseLineMotaionTimeReport" xml:space="preserve">
+    <value>Set 1 BaseLine Motaion Time Report(Start-&gt;Start)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_Set1BaseLineMotaionTimeReport1" xml:space="preserve">
+    <value>Set 1 BaseLine Motaion Time Report(Start-&gt;End)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_Set2BaseLineMotaionTimeReport" xml:space="preserve">
+    <value>Set 2 BaseLine Motaion Time Report(Start-&gt;Start)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_Set2BaseLineMotaionTimeReport1" xml:space="preserve">
+    <value>Set 2 BaseLine Motaion Time Report(Start-&gt;End)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_Set3BaseLineMotaionTimeReport" xml:space="preserve">
+    <value>Set 3 BaseLine Motaion Time Report(Start-&gt;Start)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_Set3BaseLineMotaionTimeReport1" xml:space="preserve">
+    <value>Set 3 BaseLine Motaion Time Report(Start-&gt;End)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SetCameraBlue1" xml:space="preserve">
+    <value>Set Camera 1 (Blue Line)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SetCameraBlue2" xml:space="preserve">
+    <value>Set Camera 2 (Blue Line)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SetCameraGreen1" xml:space="preserve">
+    <value>Set Camera 1 (Green Line)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SetCameraGreen2" xml:space="preserve">
+    <value>Set Camera 2 (Green Line)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SetCameraOrange1" xml:space="preserve">
+    <value>Set Camera 1 (Orange Line)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SetCameraOrange2" xml:space="preserve">
+    <value>Set Camera 2 (Orange Line)</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SetSelecteditemColor" xml:space="preserve">
+    <value>Set Selected item Color</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_Sort" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_SortByBaseline" xml:space="preserve">
+    <value>Sort By Baseline</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="UCGanttChartContextMenuStrip_ViewLowConditions" xml:space="preserve">
+    <value>View Low Conditions</value>
+  </data>
+  <data name="UCGanttChartView_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="UCGanttChartView_Explanation" xml:space="preserve">
+    <value>Explanation</value>
+  </data>
+  <data name="UCGanttChartView_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_AllItemDelete" xml:space="preserve">
+    <value>All Item Delete…</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_ExportTabletoExcel" xml:space="preserve">
+    <value>Export Table to Excel</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_FindAddress" xml:space="preserve">
+    <value>Find Address</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_InputDeviceView" xml:space="preserve">
+    <value>Input Device View</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Modifyuserlog" xml:space="preserve">
+    <value>Modify user log</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_MotaionTimeReport" xml:space="preserve">
+    <value>Motaion Time Report</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_operatLinkageTable" xml:space="preserve">
+    <value>Motaion Linkage Table</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Paste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_SaveAs" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_SaveAs1" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_SelectItemCountView" xml:space="preserve">
+    <value>Select Item Count View</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_SelectItemDelete" xml:space="preserve">
+    <value>Select Item Delete…</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_SelectItemMDCChartView" xml:space="preserve">
+    <value>Select Item MDC Chart View…</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_SelectItemSort1st" xml:space="preserve">
+    <value>Select Item Sort (by 1st)</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_SelectItemSort2st" xml:space="preserve">
+    <value>Select Item Sort (by 2st)</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_SelectStandardLogicDiagramView" xml:space="preserve">
+    <value>Select Standard Logic Diagram(Logic) View…</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Set1BaseLineMotaionTimeReport" xml:space="preserve">
+    <value>Set 1 BaseLine Motaion Time Report(Start-&gt;Start)</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Set1BaseLineMotaionTimeReport1" xml:space="preserve">
+    <value>Set 1 BaseLine Motaion Time Report(Start-&gt;End)</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Set2BaseLineMotaionTimeReport" xml:space="preserve">
+    <value>Set 2 BaseLine Motaion Time Report(Start-&gt;Start)</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Set2BaseLineMotaionTimeReport1" xml:space="preserve">
+    <value>Set 2 BaseLine Motaion Time Report(Start-&gt;End)</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Set3BaseLineMotaionTimeReport" xml:space="preserve">
+    <value>Set 3 BaseLine Motaion Time Report(Start-&gt;Start)</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Set3BaseLineMotaionTimeReport1" xml:space="preserve">
+    <value>Set 3 BaseLine Motaion Time Report(Start-&gt;End)</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_SetSelecteditemColor" xml:space="preserve">
+    <value>Set Selected item Color</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Sort" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="UCGanttTreeContextMenuStrip_ViewLowConditions" xml:space="preserve">
+    <value>View Low Conditions</value>
+  </data>
+  <data name="UCItemTreeView_Explanation" xml:space="preserve">
+    <value>Explanation</value>
+  </data>
+  <data name="UCLogHistoryView_All" xml:space="preserve">
+    <value>All collect</value>
+  </data>
+  <data name="UCLogHistoryView_CollectionMode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="UCLogHistoryView_collectMode" xml:space="preserve">
+    <value>collect Mode</value>
+  </data>
+  <data name="UCLogHistoryView_Default" xml:space="preserve">
+    <value>Default Standard collect</value>
+  </data>
+  <data name="UCLogHistoryView_Endtime" xml:space="preserve">
+    <value>End time</value>
+  </data>
+  <data name="UCLogHistoryView_LOB" xml:space="preserve">
+    <value>LOB collect</value>
+  </data>
+  <data name="UCLogHistoryView_LogCount" xml:space="preserve">
+    <value>Log Count</value>
+  </data>
+  <data name="UCLogHistoryView_Partial" xml:space="preserve">
+    <value>Partial collect</value>
+  </data>
+  <data name="UCLogHistoryView_StartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="UCLogHistoryView_UnCheck" xml:space="preserve">
+    <value>UnCheck</value>
+  </data>
+  <data name="UCLogHistoryView_UnCheck1" xml:space="preserve">
+    <value>UnCheck</value>
+  </data>
+  <data name="UCLogicChartToExcel_AllTime" xml:space="preserve">
+    <value>All Time :</value>
+  </data>
+  <data name="UCLogicChartToExcel_Seconds" xml:space="preserve">
+    <value>(Unit: : s )</value>
+  </data>
+  <data name="UCLogicChartToExcel_Timepercolumn" xml:space="preserve">
+    <value>Time per
+column</value>
+  </data>
+  <data name="UCLogicDiagram_V2_DefaultContact" xml:space="preserve">
+    <value>Default Contact</value>
+  </data>
+  <data name="UCLogicDiagram_V2_DefaultTime" xml:space="preserve">
+    <value>Default Time</value>
+  </data>
+  <data name="UCLogicDiagram_V2_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="UCLogicDiagram_V2_Prev" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="UCMultiStepTagTable_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="UCMultiStepTagTable_Coilusedascondition" xml:space="preserve">
+    <value>Coil used as condition</value>
+  </data>
+  <data name="UCMultiStepTagTable_Command" xml:space="preserve">
+    <value>Command</value>
+  </data>
+  <data name="UCMultiStepTagTable_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="UCMultiStepTagTable_ContactList" xml:space="preserve">
+    <value>Contact List</value>
+  </data>
+  <data name="UCMultiStepTagTable_DataType" xml:space="preserve">
+    <value>Data Type</value>
+  </data>
+  <data name="UCMultiStepTagTable_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="UCMultiStepTagTable_Facilityname" xml:space="preserve">
+    <value>Facility name</value>
+  </data>
+  <data name="UCMultiStepTagTable_LogCount" xml:space="preserve">
+    <value>Log Count</value>
+  </data>
+  <data name="UCMultiStepTagTable_Msg_mnuSelectItemDisplay" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="UCMultiStepTagTable_Msg_OneContact" xml:space="preserve">
+    <value>Please select one contact</value>
+  </data>
+  <data name="UCMultiStepTagTable_Msg_OneStep" xml:space="preserve">
+    <value>Please select one step.</value>
+  </data>
+  <data name="UCMultiStepTagTable_Msg_ParentNode" xml:space="preserve">
+    <value>Select and add only the parent nodes of the installation.</value>
+  </data>
+  <data name="UCMultiStepTagTable_Msg_SelectShow" xml:space="preserve">
+    <value>Select Item Displaying..</value>
+  </data>
+  <data name="UCMultiStepTagTable_Programfile" xml:space="preserve">
+    <value>Program file</value>
+  </data>
+  <data name="UCMultiStepTagTable_SelectItemAdd" xml:space="preserve">
+    <value>Add Select Item</value>
+  </data>
+  <data name="UCMultiStepTagTable_SelectItemDisplay" xml:space="preserve">
+    <value>Select Item Display</value>
+  </data>
+  <data name="UCMultiStepTagTable_StepList" xml:space="preserve">
+    <value>Step List</value>
+  </data>
+  <data name="UCMultiStepTagTable_StepNumber" xml:space="preserve">
+    <value>Step Number</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Axis" xml:space="preserve">
+    <value>Axis</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Command" xml:space="preserve">
+    <value>Command</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Cycle" xml:space="preserve">
+    <value>Cycle</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Display" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Explanation" xml:space="preserve">
+    <value>Explanation</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Facilityname" xml:space="preserve">
+    <value>Facility name</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_LAxis" xml:space="preserve">
+    <value>L Axis</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_LogCount" xml:space="preserve">
+    <value>Log Count</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Nowvalue" xml:space="preserve">
+    <value>Now value</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Packet" xml:space="preserve">
+    <value>Packet</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Program" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_RAxis" xml:space="preserve">
+    <value>R Axis</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Scale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Section" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Section1" xml:space="preserve">
+    <value>[Section] = 'Step' OR [Log Count] &gt;</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl2_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Axis" xml:space="preserve">
+    <value>Axis</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Command" xml:space="preserve">
+    <value>Command</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Cycle" xml:space="preserve">
+    <value>Cycle</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Display" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_EndTime" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Explanation" xml:space="preserve">
+    <value>Explanation</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Facilityname" xml:space="preserve">
+    <value>Facility name</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_LAxis" xml:space="preserve">
+    <value>L Axis</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_LogCount" xml:space="preserve">
+    <value>Log Count</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_MaxValue" xml:space="preserve">
+    <value>MaxValue</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_MinValue" xml:space="preserve">
+    <value>MinValue</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Motaioncount" xml:space="preserve">
+    <value>Motion count</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Motaiontime" xml:space="preserve">
+    <value>Motion Time</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Nowvalue" xml:space="preserve">
+    <value>Now value</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Packet" xml:space="preserve">
+    <value>Packet</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Program" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_RAxis" xml:space="preserve">
+    <value>R Axis</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Scale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Section" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Section1" xml:space="preserve">
+    <value>[Section] = 'Step' OR [Log Count] &gt;</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_StartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="UCNewVerticalTimeChartControl_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="UCPairTable_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="UCPairTable_AllAdd" xml:space="preserve">
+    <value>All Check</value>
+  </data>
+  <data name="UCPairTable_AllUncheck" xml:space="preserve">
+    <value>All Uncheck </value>
+  </data>
+  <data name="UCPairTable_Check" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="UCPairTable_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="UCPairTable_DataType" xml:space="preserve">
+    <value>Data Type</value>
+  </data>
+  <data name="UCPairTable_LogCount" xml:space="preserve">
+    <value>Log Count</value>
+  </data>
+  <data name="UCPairTable_Programfile" xml:space="preserve">
+    <value>Program file</value>
+  </data>
+  <data name="UCSeriesTreeView_AllItemDelete" xml:space="preserve">
+    <value>All Item Delete…</value>
+  </data>
+  <data name="UCSeriesTreeView_SelectItemDelete" xml:space="preserve">
+    <value>Select Item Delete…</value>
+  </data>
+  <data name="UCSeriesTreeView_YAxisAutoRange" xml:space="preserve">
+    <value>Y Axis Auto Range</value>
+  </data>
+  <data name="UCSeriesTreeView_YAxisUserRange" xml:space="preserve">
+    <value>Y Axis User Range</value>
+  </data>
+  <data name="UCStepTagTable_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="UCStepTagTable_Command" xml:space="preserve">
+    <value>Command</value>
+  </data>
+  <data name="UCStepTagTable_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="UCStepTagTable_ContactList" xml:space="preserve">
+    <value>Contact List</value>
+  </data>
+  <data name="UCStepTagTable_DataType" xml:space="preserve">
+    <value>Data Type</value>
+  </data>
+  <data name="UCStepTagTable_LogCount" xml:space="preserve">
+    <value>Log Count</value>
+  </data>
+  <data name="UCStepTagTable_Programfile" xml:space="preserve">
+    <value>Program file</value>
+  </data>
+  <data name="UCStepTagTable_StepList" xml:space="preserve">
+    <value>Step List</value>
+  </data>
+  <data name="UCStepTagTable_StepNumber" xml:space="preserve">
+    <value>Step Number</value>
+  </data>
+  <data name="UCSystemLogTable_Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="UCSystemLogTable_Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="UCSystemLogTable_Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="UCTimeChartControl_Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="UCTimeChartControl_Axis" xml:space="preserve">
+    <value>Axis</value>
+  </data>
+  <data name="UCTimeChartControl_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="UCTimeChartControl_Command" xml:space="preserve">
+    <value>Command</value>
+  </data>
+  <data name="UCTimeChartControl_Condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="UCTimeChartControl_Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="UCTimeChartControl_Cycle" xml:space="preserve">
+    <value>Cycle</value>
+  </data>
+  <data name="UCTimeChartControl_Display" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="UCTimeChartControl_Displayfilterscreen" xml:space="preserve">
+    <value>Display filter screen</value>
+  </data>
+  <data name="UCTimeChartControl_Explanation" xml:space="preserve">
+    <value>Explanation</value>
+  </data>
+  <data name="UCTimeChartControl_LAxis" xml:space="preserve">
+    <value>L Axis</value>
+  </data>
+  <data name="UCTimeChartControl_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="UCTimeChartControl_LogCount" xml:space="preserve">
+    <value>Log Count</value>
+  </data>
+  <data name="UCTimeChartControl_MaxValue" xml:space="preserve">
+    <value>MaxValue</value>
+  </data>
+  <data name="UCTimeChartControl_MinValue" xml:space="preserve">
+    <value>MinValue</value>
+  </data>
+  <data name="UCTimeChartControl_Nowvalue" xml:space="preserve">
+    <value>Now value</value>
+  </data>
+  <data name="UCTimeChartControl_Packet" xml:space="preserve">
+    <value>Packet</value>
+  </data>
+  <data name="UCTimeChartControl_Program" xml:space="preserve">
+    <value>Program</value>
+  </data>
+  <data name="UCTimeChartControl_RAxis" xml:space="preserve">
+    <value>R Axis</value>
+  </data>
+  <data name="UCTimeChartControl_Remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="UCTimeChartControl_Scale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="UCTimeChartControl_Section" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="UCTimeChartControl_Section1" xml:space="preserve">
+    <value>[Section] = 'Step' OR [Log Count] &gt;</value>
+  </data>
+  <data name="UCTimeChartControl_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="UCTimeChartControl_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="UCTimeLineView_Msg_ZoomSec" xml:space="preserve">
+    <value>Zooming in less than 2 seconds is not possible.</value>
+  </data>
+  <data name="FrmMain_ParameterCompare" xml:space="preserve">
+    <value>There is no log data.
+Load the file.</value>
+  </data>
+  <data name="Common_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Common_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FrmGroupping_Name" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="FrmGroup_WarningMessage" xml:space="preserve">
+    <value>Please, Select One Group Node.</value>
+  </data>
+  <data name="FrmLogicChart_Msg_StructGroup_Warn" xml:space="preserve">
+    <value>The same group name exsits.</value>
+  </data>
+  <data name="Common_Msg_EmptyValue" xml:space="preserve">
+    <value>The value has not been entered</value>
+  </data>
+  <data name="test" xml:space="preserve">
+    <value>test</value>
+  </data>
+</root>

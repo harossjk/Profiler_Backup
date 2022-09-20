@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddMessage_Message" xml:space="preserve">
+    <value>[Error]</value>
+  </data>
+  <data name="FrmMain_AverageSpeed" xml:space="preserve">
+    <value>Average speed</value>
+  </data>
+  <data name="FrmMain_bConnected_fail" xml:space="preserve">
+    <value>[Error] PLC connection failed for contact verification</value>
+  </data>
+  <data name="FrmMain_bConnected_ok" xml:space="preserve">
+    <value>[Info] PLC connection successful for contact verification</value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_Exception_Msg1" xml:space="preserve">
+    <value>[Error] Require confirmation of communication settings for contact verification</value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_Exception_Msg2" xml:space="preserve">
+    <value>[Info] Parameter : </value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_Exception_Msg3" xml:space="preserve">
+    <value>{0} Maximum Size ({1})</value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_Exception_Msg4" xml:space="preserve">
+    <value>[Error] Communication connection fail for verifying contact points</value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_fail" xml:space="preserve">
+    <value>[Error] PLC connection failed for contact verification</value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_Msg1" xml:space="preserve">
+    <value>[Info] non-collectable contact for verifying contact points (</value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_Msg2" xml:space="preserve">
+    <value>[Info] Number of non-collectable contacts for verifying contact points : </value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_Msg3" xml:space="preserve">
+    <value>[Info] Total contact points for verifying contacts</value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_Msg4" xml:space="preserve">
+    <value>[Info] Target contact number to collect</value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_Msg5" xml:space="preserve">
+    <value>[Error] Require confirmation of communication settiongs for contact verification</value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_Msg6" xml:space="preserve">
+    <value>[Info] Parameter :</value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_Msg7" xml:space="preserve">
+    <value>{0} Maximum Size ({1})</value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_Msg8" xml:space="preserve">
+    <value>[Error] Communication connection Failure for contact verification</value>
+  </data>
+  <data name="FrmMain_CheckConnectSymbolTest_ok" xml:space="preserve">
+    <value>[Info] PLC connection successful for contact verification</value>
+  </data>
+  <data name="FrmMain_CheckConnectTest_fail" xml:space="preserve">
+    <value>[Error] Communication settings connection fail -&gt; Do not read the project file.</value>
+  </data>
+  <data name="FrmMain_CheckConnectTest_Msg1" xml:space="preserve">
+    <value>CheckConnectTest Fail
+</value>
+  </data>
+  <data name="FrmMain_CheckConnectTest_Msg2" xml:space="preserve">
+    <value>[Error] Unable to connect due to current communication settings.</value>
+  </data>
+  <data name="FrmMain_CheckConnectTest_Msg3" xml:space="preserve">
+    <value>CheckConnectTest Success</value>
+  </data>
+  <data name="FrmMain_CheckConnectTest_Msg4" xml:space="preserve">
+    <value>Before entering SetDDEAProjectForManager</value>
+  </data>
+  <data name="FrmMain_CheckConnectTest_Msg5" xml:space="preserve">
+    <value>[Error] Can not open Project</value>
+  </data>
+  <data name="FrmMain_CheckConnectTest_ok" xml:space="preserve">
+    <value>[Info] Communication settings connection success</value>
+  </data>
+  <data name="FrmMain_ClearText" xml:space="preserve">
+    <value>Clear messages that have been recorded so far</value>
+  </data>
+  <data name="FrmMain_Close" xml:space="preserve">
+    <value>Be aware of the use during the collection as it is forced to terminate.</value>
+  </data>
+  <data name="FrmMain_collecModeType_Msg1" xml:space="preserve">
+    <value>[Info] Mode changed during stop</value>
+  </data>
+  <data name="FrmMain_CollectModeType_Msg1" xml:space="preserve">
+    <value>[Info]</value>
+  </data>
+  <data name="FrmMain_CollectModeType_Msg2" xml:space="preserve">
+    <value>Changed to mode and stopped collecting. Previous mode :</value>
+  </data>
+  <data name="FrmMain_CollectMode_txt1" xml:space="preserve">
+    <value>Normal Collection</value>
+  </data>
+  <data name="FrmMain_CollectMode_txt2" xml:space="preserve">
+    <value>Filter Collection</value>
+  </data>
+  <data name="FrmMain_CollectMode_txt3" xml:space="preserve">
+    <value>Standard Collection</value>
+  </data>
+  <data name="FrmMain_CollectMode_txt4" xml:space="preserve">
+    <value>Frag Collection</value>
+  </data>
+  <data name="FrmMain_CollectMode_txt5" xml:space="preserve">
+    <value>LOB Collection</value>
+  </data>
+  <data name="FrmMain_CollectMode_txt6" xml:space="preserve">
+    <value>Parameter Collection</value>
+  </data>
+  <data name="FrmMain_ConfigUSB_txt1" xml:space="preserve">
+    <value>[Info]</value>
+  </data>
+  <data name="FrmMain_ConfigUSB_txt2" xml:space="preserve">
+    <value>CCLink Communication Setting</value>
+  </data>
+  <data name="FrmMain_ConfigUSB_txt3" xml:space="preserve">
+    <value>There is not CCLink setting</value>
+  </data>
+  <data name="FrmMain_ConfigUSB_txt4" xml:space="preserve">
+    <value>Communication Setting Complete</value>
+  </data>
+  <data name="FrmMain_ConfigUSB_txt5" xml:space="preserve">
+    <value>Mode change received</value>
+  </data>
+  <data name="FrmMain_ctagListCount_Msg1" xml:space="preserve">
+    <value>[Info] Target contact number for contact verification : </value>
+  </data>
+  <data name="FrmMain_ctagListCount_Msg2" xml:space="preserve">
+    <value>[Info] Target contact number to collect : </value>
+  </data>
+  <data name="FrmMain_cTotalSymbolListCount_Msg" xml:space="preserve">
+    <value>[Info] Number of contacts collected after filtering (Index processing)</value>
+  </data>
+  <data name="FrmMain_CurrentMessage" xml:space="preserve">
+    <value>System Message Output</value>
+  </data>
+  <data name="FrmMain_CurrentRecipe" xml:space="preserve">
+    <value>Current Recipe</value>
+  </data>
+  <data name="FrmMain_CurrentSpeed" xml:space="preserve">
+    <value>Current speed</value>
+  </data>
+  <data name="FrmMain_CycleEndTitle" xml:space="preserve">
+    <value>Cycle end condition</value>
+  </data>
+  <data name="FrmMain_CycleMaxTime" xml:space="preserve">
+    <value>Cycle maximum time</value>
+  </data>
+  <data name="FrmMain_CycleMinTime" xml:space="preserve">
+    <value>Cycle minimum time</value>
+  </data>
+  <data name="FrmMain_CycleNumber" xml:space="preserve">
+    <value>Number of cycle repetitions</value>
+  </data>
+  <data name="FrmMain_CycleStartTitle" xml:space="preserve">
+    <value>Cycle start condition</value>
+  </data>
+  <data name="FrmMain_CycleTitle" xml:space="preserve">
+    <value>Cycle (Current/Total)</value>
+  </data>
+  <data name="FrmMain_CycleTrigger" xml:space="preserve">
+    <value>Cycle exclusion condition</value>
+  </data>
+  <data name="FrmMain_DoProfilerCommand_Exception" xml:space="preserve">
+    <value>[Error] receiving problem(</value>
+  </data>
+  <data name="FrmMain_DoProfilerCommand_txt1" xml:space="preserve">
+    <value>[Info] Receive collection start command</value>
+  </data>
+  <data name="FrmMain_DoProfilerCommand_txt2" xml:space="preserve">
+    <value>[Info] Receive a stop collection order</value>
+  </data>
+  <data name="FrmMain_DoProfilerCommand_txt3" xml:space="preserve">
+    <value>[Error] Project open fail</value>
+  </data>
+  <data name="FrmMain_EMCollectModeFilterNormal_Msg" xml:space="preserve">
+    <value>[Error] There are no filter collection packests. Check the collection settings.</value>
+  </data>
+  <data name="FrmMain_EMCollectModeFilterNormal_Msg1" xml:space="preserve">
+    <value>[Info] Number of filter collection Bundles : </value>
+  </data>
+  <data name="FrmMain_EMCollectModeLOB_Msg" xml:space="preserve">
+    <value>[Info] Number of Bundles collected by LOB :</value>
+  </data>
+  <data name="FrmMain_EMCollectModeNormal_Msg" xml:space="preserve">
+    <value>[Error] There are no normal collection packests. Check the collection settings.</value>
+  </data>
+  <data name="FrmMain_EMCollectModeNormal_Msg1" xml:space="preserve">
+    <value>[Info] Number of normal collection Bundles :</value>
+  </data>
+  <data name="FrmMain_EMCollectModeParameterNormal_Msg" xml:space="preserve">
+    <value>[Error] There are no parameter collection packests. Check the collection settings.</value>
+  </data>
+  <data name="FrmMain_EMCollectModeParameterNormal_Msg1" xml:space="preserve">
+    <value>[Info] Number of parameter collection Bundles :</value>
+  </data>
+  <data name="FrmMain_EMCollectModeStandardCoil_Msg1" xml:space="preserve">
+    <value>[Info] Number of bundles of reference output collection : </value>
+  </data>
+  <data name="FrmMain_EMCollectModeStandardCoil_Msg2" xml:space="preserve">
+    <value>[Info] Total collection bundles : </value>
+  </data>
+  <data name="FrmMain_EMCollectmodeWait_Msg1" xml:space="preserve">
+    <value>[Info]</value>
+  </data>
+  <data name="FrmMain_EMCollectmodeWait_Msg2" xml:space="preserve">
+    <value>Changed to mode and stopped collecting. Previous mode :</value>
+  </data>
+  <data name="FrmMain_EMCollectMode_Error_Msg1" xml:space="preserve">
+    <value>[Error] Cycle setting error in UPM file</value>
+  </data>
+  <data name="FrmMain_EMCollectMode_Error_Msg2" xml:space="preserve">
+    <value>[Error] Communication status problem during non-collection contact analysis</value>
+  </data>
+  <data name="FrmMain_EMConnectAppTypeManager_Msg" xml:space="preserve">
+    <value>[Error] The setup information is not sufficient to proceed with the current collection mode.</value>
+  </data>
+  <data name="FrmMain_EMConnectAppTypeProfiler_Msg" xml:space="preserve">
+    <value>[Error] The setup information is not sufficient to proceed with the current collection mode.</value>
+  </data>
+  <data name="FrmMain_ExcuteInitialMode_Exception" xml:space="preserve">
+    <value>[Error] There is a problem with the initial setup.</value>
+  </data>
+  <data name="FrmMain_FailAddress_Msg1" xml:space="preserve">
+    <value>[Info] non-collectable contact :</value>
+  </data>
+  <data name="FrmMain_FailAddress_Msg2" xml:space="preserve">
+    <value>_non-collectable contact_</value>
+  </data>
+  <data name="FrmMain_FailAddress_Msg3" xml:space="preserve">
+    <value>------------non-collectable contact list-----------
+</value>
+  </data>
+  <data name="FrmMain_FailAddress_Msg4" xml:space="preserve">
+    <value>[Info] Unregistered contacts in contact list</value>
+  </data>
+  <data name="FrmMain_FileChanged_Msg1" xml:space="preserve">
+    <value>[Info] Completed parameter file changes</value>
+  </data>
+  <data name="FrmMain_FileChanged_Msg2" xml:space="preserve">
+    <value>[Info] Completed UPM file changes</value>
+  </data>
+  <data name="FrmMain_FileChanged_Msg3" xml:space="preserve">
+    <value>[Info] Completed setting file changes</value>
+  </data>
+  <data name="FrmMain_FilterAndPrepareNormalModeForManager_Start" xml:space="preserve">
+    <value>[Info] Filtering start</value>
+  </data>
+  <data name="FrmMain_FilteringStart" xml:space="preserve">
+    <value>[Info] Filtering starting</value>
+  </data>
+  <data name="FrmMain_FilterNormalBundleList_Msg" xml:space="preserve">
+    <value>[Info] Number of normal/filter collection Bundles : </value>
+  </data>
+  <data name="FrmMain_FilterNormalComp" xml:space="preserve">
+    <value>[Info] Stop filter collecting </value>
+  </data>
+  <data name="FrmMain_FlushMemory" xml:space="preserve">
+    <value>[Info] Memory cleanup</value>
+  </data>
+  <data name="FrmMain_IblTime_Msg1" xml:space="preserve">
+    <value>Scheduled for completion</value>
+  </data>
+  <data name="FrmMain_IblTime_Msg2" xml:space="preserve">
+    <value>Starting Time</value>
+  </data>
+  <data name="FrmMain_lblBaseRecipeBundle_Msg1" xml:space="preserve">
+    <value>[Info] Number of bundles of reference output collection : </value>
+  </data>
+  <data name="FrmMain_lblBaseRecipeBundle_Msg2" xml:space="preserve">
+    <value>[Info] Total number of bundles of collections</value>
+  </data>
+  <data name="FrmMain_lblBaseRecipe_Msg" xml:space="preserve">
+    <value>[Info] Default Recipe :</value>
+  </data>
+  <data name="FrmMain_lblBaseRecipe_Text1" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="FrmMain_lblBaseRecipe_Text2" xml:space="preserve">
+    <value>[Error] Failed to open UPM file</value>
+  </data>
+  <data name="FrmMain_LOBBundleList_Msg" xml:space="preserve">
+    <value>[Info] Number of Bundles collected by LOB :</value>
+  </data>
+  <data name="FrmMain_LSConfig_txt" xml:space="preserve">
+    <value>[Info] LS communication settings complete</value>
+  </data>
+  <data name="FrmMain_MachineName" xml:space="preserve">
+    <value>[Info] Machine Name : </value>
+  </data>
+  <data name="FrmMain_MainPath" xml:space="preserve">
+    <value>[Info] Send log folder locations to save</value>
+  </data>
+  <data name="FrmMain_MakeChekcedTagList_Msg1" xml:space="preserve">
+    <value>[Info] Target contact number for contact verification : </value>
+  </data>
+  <data name="FrmMain_MakeChekcedTagList_Msg2" xml:space="preserve">
+    <value>[Info] Target contact number to collect : </value>
+  </data>
+  <data name="FrmMain_MakeChekcedTagList_Msg3" xml:space="preserve">
+    <value>[Info] Target contact number to collect : </value>
+  </data>
+  <data name="FrmMain_MakeChekcedTagList_Msg4" xml:space="preserve">
+    <value>[Info] non-collectable contact for verifying contact points </value>
+  </data>
+  <data name="FrmMain_MakeChekcedTagList_Msg5" xml:space="preserve">
+    <value>[Info] Total contact points for verifying contacts : </value>
+  </data>
+  <data name="FrmMain_MakeChekcedTagList_Msg6" xml:space="preserve">
+    <value>[Info] Target contact number to collect : </value>
+  </data>
+  <data name="FrmMain_ManegerMode_Msg1" xml:space="preserve">
+    <value>SetConfigFile (Config file open) Fail
+</value>
+  </data>
+  <data name="FrmMain_MaxSpeed" xml:space="preserve">
+    <value>Maximum speed</value>
+  </data>
+  <data name="FrmMain_Monitor" xml:space="preserve">
+    <value>Collection status information</value>
+  </data>
+  <data name="FrmMain_MonitorInfo" xml:space="preserve">
+    <value>collection status</value>
+  </data>
+  <data name="FrmMain_Msg_Close1" xml:space="preserve">
+    <value>[Info] Unable to shutdown during collection</value>
+  </data>
+  <data name="FrmMain_Msg_Close2" xml:space="preserve">
+    <value>Normal shut down</value>
+  </data>
+  <data name="FrmMain_Msg_Load1" xml:space="preserve">
+    <value>Running in test mode.!! TO debug, connect to VS2008</value>
+  </data>
+  <data name="FrmMain_Msg_Load2" xml:space="preserve">
+    <value>Collecting machine : </value>
+  </data>
+  <data name="FrmMain_Msg_Load3" xml:space="preserve">
+    <value>There is no set content in Manager.</value>
+  </data>
+  <data name="FrmMain_Msg_Load4" xml:space="preserve">
+    <value>[Info] current collect mode : </value>
+  </data>
+  <data name="FrmMain_Msg_Load5" xml:space="preserve">
+    <value>Current collect mode : </value>
+  </data>
+  <data name="FrmMain_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="FrmMain_NormalBundleListCount_Msg" xml:space="preserve">
+    <value>[Info] Number of packets after filtering</value>
+  </data>
+  <data name="FrmMain_NormalPackerSClear_Msg1" xml:space="preserve">
+    <value>[Info] Number of contacts collected after filtering (Index processing)</value>
+  </data>
+  <data name="FrmMain_NormalPackerSClear_Msg2" xml:space="preserve">
+    <value>[Info] Number of packets after filtering</value>
+  </data>
+  <data name="FrmMain_Open" xml:space="preserve">
+    <value>Open the collected file path</value>
+  </data>
+  <data name="FrmMain_OpenParaFileForManager_Msg1" xml:space="preserve">
+    <value>[Error] Failed to open parameter file</value>
+  </data>
+  <data name="FrmMain_OpenParaFileForManager_Msg2" xml:space="preserve">
+    <value>[Error] Parameter open item error(</value>
+  </data>
+  <data name="FrmMain_OpenParaFileForManager_Msg3" xml:space="preserve">
+    <value>[Info] Number of Param item : </value>
+  </data>
+  <data name="FrmMain_OpenParaFileForManager_Msg4" xml:space="preserve">
+    <value>[Error] Failed to open file</value>
+  </data>
+  <data name="FrmMain_OpenParaFileForManager_Msg5" xml:space="preserve">
+    <value>[Error] Parameter open item error(</value>
+  </data>
+  <data name="FrmMain_OpenParaFileForManager_Msg6" xml:space="preserve">
+    <value>MDC duplicate symbol : </value>
+  </data>
+  <data name="FrmMain_Open_Msg1" xml:space="preserve">
+    <value>Open a window showing the PLC communication settings of the DDEA</value>
+  </data>
+  <data name="FrmMain_Open_Msg2" xml:space="preserve">
+    <value>Open a window showing the symbolic contents of the collection</value>
+  </data>
+  <data name="FrmMain_PackerTitle" xml:space="preserve">
+    <value>Packet (Current/Total)</value>
+  </data>
+  <data name="FrmMain_paramFileChanged_Msg" xml:space="preserve">
+    <value>[Info] Request to change parameter file while collecting LOB mode</value>
+  </data>
+  <data name="FrmMain_PLCMaker1" xml:space="preserve">
+    <value>[Info] PLC Maker : Mitsubishi</value>
+  </data>
+  <data name="FrmMain_PLCMaker2" xml:space="preserve">
+    <value>[Info] PLC Maker : LS</value>
+  </data>
+  <data name="FrmMain_ProfilerMode_Msg1" xml:space="preserve">
+    <value>[Info] Server connect success</value>
+  </data>
+  <data name="FrmMain_ProfilerMode_Msg2" xml:space="preserve">
+    <value>[Error] Server connect fail</value>
+  </data>
+  <data name="FrmMain_ProjectName" xml:space="preserve">
+    <value>[Info] Project Name :</value>
+  </data>
+  <data name="FrmMain_ProjectPath" xml:space="preserve">
+    <value>[Info] Project Path :</value>
+  </data>
+  <data name="FrmMain_RecipeAddress" xml:space="preserve">
+    <value>Recipe address</value>
+  </data>
+  <data name="FrmMain_RecipeErr" xml:space="preserve">
+    <value>[Info] Waiting collection with Recipe change</value>
+  </data>
+  <data name="FrmMain_RecipeNFD" xml:space="preserve">
+    <value>[Error] Stop to the Recipe value cannot be read</value>
+  </data>
+  <data name="FrmMain_Reconnect_State" xml:space="preserve">
+    <value>Reconnect attempt</value>
+  </data>
+  <data name="FrmMain_Run_Exception" xml:space="preserve">
+    <value>[Error] Problem occuring during collection start</value>
+  </data>
+  <data name="FrmMain_Run_State" xml:space="preserve">
+    <value>Collecting Start</value>
+  </data>
+  <data name="FrmMain_sCollectMode_FilterCollect" xml:space="preserve">
+    <value>Filter Collection</value>
+  </data>
+  <data name="FrmMain_sCollectMode_Msg1" xml:space="preserve">
+    <value>Normal Collection</value>
+  </data>
+  <data name="FrmMain_sCollectMode_Msg2" xml:space="preserve">
+    <value>Filter Collection</value>
+  </data>
+  <data name="FrmMain_sCollectMode_NormalCollect" xml:space="preserve">
+    <value>Normal Collection</value>
+  </data>
+  <data name="FrmMain_sCollectMode_ParameterCollect" xml:space="preserve">
+    <value>Parameter Collection</value>
+  </data>
+  <data name="FrmMain_SetConfigFile_Msg1" xml:space="preserve">
+    <value>[Info] Attempt to open settings file</value>
+  </data>
+  <data name="FrmMain_SetConfigFile_Msg2" xml:space="preserve">
+    <value>[Info] Serrings file open success</value>
+  </data>
+  <data name="FrmMain_SetConfigFile_Msg3" xml:space="preserve">
+    <value>[Error]</value>
+  </data>
+  <data name="FrmMain_SetConfigFile_Msg4" xml:space="preserve">
+    <value>No communication settings from ~</value>
+  </data>
+  <data name="FrmMain_SetConfigFile_Msg5" xml:space="preserve">
+    <value>[Error] Failed to open setting file</value>
+  </data>
+  <data name="FrmMain_SetDDEAProjectForManagerTest_ok" xml:space="preserve">
+    <value>[Info] Communication settings connection success</value>
+  </data>
+  <data name="FrmMain_SetDDEAProjectForManager_Msg1" xml:space="preserve">
+    <value>[Info] Attempt to open UPM file</value>
+  </data>
+  <data name="FrmMain_SetDDEAProjectForManager_Msg2" xml:space="preserve">
+    <value>Launch DDEAManager and open as Profiler project</value>
+  </data>
+  <data name="FrmMain_SetDDEAProjectForManager_Msg3" xml:space="preserve">
+    <value>[Info] UPM file open success</value>
+  </data>
+  <data name="FrmMain_SetDDEAProjectForManager_Msg4" xml:space="preserve">
+    <value>[Error] Error setting cycle on UPM file</value>
+  </data>
+  <data name="FrmMain_SetDDEAProjectForManager_Msg5" xml:space="preserve">
+    <value>[Error] Communication status problem during non-collection contact analysis</value>
+  </data>
+  <data name="FrmMain_SetDDEAProjectForManager_Msg6" xml:space="preserve">
+    <value>[Info] Number of non-collectable contact</value>
+  </data>
+  <data name="FrmMain_SetDDEAProjectForManager_Msg7" xml:space="preserve">
+    <value>_non-collectable contact_</value>
+  </data>
+  <data name="FrmMain_SetDDEAProjectForManager_Msg8" xml:space="preserve">
+    <value>------------Non-collection contact list-----------</value>
+  </data>
+  <data name="FrmMain_SetDDEAProjectForManager_Msg9" xml:space="preserve">
+    <value>[Info] Unregistered contacts in contact list</value>
+  </data>
+  <data name="FrmMain_SetDDEAProjectFromProfiler_Msg_UPM1" xml:space="preserve">
+    <value>[Info] UPM file open attempt</value>
+  </data>
+  <data name="FrmMain_SetDDEAProjectFromProfiler_Msg_UPM2" xml:space="preserve">
+    <value>[Info] UPM file open success</value>
+  </data>
+  <data name="FrmMain_SetFagCycleInfo_Msg" xml:space="preserve">
+    <value>[Info] Default cycle :</value>
+  </data>
+  <data name="FrmMain_SetFragCycleInfo_Msg" xml:space="preserve">
+    <value>[Info] Default Cycle : </value>
+  </data>
+  <data name="FrmMain_SpeedTitle" xml:space="preserve">
+    <value>Collect speed</value>
+  </data>
+  <data name="FrmMain_StandardPackerBundle_Msg" xml:space="preserve">
+    <value>[Info] Number of default collection Bundles :</value>
+  </data>
+  <data name="FrmMain_StandardPacketS_Msg1" xml:space="preserve">
+    <value>[Info] Number of Bundles collected by :</value>
+  </data>
+  <data name="FrmMain_StandardPacketS_Msg2" xml:space="preserve">
+    <value>[Info] Default Recipe : </value>
+  </data>
+  <data name="FrmMain_StandardRecipe" xml:space="preserve">
+    <value>Default Recipe</value>
+  </data>
+  <data name="FrmMain_SubData" xml:space="preserve">
+    <value>Textbox for data verification
+</value>
+  </data>
+  <data name="FrmMain_SubtractWindow" xml:space="preserve">
+    <value>Subteact Window from Tray</value>
+  </data>
+  <data name="FrmMain_SystemMessage" xml:space="preserve">
+    <value>System Message</value>
+  </data>
+  <data name="FrmMain_TimeTitle" xml:space="preserve">
+    <value>Collecting Time</value>
+  </data>
+  <data name="FrmMain_tmrRegCheck_Tick_Exception_Msg1" xml:space="preserve">
+    <value>[Error]</value>
+  </data>
+  <data name="FrmMain_tmrRegCheck_Tick_Exception_Msg2" xml:space="preserve">
+    <value> Problem with mode transition(</value>
+  </data>
+  <data name="FrmMain_tmrRun_txt" xml:space="preserve">
+    <value>[Info] Launch invoked Function</value>
+  </data>
+  <data name="FrmMain_TpgMaster" xml:space="preserve">
+    <value>Default Collection Information</value>
+  </data>
+  <data name="FrmMain_TrackerMode_Msg1" xml:space="preserve">
+    <value>[Error] Error during initialization</value>
+  </data>
+  <data name="FrmMain_TrackerMode_Msg2" xml:space="preserve">
+    <value>[Info] Entered Tracker mode.
+Create a new project</value>
+  </data>
+  <data name="FrmMain_TrackerMode_Msg3" xml:space="preserve">
+    <value>[Info] Currently, there is no list of targers to be collected. Set it up.</value>
+  </data>
+  <data name="FrmMain_UcCycleTitle" xml:space="preserve">
+    <value>collect condition</value>
+  </data>
+  <data name="FrmMain_UcMachineTitle" xml:space="preserve">
+    <value>Default Info</value>
+  </data>
+  <data name="FrmMain_upmFileChanged_Msg1" xml:space="preserve">
+    <value>[Info]</value>
+  </data>
+  <data name="FrmMain_upmFileChanged_Msg2" xml:space="preserve">
+    <value>, Previous Mode :</value>
+  </data>
+  <data name="FrmMain_WindowDown1" xml:space="preserve">
+    <value>Window Tray Down.</value>
+  </data>
+  <data name="FrmMain_WriteLog1" xml:space="preserve">
+    <value>End of collection due to PLC disconnection</value>
+  </data>
+  <data name="FrmMain_WriteLog2" xml:space="preserve">
+    <value>End of collection due to Error</value>
+  </data>
+  <data name="mnuClear_Msg_Click2" xml:space="preserve">
+    <value>The message history will be deleted.
+To copy the content, select Ctrl+A, copy it, and use Notepad.</value>
+  </data>
+  <data name="mnuClose_Msg_Click1" xml:space="preserve">
+    <value>This will forced shut down.
+Some of the log information that is being performed may not be recorded.</value>
+  </data>
+  <data name="mnuConnection_Msg_Click" xml:space="preserve">
+    <value>[Info] Communication settings complete</value>
+  </data>
+  <data name="mnuNew__Msg_Click" xml:space="preserve">
+    <value>[Info] Create a new project</value>
+  </data>
+  <data name="mnuOpen_Msg_Click1" xml:space="preserve">
+    <value>[Error] Project open fail</value>
+  </data>
+  <data name="mnuOpen_Msg_Click2" xml:space="preserve">
+    <value>[Info] Project open success</value>
+  </data>
+  <data name="mnuSave_Msg_Click1" xml:space="preserve">
+    <value>[Error] Project save fail</value>
+  </data>
+  <data name="mnuSave_Msg_Click2" xml:space="preserve">
+    <value>[Info] Project save success</value>
+  </data>
+  <data name="mnuStart_Msg_Click" xml:space="preserve">
+    <value>[Error] The current communication settings cannot be accessed and cannot be started.</value>
+  </data>
+  <data name="tmrCollectRunCheck_Msg_Tick1" xml:space="preserve">
+    <value>[Info] Stopping</value>
+  </data>
+  <data name="tmrCollectRunCheck_Msg_Tick2" xml:space="preserve">
+    <value>[Info] Attempt to start command to complete mode change</value>
+  </data>
+  <data name="tmrSystemLog_Msg_Tick1" xml:space="preserve">
+    <value>Creat a new file (1-hour cycle)</value>
+  </data>
+  <data name="tmrSystemLog_Msg_Tick2" xml:space="preserve">
+    <value>Previous File :</value>
+  </data>
+</root>

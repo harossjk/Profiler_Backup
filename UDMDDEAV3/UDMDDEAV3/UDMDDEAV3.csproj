@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{554201CB-AAC2-4526-B967-01C09468A533}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UDMDDEA</RootNamespace>
+    <AssemblyName>UDMDDEA</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <ApplicationIcon>DDEA.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;MELSEC_USB_CCLINK</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Utils.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 18.1\Components\Bin\Framework\DevExpress.Utils.v18.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 18.1\Components\Bin\Framework\DevExpress.XtraEditors.v18.1.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAddAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddAddress.Designer.cs">
+      <DependentUpon>FrmAddAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCollectSymbolView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCollectSymbolView.Designer.cs">
+      <DependentUpon>FrmCollectSymbolView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDDEAProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDDEAProperty.Designer.cs">
+      <DependentUpon>FrmDDEAProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDDEAPropertyView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDDEAPropertyView.designer.cs">
+      <DependentUpon>FrmDDEAPropertyView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language\ResDDEAMain.en-US.Designer.cs">
+      <DependentUpon>ResDDEAMain.en-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmDDEAProperty.resx">
+      <DependentUpon>FrmDDEAProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\ResDDEAMain.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResDDEAMain.en-US.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\ResDDEAMain.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResDDEAMain.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Language\ResDDEAMain.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResDDEAMain.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UCGroupTitle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UCGroupTitle.Designer.cs">
+      <DependentUpon>UCGroupTitle.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmAddAddress.resx">
+      <DependentUpon>FrmAddAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCollectSymbolView.resx">
+      <DependentUpon>FrmCollectSymbolView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDDEAPropertyView.resx">
+      <DependentUpon>FrmDDEAPropertyView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UCGroupTitle.resx">
+      <DependentUpon>UCGroupTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UDM.Common.dll" />
+    <EmbeddedResource Include="UDM.DDEA.dll" />
+    <EmbeddedResource Include="UDM.DDEACommon.dll" />
+    <EmbeddedResource Include="UDM.Log.dll" />
+    <EmbeddedResource Include="UDM.Project.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DDEA.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Module\UDM.Common\UDM.Common.csproj">
+      <Project>{2b0d80eb-6675-423b-9297-5788b4baa631}</Project>
+      <Name>UDM.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.DDEACommon\UDM.DDEACommon.csproj">
+      <Project>{03fc9296-e194-416b-9f75-3c1c00b75ffc}</Project>
+      <Name>UDM.DDEACommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.DDEA\UDM.DDEA.csproj">
+      <Project>{ba943edd-405c-4b23-bc51-3f1ce369bfef}</Project>
+      <Name>UDM.DDEA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.General\UDM.General.csproj">
+      <Project>{2a26f0e1-8612-46c2-b1c7-cdeac49d86cf}</Project>
+      <Name>UDM.General</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.Log\UDM.Log.csproj">
+      <Project>{570516df-4d94-418c-be1b-984173e98f65}</Project>
+      <Name>UDM.Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.LS\UDM.LS.csproj">
+      <Project>{0b5ef141-1bc2-4831-85b0-120a0bd43302}</Project>
+      <Name>UDM.LS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.Project\UDM.Project.csproj">
+      <Project>{483b58d0-1278-48d3-97da-6fe33da33211}</Project>
+      <Name>UDM.Project</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>copy /Y "$(SolutionDir)..\..\bin\UDM.Common.dll" "$(ProjectDir)"
+copy /Y "$(SolutionDir)..\..\bin\UDM.DDEA.dll" "$(ProjectDir)"
+copy /Y "$(SolutionDir)..\..\bin\UDM.Log.dll" "$(ProjectDir)"
+copy /Y "$(SolutionDir)..\..\bin\UDM.DDEACommon.dll" "$(ProjectDir)"
+copy /Y "$(SolutionDir)..\..\bin\UDM.Project.dll" "$(ProjectDir)"</PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

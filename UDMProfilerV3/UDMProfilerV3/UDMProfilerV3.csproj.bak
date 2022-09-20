@@ -1,0 +1,806 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{08FD9530-BD9B-4F54-A8EB-F980991E52C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UDMProfilerV3</RootNamespace>
+    <AssemblyName>UDMProfilerV3</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.7.0.2, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtDll\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.TreeGX, Version=10.7.0.2, Culture=neutral, PublicKeyToken=055db68f670cfeab, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExtDll\DevComponents.TreeGX.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v16.1">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.BonusSkins.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v16.1.Core">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.Charts.v16.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.1">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.Data.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v16.1.Core">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.Printing.v16.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.1">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.Utils.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v16.1">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.XtraBars.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.1">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.XtraCharts.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.1.UI">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.XtraCharts.v16.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v16.1.Wizard">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.XtraCharts.v16.1.Wizard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.1">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.XtraEditors.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v16.1">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.XtraGrid.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v16.1">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.XtraLayout.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v16.1">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.XtraNavBar.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v16.1">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.XtraTreeList.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v16.1">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.XtraVerticalGrid.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v16.1">
+      <HintPath>C:\Program Files (x86)\DevExpress 16.1\Components\Bin\Framework\DevExpress.XtraWizard.v16.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MsgPack, Version=0.5.0.0, Culture=neutral, PublicKeyToken=a2625990d5dc0167, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\MsgPack.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\LogicChart\CReportSignalTime.cs" />
+    <Compile Include="Classes\Log\CMultiStepTable.cs" />
+    <Compile Include="Classes\Log\CMultiTagTable.cs" />
+    <Compile Include="Classes\Main\CMainControl_V4.cs" />
+    <Compile Include="Classes\Main\CMainControl_V5.cs" />
+    <Compile Include="Classes\Main\CMainControl_V6.cs" />
+    <Compile Include="Classes\Main\EMTcpAnalyzerCommand.cs" />
+    <Compile Include="FrmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInfo.Designer.cs">
+      <DependentUpon>FrmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\CLogHelper.cs" />
+    <Compile Include="Classes\Log\CLogHistoryInfo.cs" />
+    <Compile Include="Classes\Main\CMainControl.cs" />
+    <Compile Include="Classes\Main\CMainControl_V2.cs" />
+    <Compile Include="Classes\Main\CMainControl_V3.cs" />
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\CAssemblyHelper.cs" />
+    <Compile Include="Helpers\CLogicHelper.cs" />
+    <Compile Include="Helpers\CMessageHelper.cs" />
+    <Compile Include="Helpers\CMiscHelper.cs" />
+    <Compile Include="Helpers\CAllocatioHelper.cs" />
+    <Compile Include="Helpers\CProjectHelper.cs" />
+    <Compile Include="Helpers\CParameterHelper.cs" />
+    <Compile Include="Classes\Parameter\CParameter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="EventHandler\UEventHandlerUsercontrolDefine.cs" />
+    <Compile Include="UserControls\CycleMotion\UCCycleMotionViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\CycleMotion\UCCycleMotionViewer.designer.cs">
+      <DependentUpon>UCCycleMotionViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LogicChart\UCLogHistoryView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\LogicChart\UCLogHistoryView.designer.cs">
+      <DependentUpon>UCLogHistoryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LogicChart\UCMultiStepTagTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\LogicChart\UCMultiStepTagTable.Designer.cs">
+      <DependentUpon>UCMultiStepTagTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CycleMotion\UCPairTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\CycleMotion\UCPairTable.designer.cs">
+      <DependentUpon>UCPairTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LogicChart\UCStepTagTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\LogicChart\UCStepTagTable.designer.cs">
+      <DependentUpon>UCStepTagTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SystemLog\UCSystemLogTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SystemLog\UCSystemLogTable.designer.cs">
+      <DependentUpon>UCSystemLogTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\License\CAppLicense.cs" />
+    <Compile Include="UserControls\UserSetting\UCAddressTypeColor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserSetting\UCAddressTypeColor.Designer.cs">
+      <DependentUpon>UCAddressTypeColor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserSetting\UCLogicChartToExcel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserSetting\UCLogicChartToExcel.Designer.cs">
+      <DependentUpon>UCLogicChartToExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmIntegerInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmIntegerInputDialog.Designer.cs">
+      <DependentUpon>FrmIntegerInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmLoadVerticalLogicFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmLoadVerticalLogicFile.Designer.cs">
+      <DependentUpon>FrmLoadVerticalLogicFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmLogicChartPresetErrorResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmNewVerticalLogicChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmNewVerticalLogicChart.Designer.cs">
+      <DependentUpon>FrmNewVerticalLogicChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmNewVerticalLogicChart2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmNewVerticalLogicChart2.Designer.cs">
+      <DependentUpon>FrmNewVerticalLogicChart2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmSetCycleReportValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmSetCycleReportValue.Designer.cs">
+      <DependentUpon>FrmSetCycleReportValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmSetMoveRow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmSetMoveRow.Designer.cs">
+      <DependentUpon>FrmSetMoveRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmUserSignalInputValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicDiagram\FrmLogicDiagram_V2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicDiagram\FrmLogicDiagram_V2.Designer.cs">
+      <DependentUpon>FrmLogicDiagram_V2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Log\CLoadLogicFileInfo.cs" />
+    <Compile Include="Classes\Model\CFilterNormalModeViewTag.cs" />
+    <Compile Include="Classes\Model\CNormalModeViewTag.cs" />
+    <Compile Include="Classes\Model\CFragmentModeViewTag.cs" />
+    <Compile Include="Classes\Model\IViewTag.cs" />
+    <Compile Include="Classes\Model\CTagTableViewTag.cs" />
+    <Compile Include="Classes\Model\CUserTag.cs" />
+    <Compile Include="Classes\Model\IModelView.cs" />
+    <Compile Include="Views\Config\RefreshParameter\FrmConfigSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Config\RefreshParameter\FrmConfigSetting.Designer.cs">
+      <DependentUpon>FrmConfigSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\Project\FrmTextInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Home\Project\FrmTextInputDialog.designer.cs">
+      <DependentUpon>FrmTextInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmCollectModeSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmCollectModeSelect.designer.cs">
+      <DependentUpon>FrmCollectModeSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmRunningTimeReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmRunningTimeReport.designer.cs">
+      <DependentUpon>FrmRunningTimeReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Log\CViewLogFileInfoS.cs" />
+    <Compile Include="Classes\Log\CViewLogFileInfo.cs" />
+    <Compile Include="Classes\Log\CViewLogInfo.cs" />
+    <Compile Include="Views\Analysis\LogicChart\FrmColorPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmColorPicker.designer.cs">
+      <DependentUpon>FrmColorPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\CycleMotion\FrmCycleMotionOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\CycleMotion\FrmCycleMotionOption.designer.cs">
+      <DependentUpon>FrmCycleMotionOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\CycleMotion\FrmCycleMotion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\CycleMotion\FrmCycleMotion.designer.cs">
+      <DependentUpon>FrmCycleMotion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicDiagram\FrmLogicDiagram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicDiagram\FrmLogicDiagram.designer.cs">
+      <DependentUpon>FrmLogicDiagram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogManager\FrmLogManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogManager\FrmLogManager.Designer.cs">
+      <DependentUpon>FrmLogManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmMdcChartAxis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmMdcChartAxis.designer.cs">
+      <DependentUpon>FrmMdcChartAxis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\Step\FrmStepSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\Step\FrmStepSelector.designer.cs">
+      <DependentUpon>FrmStepSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmLogicChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmLogicChart.Designer.cs">
+      <DependentUpon>FrmLogicChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\LogicManager\CViewLogicFileInfo.cs" />
+    <Compile Include="Classes\LogicManager\CViewLogicFileInfoS.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmInfo.resx">
+      <DependentUpon>FrmInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\CycleMotion\UCCycleMotionViewer.resx">
+      <DependentUpon>UCCycleMotionViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\LogicChart\UCLogHistoryView.resx">
+      <DependentUpon>UCLogHistoryView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\LogicChart\UCMultiStepTagTable.resx">
+      <DependentUpon>UCMultiStepTagTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\CycleMotion\UCPairTable.resx">
+      <DependentUpon>UCPairTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\LogicChart\UCStepTagTable.resx">
+      <DependentUpon>UCStepTagTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SystemLog\UCSystemLogTable.resx">
+      <DependentUpon>UCSystemLogTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserSetting\UCAddressTypeColor.resx">
+      <DependentUpon>UCAddressTypeColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UserSetting\UCLogicChartToExcel.resx">
+      <DependentUpon>UCLogicChartToExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogicChart\FrmIntegerInputDialog.resx">
+      <DependentUpon>FrmIntegerInputDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogicChart\FrmLoadVerticalLogicFile.resx">
+      <DependentUpon>FrmLoadVerticalLogicFile.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogicChart\FrmSetCycleReportValue.resx">
+      <DependentUpon>FrmSetCycleReportValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogicChart\FrmSetMoveRow.resx">
+      <DependentUpon>FrmSetMoveRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogicChart\FrmUserSignalInputValue.resx">
+      <DependentUpon>FrmUserSignalInputValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogicDiagram\FrmLogicDiagram_V2.resx">
+      <DependentUpon>FrmLogicDiagram_V2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Config\RefreshParameter\FrmConfigSetting.resx">
+      <DependentUpon>FrmConfigSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Home\Project\FrmTextInputDialog.ko-KP.resx">
+      <DependentUpon>FrmTextInputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Home\Project\FrmTextInputDialog.resx">
+      <DependentUpon>FrmTextInputDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogicChart\FrmCollectModeSelect.resx">
+      <DependentUpon>FrmCollectModeSelect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogicChart\FrmColorPicker.resx">
+      <DependentUpon>FrmColorPicker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\CycleMotion\FrmCycleMotionOption.resx">
+      <DependentUpon>FrmCycleMotionOption.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\CycleMotion\FrmCycleMotion.resx">
+      <DependentUpon>FrmCycleMotion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogicChart\FrmRunningTimeReport.resx">
+      <DependentUpon>FrmRunningTimeReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogicDiagram\FrmLogicDiagram.resx">
+      <DependentUpon>FrmLogicDiagram.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogManager\FrmLogManager.resx">
+      <DependentUpon>FrmLogManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogicChart\FrmMdcChartAxis.resx">
+      <DependentUpon>FrmMdcChartAxis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\Step\FrmStepSelector.resx">
+      <DependentUpon>FrmStepSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogicChart\FrmLogicChart.resx">
+      <DependentUpon>FrmLogicChart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Config\Logic\FrmLogicManager.resx">
+      <DependentUpon>FrmLogicManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Config\Filter\FrmFilterContents.resx">
+      <DependentUpon>FrmFilterContents.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Config\Model\FrmUserTagInputDialog.resx">
+      <DependentUpon>FrmUserTagInputDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Config\Model\FrmFilterNormalMode.resx">
+      <DependentUpon>FrmFilterNormalMode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Analysis\LogicChart\FrmAddressInputDialog.resx">
+      <DependentUpon>FrmAddressInputDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Config\Model\FrmFragmentMode.resx">
+      <DependentUpon>FrmFragmentMode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Config\Model\FrmStandardTagEditor.resx">
+      <DependentUpon>FrmStandardTagEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Config\Model\FrmStandardMode.resx">
+      <DependentUpon>FrmStandardMode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Config\Model\FrmNormalMode.resx">
+      <DependentUpon>FrmNormalMode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Config\Model\FrmTagTable.resx">
+      <DependentUpon>FrmTagTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Config\Channel\FrmChannel.resx">
+      <DependentUpon>FrmChannel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Config\RefreshParameter\FrmRefreshParameter.resx">
+      <DependentUpon>FrmRefreshParameter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Home\Monitor\FrmMonitorStatus.resx">
+      <DependentUpon>FrmMonitorStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Home\Monitor\FrmMonitorMessage.resx">
+      <DependentUpon>FrmMonitorMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Home\Notice\FrmNotice.resx">
+      <DependentUpon>FrmNotice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTemp.resx">
+      <DependentUpon>FrmTemp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCGroupPanel.resx">
+      <DependentUpon>UCGroupPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Home\Project\FrmMachineInputDialog.resx">
+      <DependentUpon>FrmMachineInputDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Wait\FrmSplashScreen.resx">
+      <DependentUpon>FrmSplashScreen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Wait\FrmWait.resx">
+      <DependentUpon>FrmWait.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Views\Config\Logic\FrmLogicManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Config\Logic\FrmLogicManager.Designer.cs">
+      <DependentUpon>FrmLogicManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Config\Filter\FrmFilterContents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Config\Filter\FrmFilterContents.Designer.cs">
+      <DependentUpon>FrmFilterContents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Model\CUserTagS.cs" />
+    <Compile Include="Classes\Model\CViewTag.cs" />
+    <Compile Include="Views\Config\Model\FrmUserTagInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Config\Model\FrmUserTagInputDialog.designer.cs">
+      <DependentUpon>FrmUserTagInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Config\Model\FrmFilterNormalMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Config\Model\FrmFilterNormalMode.Designer.cs">
+      <DependentUpon>FrmFilterNormalMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmAddressInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Analysis\LogicChart\FrmAddressInputDialog.designer.cs">
+      <DependentUpon>FrmAddressInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Config\Model\FrmFragmentMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Config\Model\FrmFragmentMode.Designer.cs">
+      <DependentUpon>FrmFragmentMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Config\Model\FrmStandardTagEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Config\Model\FrmStandardTagEditor.designer.cs">
+      <DependentUpon>FrmStandardTagEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Config\Model\FrmStandardMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Config\Model\FrmStandardMode.Designer.cs">
+      <DependentUpon>FrmStandardMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Model\CViewTagS.cs" />
+    <Compile Include="Views\Config\Model\FrmNormalMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Config\Model\FrmNormalMode.Designer.cs">
+      <DependentUpon>FrmNormalMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Config\Model\FrmTagTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Config\Model\FrmTagTable.Designer.cs">
+      <DependentUpon>FrmTagTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Config\Channel\FrmChannel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Config\Channel\FrmChannel.Designer.cs">
+      <DependentUpon>FrmChannel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Config\RefreshParameter\FrmRefreshParameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Config\RefreshParameter\FrmRefreshParameter.Designer.cs">
+      <DependentUpon>FrmRefreshParameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ViewMonitor\CViewMonitorStatusInfo.cs" />
+    <Compile Include="Views\Home\Monitor\FrmMonitorStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Home\Monitor\FrmMonitorStatus.Designer.cs">
+      <DependentUpon>FrmMonitorStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\Monitor\FrmMonitorMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Home\Monitor\FrmMonitorMessage.Designer.cs">
+      <DependentUpon>FrmMonitorMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home\Notice\FrmNotice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Home\Notice\FrmNotice.Designer.cs">
+      <DependentUpon>FrmNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTemp.Designer.cs">
+      <DependentUpon>FrmTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCGroupPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCGroupPanel.Designer.cs">
+      <DependentUpon>UCGroupPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventHandler\UEventHandlerNoticeForm.cs" />
+    <Compile Include="Views\Home\Project\FrmMachineInputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Home\Project\FrmMachineInputDialog.Designer.cs">
+      <DependentUpon>FrmMachineInputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IView.cs" />
+    <Compile Include="Classes\Wait\CWaitForm.cs" />
+    <Compile Include="Views\Wait\FrmSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Wait\FrmSplashScreen.Designer.cs">
+      <DependentUpon>FrmSplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Wait\FrmWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Wait\FrmWait.designer.cs">
+      <DependentUpon>FrmWait.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Module\UDM.Common\UDM.Common.csproj">
+      <Project>{2b0d80eb-6675-423b-9297-5788b4baa631}</Project>
+      <Name>UDM.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.Converter\UDM.Converter.csproj">
+      <Project>{b56ec21a-9972-4910-bc76-a961b16c2f2a}</Project>
+      <Name>UDM.Converter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.DDEACommon\UDM.DDEACommon.csproj">
+      <Project>{03fc9296-e194-416b-9f75-3c1c00b75ffc}</Project>
+      <Name>UDM.DDEACommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.DDEA\UDM.DDEA.csproj">
+      <Project>{ba943edd-405c-4b23-bc51-3f1ce369bfef}</Project>
+      <Name>UDM.DDEA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.General\UDM.General.csproj">
+      <Project>{2a26f0e1-8612-46c2-b1c7-cdeac49d86cf}</Project>
+      <Name>UDM.General</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.LincenseSW\UDM.LincenseSW.csproj">
+      <Project>{d7f511e8-25b5-4e40-963b-0d3a2f69b116}</Project>
+      <Name>UDM.LincenseSW</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.LogicViewer\UDM.LogicViewer.csproj">
+      <Project>{bb41ef2f-3f60-409b-aa07-16a335aa0794}</Project>
+      <Name>UDM.LogicViewer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.Log\UDM.Log.csproj">
+      <Project>{570516df-4d94-418c-be1b-984173e98f65}</Project>
+      <Name>UDM.Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.LS\UDM.LS.csproj">
+      <Project>{0b5ef141-1bc2-4831-85b0-120a0bd43302}</Project>
+      <Name>UDM.LS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.Project\UDM.Project.csproj">
+      <Project>{483b58d0-1278-48d3-97da-6fe33da33211}</Project>
+      <Name>UDM.Project</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.TimeChart_New\UDM.TimeChart.csproj">
+      <Project>{5485c1e2-7f30-4c3b-b6c0-df6e222b6a2f}</Project>
+      <Name>UDM.TimeChart</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Module\UDM.UDLImport\UDM.UDLImport.csproj">
+      <Project>{fbead0d9-42f0-4961-beeb-fd81106ca439}</Project>
+      <Name>UDM.UDLImport</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logo_64x64.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
