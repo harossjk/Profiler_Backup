@@ -1,0 +1,16 @@
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\bin\UDM.Project.dll
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\bin\UDM.Project.pdb
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\Module\UDM.Project\obj\Debug\UDM.Project.csprojAssemblyReference.cache
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\Module\UDM.Project\obj\Debug\UDM.Project.FrmInputDialog.resources
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\Module\UDM.Project\obj\Debug\UDM.Project.Properties.Resources.resources
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\Module\UDM.Project\obj\Debug\UDM.Project.UCClock.resources
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\Module\UDM.Project\obj\Debug\UDM.Project.UCMonitorStauts.resources
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\Module\UDM.Project\obj\Debug\UDM.Project.UI.UCRefreshParameterEditor.resources
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\Module\UDM.Project\obj\Debug\UDM.Project.UI.UCStepTable.resources
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\Module\UDM.Project\obj\Debug\UDM.Project.UI.UCTagTable.resources
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\Module\UDM.Project\obj\Debug\UDM.Project.csproj.GenerateResource.cache
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\Module\UDM.Project\obj\Debug\UDM.Project.csproj.CoreCompileInputs.cache
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\Module\UDM.Project\obj\Debug\UDM.Project.csproj.CopyComplete
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\Module\UDM.Project\obj\Debug\UDM.Project.dll
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\Module\UDM.Project\obj\Debug\UDM.Project.pdb
+D:\svn\Trunk\CS\UDMProfiler\DotNet4.5\Dev18\bNewUDMSolution_MainControl V6\bin\RefXmlS\TotalInstruListNew.xml
