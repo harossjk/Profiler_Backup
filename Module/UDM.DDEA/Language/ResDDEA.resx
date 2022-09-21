@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CAsyncTcpClient_AnalyzeProfilerMessage_Msg" xml:space="preserve">
+    <value>메세지 오류 : </value>
+  </data>
+  <data name="CAsyncTcpClient_BeginConnect_Msg" xml:space="preserve">
+    <value>연결 실패 재접속 시도 : </value>
+  </data>
+  <data name="CAsyncTcpClient_BeginSend_Msg" xml:space="preserve">
+    <value>전송 에러 : </value>
+  </data>
+  <data name="CAsyncTcpClient_ConnectCallBack_Msg1" xml:space="preserve">
+    <value>서버로 접속 성공 : </value>
+  </data>
+  <data name="CAsyncTcpClient_ConnectCallBack_Msg2" xml:space="preserve">
+    <value>서버로 접속 실패 : </value>
+  </data>
+  <data name="CAsyncTcpClient_OnReceiveCallBack_Msg1" xml:space="preserve">
+    <value>메세지 분석 실패 : </value>
+  </data>
+  <data name="CAsyncTcpClient_OnReceiveCallBack_Msg2" xml:space="preserve">
+    <value>서버 연결이 끊겼습니다.</value>
+  </data>
+  <data name="CAsyncTcpServer_Receive_Msg" xml:space="preserve">
+    <value>연결이 끊겼습니다.</value>
+  </data>
+  <data name="CAsyncTcpServer_SendClientMessage_Msg" xml:space="preserve">
+    <value>전송 에러 : </value>
+  </data>
+  <data name="CDDEAGroup_bCycleEnd_TimeOut_false" xml:space="preserve">
+    <value>[정보] Cycle 종료(시간범위 정상)</value>
+  </data>
+  <data name="CDDEAGroup_bCycleEnd_TimeOut_true" xml:space="preserve">
+    <value>[정보] Cycle 종료(시간범위 이상)</value>
+  </data>
+  <data name="CDDEAGroup_bCycleStart" xml:space="preserve">
+    <value>[정보] Cycle 시작</value>
+  </data>
+  <data name="CDDEAGroup_BeforeRun_Msg1" xml:space="preserve">
+    <value>초기 프로젝트 분석에 문제가 있습니다.</value>
+  </data>
+  <data name="CDDEAGroup_BeforeRun_Msg2" xml:space="preserve">
+    <value>LogWrite 시작 실패</value>
+  </data>
+  <data name="CDDEAGroup_BrforeRunCollectMode_Exception_Msg" xml:space="preserve">
+    <value>[오류] 초기 프로젝트 분석오류 (</value>
+  </data>
+  <data name="CDDEAGroup_cCurrentpacketData_CurrentRecipe" xml:space="preserve">
+    <value>현재 Recipe : </value>
+  </data>
+  <data name="CDDEAGroup_cCurrentpacketData_NotfoundRecipe" xml:space="preserve">
+    <value>Recipe 주소를 찾을 수 없습니다.</value>
+  </data>
+  <data name="CDDEAGroup_cCurrentpacketData_RecipeWait" xml:space="preserve">
+    <value>Recipe 대기중... 현재 레시피: </value>
+  </data>
+  <data name="CDDEAGroup_ContactInoperate" xml:space="preserve">
+    <value> 접점 동작안됨)</value>
+  </data>
+  <data name="CDDEAGroup_ContactOperate" xml:space="preserve">
+    <value> 접점 동작됨)</value>
+  </data>
+  <data name="CDDEAGroup_cPackerData_CurrentRecipe" xml:space="preserve">
+    <value>현재 Recipe : </value>
+  </data>
+  <data name="CDDEAGroup_cPackerData_CurrentRecipe1" xml:space="preserve">
+    <value>현재 Recipe : </value>
+  </data>
+  <data name="CDDEAGroup_cPackerData_NotfoundRecipe" xml:space="preserve">
+    <value>Recipe 주소를 찾을 수 없습니다.</value>
+  </data>
+  <data name="CDDEAGroup_cPackerData_RecipeWait" xml:space="preserve">
+    <value>Recipe 대기중... 현재 레시피: </value>
+  </data>
+  <data name="CDDEAGroup_cPacketData_CycleChanged" xml:space="preserve">
+    <value>Recipe 변경으로 인해 초기값을 남기고 Cycle을 변경합니다.</value>
+  </data>
+  <data name="CDDEAGroup_cPacketData_PacketLeave" xml:space="preserve">
+    <value>패킷의 초기값을 남깁니다.</value>
+  </data>
+  <data name="CDDEAGroup_cPacketData_RecipeDifferent_Msg1" xml:space="preserve">
+    <value>기준출력 수집 모드에서 수집할때 Recipe와 달라 대기합니다.(로그를 저장 안함)</value>
+  </data>
+  <data name="CDDEAGroup_cPacketData_RecipeWait" xml:space="preserve">
+    <value>Recipe 대기중... 현재 레시피: </value>
+  </data>
+  <data name="CDDEAGroup_DoEvents_Format1" xml:space="preserve">
+    <value>{1} 조합 후 Word수(필터제외) : {0}</value>
+  </data>
+  <data name="CDDEAGroup_DoEvents_Format2" xml:space="preserve">
+    <value>필터된 접점 수 : {0}</value>
+  </data>
+  <data name="CDDEAGroup_DoEvents_Format3" xml:space="preserve">
+    <value>{1} 필터수집 조합 후 Word수(필터제외) : {0}</value>
+  </data>
+  <data name="CDDEAGroup_DoEvents_Format4" xml:space="preserve">
+    <value>필터된 접점 수 : {0}</value>
+  </data>
+  <data name="CDDEAGroup_DoFragmentCycleProcess_Exception_Msg" xml:space="preserve">
+    <value>[오류] Cycle 분석 중 오류 발생( </value>
+  </data>
+  <data name="CDDEAGroup_DoFragmentMasterCycleProcess_Exception_Msg" xml:space="preserve">
+    <value>[오류] Cycle Check Error 발생 (</value>
+  </data>
+  <data name="CDDEAGroup_DoFragmentMasterProces_Exception_Msg" xml:space="preserve">
+    <value>[오류] 전체수집의 기준 데이터 분석 중 오류 ( </value>
+  </data>
+  <data name="CDDEAGroup_DoThreadWork_Exception_Msg" xml:space="preserve">
+    <value>[오류] 수집 분석 중 문제 발생</value>
+  </data>
+  <data name="CDDEAGroup_EMCollctModeFrag_Format1" xml:space="preserve">
+    <value>전체수집 Word Size : {0}</value>
+  </data>
+  <data name="CDDEAGroup_EMCollctModeFrag_Format2" xml:space="preserve">
+    <value>기준수집 Word Size : {0}</value>
+  </data>
+  <data name="CDDEAGroup_EMCollctModeFrag_Msg1" xml:space="preserve">
+    <value>[정보] 전체/출력수집 번들 수 : </value>
+  </data>
+  <data name="CDDEAGroup_EMCollectModeLOB_Format1" xml:space="preserve">
+    <value>LOB수집 조합 후 Word수(필터제외) : {0}</value>
+  </data>
+  <data name="CDDEAGroup_EMCollectModeNormal_Msg" xml:space="preserve">
+    <value>부분수집</value>
+  </data>
+  <data name="CDDEAGroup_EMCollectmodeParameterNormal_Msg" xml:space="preserve">
+    <value>파라미터 수집</value>
+  </data>
+  <data name="CDDEAGroup_FilterNormalBundleListCount_Msg" xml:space="preserve">
+    <value>[정보] 필터 수집 번들 수 : </value>
+  </data>
+  <data name="CDDEAGroup_IndexSymbolNone" xml:space="preserve">
+    <value>인덱스 심볼을 찾을 수 없음 </value>
+  </data>
+  <data name="CDDEAGroup_Info" xml:space="preserve">
+    <value>[정보] </value>
+  </data>
+  <data name="CDDEAGroup_IOT_Error" xml:space="preserve">
+    <value>[오류] IOT(</value>
+  </data>
+  <data name="CDDEAGroup_IOT_ErrorLogWriteTextFile_Msg1" xml:space="preserve">
+    <value>부분수집</value>
+  </data>
+  <data name="CDDEAGroup_IOT_ErrorLogWriteTextFile_Msg2" xml:space="preserve">
+    <value>_수집 불가접점_</value>
+  </data>
+  <data name="CDDEAGroup_IOT_ErrorLogWriteTextFile_Msg3" xml:space="preserve">
+    <value>] 수집 불가 접점 리스트-----------
+</value>
+  </data>
+  <data name="CDDEAGroup_IOT_ErrorLogWriteTextFile_Msg4" xml:space="preserve">
+    <value>) 수집 대상 불가 접점 수 : </value>
+  </data>
+  <data name="CDDEAGroup_IOT_ErrorLogWriteTextFile_Msg5" xml:space="preserve">
+    <value>) 수집 대상 불가 접점 로그 생성 : </value>
+  </data>
+  <data name="CDDEAGroup_IOT_Info" xml:space="preserve">
+    <value>[정보] IOT(</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotConnection_Msg1" xml:space="preserve">
+    <value>) 정보 설정 완료</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotConnection_Msg2" xml:space="preserve">
+    <value>) 통신 연결 완료</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotConnection_Msg3" xml:space="preserve">
+    <value>) 통신 연결 실패</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotDisconnect_Msg1" xml:space="preserve">
+    <value>) 통신 연결 해제 성공</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotDisconnect_Msg2" xml:space="preserve">
+    <value>) 통신 연결 해제 실패</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotDisconnect_Msg3" xml:space="preserve">
+    <value>) 모니터링 해제 성공</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotDisconnect_Msg4" xml:space="preserve">
+    <value>) 모니터링 해제 실패</value>
+  </data>
+  <data name="CDDEAGroup_IOT_StartIotMonitor_Msg1" xml:space="preserve">
+    <value>) 모니터링 연결 성공</value>
+  </data>
+  <data name="CDDEAGroup_IOT_StartIotMonitor_Msg2" xml:space="preserve">
+    <value>) 모니터링 시작</value>
+  </data>
+  <data name="CDDEAGroup_IOT_StartIotMonitor_Msg3" xml:space="preserve">
+    <value>) 모니터링 연결 실패</value>
+  </data>
+  <data name="CDDEAGroup_LOBBundleListCount_Msg" xml:space="preserve">
+    <value>[정보] LOB수집 번들 수 : </value>
+  </data>
+  <data name="CDDEAGroup_LS_ContactInoperate" xml:space="preserve">
+    <value> 접점 동작안됨)</value>
+  </data>
+  <data name="CDDEAGroup_LS_ContactOperate" xml:space="preserve">
+    <value> 접점 동작됨)</value>
+  </data>
+  <data name="CDDEAGroup_LS_CycleEnd_Msg1" xml:space="preserve">
+    <value>[정보] Cycle 종료(유효 : </value>
+  </data>
+  <data name="CDDEAGroup_LS_CycleEnd_Msg2" xml:space="preserve">
+    <value>[정보] Cycle 종료(유효)</value>
+  </data>
+  <data name="CDDEAGroup_LS_CycleEnd_Msg3" xml:space="preserve">
+    <value>[정보] Cycle 종료(무효 : </value>
+  </data>
+  <data name="CDDEAGroup_LS_CycleEnd_Msg4" xml:space="preserve">
+    <value>[정보] Cycle 종료(무효)</value>
+  </data>
+  <data name="CDDEAGroup_LS_DoThreadWork_Msg" xml:space="preserve">
+    <value>[오류] 수집 분석 중 문제 발생(</value>
+  </data>
+  <data name="CDDEAGroup_NoneRefreshAddress" xml:space="preserve">
+    <value>Refresh 주소가 없습니다.</value>
+  </data>
+  <data name="CDDEAGroup_NormalBundleListCount_Msg" xml:space="preserve">
+    <value> 번들 수 : </value>
+  </data>
+  <data name="CDDEAGroup_PackerInfo_Msg1" xml:space="preserve">
+    <value>[정보] Packet </value>
+  </data>
+  <data name="CDDEAGroup_RecipeMatch" xml:space="preserve">
+    <value>Recipe가 일치합니다. 기준접점 수집을 시작합니다.</value>
+  </data>
+  <data name="CDDEAGroup_sFilterNormalCycle_End_Msg1" xml:space="preserve">
+    <value>[정보] Cycle 종료(유효 : </value>
+  </data>
+  <data name="CDDEAGroup_sFilterNormalCycle_End_Msg2" xml:space="preserve">
+    <value>[정보] Cycle 종료(유효)</value>
+  </data>
+  <data name="CDDEAGroup_sFilterNormalCycle_End_Msg3" xml:space="preserve">
+    <value>[정보] Cycle 종료(무효 : </value>
+  </data>
+  <data name="CDDEAGroup_sFilterNormalCycle_End_Msg4" xml:space="preserve">
+    <value>[정보] Cycle 종료(무효)</value>
+  </data>
+  <data name="CDDEAGroup_WriteFragBitLogS_Exception_Msg" xml:space="preserve">
+    <value>[오류] Bit분석 중 오류 (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg1" xml:space="preserve">
+    <value>[정보] 수집 시작</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg10" xml:space="preserve">
+    <value>[오류] 수집 재시도(0x10A0005) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg11" xml:space="preserve">
+    <value>[오류] PLC 통신 중 재시도 20회 시도후 에러 지속발생(0x10A0005)으로 정지(</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg12" xml:space="preserve">
+    <value>[오류] 수집 재시도(0x10A0006) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg13" xml:space="preserve">
+    <value>[오류] PLC 통신 중 재시도 20회 시도후 에러 지속발생(0x10A0006)으로 정지(</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg14" xml:space="preserve">
+    <value>[오류] 수집 재시도(0x1808505) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg15" xml:space="preserve">
+    <value>[오류] PLC 통신 중 재시도 20회 시도후 에러 지속발생(0x1808505)으로 정지(</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg16" xml:space="preserve">
+    <value>[오류] PLC Connection 끊김으로 인해 수집 종료 (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg17" xml:space="preserve">
+    <value>[오류] 수집 재시도(</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg18" xml:space="preserve">
+    <value>[오류] PLC 통신 중 재시도 20 회 시도후 에러 지속발생(</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg19" xml:space="preserve">
+    <value>으로 정지(</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg2" xml:space="preserve">
+    <value>[오류] 수집 재시도(0x1808504) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg3" xml:space="preserve">
+    <value>[오류] PLC 통신 중 재시도 20회 시도후 에러 지속발생(0x1808504)으로 정지(</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg4" xml:space="preserve">
+    <value>[오류] 수집 재시도(0x10A0002) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg5" xml:space="preserve">
+    <value>[오류] PLC 통신 중 재시도 20회 시도후 에러 지속발생(0x10A0002)으로 정지(</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg6" xml:space="preserve">
+    <value>[오류] 수집 재시도(0x10A0003) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg7" xml:space="preserve">
+    <value>[오류] PLC 통신 중 재시도 20회 시도후 에러 지속발생(0x10A0003)으로 정지(</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg8" xml:space="preserve">
+    <value>[오류] 수집 재시도(0x10A0004) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg9" xml:space="preserve">
+    <value>[오류] PLC 통신 중 재시도 20회 시도후 에러 지속발생(0x10A0004)으로 정지(</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg1" xml:space="preserve">
+    <value>[정보] 파라메터 수집 진행</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg2" xml:space="preserve">
+    <value>[정보] 파라메터 수집 완료</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg3" xml:space="preserve">
+    <value>[정보] 수집 재시도(</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg4" xml:space="preserve">
+    <value>[오류] PLC 통신 중 에러 발생 정지(</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg5" xml:space="preserve">
+    <value>[정보] 수집</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg6" xml:space="preserve">
+    <value>회 재시도(</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg7" xml:space="preserve">
+    <value>[오류] 파라미터 수집 안됨</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg8" xml:space="preserve">
+    <value>[정보] 파라미터 없음</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg1" xml:space="preserve">
+    <value>[정보] 부분수집 시작</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg10" xml:space="preserve">
+    <value>[정보] 필터수집 종료</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg11" xml:space="preserve">
+    <value>[정보] 현재패킷(</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg12" xml:space="preserve">
+    <value>번 인덱스패킷)에 남아있는 수집대상접점이 없음</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg13" xml:space="preserve">
+    <value>[정보] 필터수집 종료</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg14" xml:space="preserve">
+    <value>[오류] LS Monitor Items의 Buffer Size :</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg15" xml:space="preserve">
+    <value> =&gt; 100 미만으로 설정해 주십시오.</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg16" xml:space="preserve">
+    <value>[정보] LS PLC 수집 실행 실패!</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg17" xml:space="preserve">
+    <value>[오류] LS 수집중 문제 발생(</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg2" xml:space="preserve">
+    <value>[정보] 전체수집 시작</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg3" xml:space="preserve">
+    <value>[정보] 출력수집 시작</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg4" xml:space="preserve">
+    <value>[정보] LOB수집 시작</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg5" xml:space="preserve">
+    <value>[정보] 필터수집 시작</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg6" xml:space="preserve">
+    <value>[정보] 파라미터 수집 시작</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg7" xml:space="preserve">
+    <value>[오류] 물리적으로 필터수집이 정상적으로 되지 않아 종료합니다.</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg8" xml:space="preserve">
+    <value>[정보] LS PLC 수집 실행!</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg9" xml:space="preserve">
+    <value>[정보] 전체 수집 Packet 수 : </value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg1" xml:space="preserve">
+    <value>[정보] 부분수집 시작</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg10" xml:space="preserve">
+    <value>[정보] Packet 번호 : </value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg11" xml:space="preserve">
+    <value>[정보] Cycle 번호 : </value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg12" xml:space="preserve">
+    <value>[정보] 레시피 변경으로 수집 대기</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg13" xml:space="preserve">
+    <value>[정보] 전체수집 종료</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg14" xml:space="preserve">
+    <value>[정보] 출력수집 종료</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg15" xml:space="preserve">
+    <value>[정보] 필터수집 종료</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg16" xml:space="preserve">
+    <value>[정보] 현재패킷(</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg17" xml:space="preserve">
+    <value>번 인덱스패킷)에 남아있는 수집대상접점이 없음</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg18" xml:space="preserve">
+    <value>[정보] 부분수집 종료</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg19" xml:space="preserve">
+    <value>[오류] 수집중 문제 발생(</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg2" xml:space="preserve">
+    <value>[정보] 전체수집 시작</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg3" xml:space="preserve">
+    <value>[정보] 출력수집 시작</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg4" xml:space="preserve">
+    <value>[정보] LOB수집 시작</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg5" xml:space="preserve">
+    <value>[정보] 필터수집 시작</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg6" xml:space="preserve">
+    <value>[정보] 파라미터 수집 시작</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg7" xml:space="preserve">
+    <value>[정보] 수집 초기 Packet 수 : </value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg8" xml:space="preserve">
+    <value>[정보] 수집 초기 Packet 번호 : </value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg9" xml:space="preserve">
+    <value>[정보] 기준접점 수집</value>
+  </data>
+  <data name="CDDEARead_FolderNameF" xml:space="preserve">
+    <value>필터수집</value>
+  </data>
+  <data name="CDDEARead_FolderNameP" xml:space="preserve">
+    <value>부분수집</value>
+  </data>
+  <data name="CDDEARead_Start_Msg1" xml:space="preserve">
+    <value>[오류] PLC 연결 실패</value>
+  </data>
+  <data name="CDDEARead_Start_Msg10" xml:space="preserve">
+    <value> =&gt; 100 미만으로 설정해 주십시오.</value>
+  </data>
+  <data name="CDDEARead_Start_Msg11" xml:space="preserve">
+    <value>[정보] LS Monitoring Item 등록 실패!</value>
+  </data>
+  <data name="CDDEARead_Start_Msg12" xml:space="preserve">
+    <value>[정보] LS Monitor Items Buffer Size :</value>
+  </data>
+  <data name="CDDEARead_Start_Msg13" xml:space="preserve">
+    <value>[정보] LS Monitoring Item 등록 완료</value>
+  </data>
+  <data name="CDDEARead_Start_Msg14" xml:space="preserve">
+    <value>계산 중</value>
+  </data>
+  <data name="CDDEARead_Start_Msg2" xml:space="preserve">
+    <value>부분수집</value>
+  </data>
+  <data name="CDDEARead_Start_Msg3" xml:space="preserve">
+    <value>필터수집</value>
+  </data>
+  <data name="CDDEARead_Start_Msg4" xml:space="preserve">
+    <value>파라미터수집</value>
+  </data>
+  <data name="CDDEARead_Start_Msg5" xml:space="preserve">
+    <value>[오류] 수집 분석 프로세스 중 오류 발생</value>
+  </data>
+  <data name="CDDEARead_Start_Msg6" xml:space="preserve">
+    <value>[정보] LS PLC 연결 성공</value>
+  </data>
+  <data name="CDDEARead_Start_Msg7" xml:space="preserve">
+    <value>[정보] 필터링 된 전체 Buffer Size : </value>
+  </data>
+  <data name="CDDEARead_Start_Msg8" xml:space="preserve">
+    <value>[정보] 필터링 된 전체 접점 리스트 Log Csv 경로 : </value>
+  </data>
+  <data name="CDDEARead_Start_Msg9" xml:space="preserve">
+    <value>[오류] LS Monitor Items의 Buffer Size :</value>
+  </data>
+  <data name="CDDEARead_Stop_Msg1" xml:space="preserve">
+    <value>[정보] 정지하기 위해 남은 정보 처리</value>
+  </data>
+  <data name="CDDEARead_Stop_Msg2" xml:space="preserve">
+    <value>[정보] 남은 Queue </value>
+  </data>
+  <data name="CDDEARead_Stop_Msg3" xml:space="preserve">
+    <value>[정보] 정지 완료</value>
+  </data>
+  <data name="CDDEARead_UEventCycleChanged_Msg1" xml:space="preserve">
+    <value>[정보] 필터수집 완료</value>
+  </data>
+  <data name="CDDEARead_UEventCycleChanged_Msg2" xml:space="preserve">
+    <value>[정보] Cycle 시작</value>
+  </data>
+  <data name="CDDEARead_UEventCycleChanged_Msg3" xml:space="preserve">
+    <value>[정보] Packet 번호 : </value>
+  </data>
+  <data name="CDDEARead_UEventCycleChanged_Msg4" xml:space="preserve">
+    <value>[정보] Cycle 번호 : </value>
+  </data>
+  <data name="CDDEARead_UEventCycleTimeOut_Msg" xml:space="preserve">
+    <value>[정보] 재실행 PLC Connection 실패</value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg1" xml:space="preserve">
+    <value>[정보] Cycle 범위 조건 충족 못함</value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg2" xml:space="preserve">
+    <value>[정보] 기준접점 수집 완료</value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg3" xml:space="preserve">
+    <value>[정보] 전체수집 진행</value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg4" xml:space="preserve">
+    <value>[정보] 전체 Packet 수 : </value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg5" xml:space="preserve">
+    <value>[정보] Cycle 종료</value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg6" xml:space="preserve">
+    <value>[정보] 기준접점 수집 마지막 Packet</value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg7" xml:space="preserve">
+    <value>[정보] Packet전환 : </value>
+  </data>
+  <data name="CDDEARead_VerifyBlock_Msg1" xml:space="preserve">
+    <value>[정보] 수집 전 Packet별 수집 테스트 진행(1회)</value>
+  </data>
+  <data name="CDDEARead_VerifyBlock_Msg2" xml:space="preserve">
+    <value>[정보] 수집 대상 Packet Count = 0, 수집 대상 접점이 존재하지 않습니다.</value>
+  </data>
+  <data name="CDDEARead_VerifyBlock_Msg3" xml:space="preserve">
+    <value>{0} 번째 패킷 실패 </value>
+  </data>
+  <data name="CDDEARead_VerifyBlock_Msg4" xml:space="preserve">
+    <value>[오류] </value>
+  </data>
+  <data name="CDDEARead_VerifyBlock_Msg5" xml:space="preserve">
+    <value>수집 불가 접점 : {0}</value>
+  </data>
+  <data name="CDDEARead_VerifyBlock_Msg6" xml:space="preserve">
+    <value>[정보] </value>
+  </data>
+  <data name="CDDEATask_BeforeStop_Msg" xml:space="preserve">
+    <value>[정보] 로그 기록 중지</value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg1" xml:space="preserve">
+    <value>전체수집</value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg2" xml:space="preserve">
+    <value>출력수집</value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg3" xml:space="preserve">
+    <value>필터수집</value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg4" xml:space="preserve">
+    <value>파라미터수집</value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg5" xml:space="preserve">
+    <value>부분수집</value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg6" xml:space="preserve">
+    <value>[정보] 파일 생성 : </value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg7" xml:space="preserve">
+    <value>[오류]  파일 생성 중 문제 발생(</value>
+  </data>
+  <data name="CDDEATask_CreateXml_Msg1" xml:space="preserve">
+    <value>[오류] 파일 생성 오류 (</value>
+  </data>
+  <data name="CDDEATask_CreateXml_Msg2" xml:space="preserve">
+    <value>[정보] 파일 생성 (</value>
+  </data>
+  <data name="CDDEATask_CreateXml_Msg3" xml:space="preserve">
+    <value>[오류] 파일 생성 중 문제 발생(</value>
+  </data>
+  <data name="CDDEATask_DoThreadWork_Msg" xml:space="preserve">
+    <value>[오류] 로그 기록 중 문제가 발생(</value>
+  </data>
+  <data name="DDEA_None" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="UCChannelConfig_Defaultcommunicationsetting" xml:space="preserve">
+    <value>1. 기본통신설정</value>
+  </data>
+  <data name="UCChannelConfig_Detailedcommunicationsetting" xml:space="preserve">
+    <value>2. 상세통신설정</value>
+  </data>
+  <data name="UCChannelConfig_Msg_GetConfig" xml:space="preserve">
+    <value>설정이 없습니다.</value>
+  </data>
+  <data name="UCChannelConfig_Msg_SetConfig" xml:space="preserve">
+    <value>I/O Address는 16진수를 입력하세요.(ex: 03FF )</value>
+  </data>
+  <data name="UCChannelConfig_Msg_Thereisnothingtoset" xml:space="preserve">
+    <value>설정할 내용이 없습니다.</value>
+  </data>
+  <data name="UCChannelConfig_NetworkNoinput" xml:space="preserve">
+    <value>Network No입력, 1이상입력가능</value>
+  </data>
+  <data name="UCChannelConfig_Othercommunicationsetting" xml:space="preserve">
+    <value>3. 기타설정</value>
+  </data>
+  <data name="UCChannelConfig_PCsidesettings" xml:space="preserve">
+    <value>- PC 측 설정 -</value>
+  </data>
+  <data name="UCChannelConfig_PLCsidesettings" xml:space="preserve">
+    <value>- PLC 측 설정 -</value>
+  </data>
+  <data name="UCChannelConfig_StationNoinput" xml:space="preserve">
+    <value>Station No 입력, 1이상 입력 가능</value>
+  </data>
+  <data name="UCChannelTest_AreaLimitInformation" xml:space="preserve">
+    <value>영역별 한계 정보</value>
+  </data>
+  <data name="UCChannelTest_CollectionAddressInput" xml:space="preserve">
+    <value>수집 주소 입력</value>
+  </data>
+  <data name="UCChannelTest_CollectionProgress" xml:space="preserve">
+    <value>수집 진행 내용</value>
+  </data>
+  <data name="UCChannelTest_Connectiontest" xml:space="preserve">
+    <value>연결 테스트</value>
+  </data>
+  <data name="UCChannelTest_Manualtest" xml:space="preserve">
+    <value>수동 테스트</value>
+  </data>
+  <data name="UCChannelTest_Msg_btnEasyCollectStart" xml:space="preserve">
+    <value>입력된 접점이 없습니다.</value>
+  </data>
+  <data name="UCChannelTest_Msg_btnEasyCollectStopGuid1" xml:space="preserve">
+    <value>간편 수집</value>
+  </data>
+  <data name="UCChannelTest_Msg_btnEasyCollectStopGuid2" xml:space="preserve">
+    <value>로그를 저장하였습니다.</value>
+  </data>
+  <data name="UCChannelTest_Msg_btnEasyCollectStopGuid3" xml:space="preserve">
+    <value>간편 수집</value>
+  </data>
+  <data name="UCChannelTest_Msg_Connect" xml:space="preserve">
+    <value>연결 실패
+통신 설정을 확인하세요</value>
+  </data>
+  <data name="UCChannelTest_Msg_Disconnect" xml:space="preserve">
+    <value>해제 실패
+통신 설정을 확인하세요</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualDataGuid1" xml:space="preserve">
+    <value>입력된 접점이 없습니다.</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualDataGuid2" xml:space="preserve">
+    <value>간편 수집</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualDataGuid3" xml:space="preserve">
+    <value>Error가 10번이상 발생하여 정지합니다.</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualGuid1" xml:space="preserve">
+    <value>입력된 접점이 없습니다.</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualGuid2" xml:space="preserve">
+    <value>간편 수집</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestHelp1" xml:space="preserve">
+    <value>설정된 PLC 통신 정보로 통신 연결 테스트 진행과
+PLC의 각종 정보를 확인합니다.</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestHelp2" xml:space="preserve">
+    <value>설정된 PLC 통신 정보로 통신 연결 후 수집 주소 입력 창에
+등록된 접점을 수집합니다.</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestLSChannelGuid1" xml:space="preserve">
+    <value>입력된 접점이 없습니다.</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestLSChannelGuid2" xml:space="preserve">
+    <value>간편 수집</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestLSChannelGuid3" xml:space="preserve">
+    <value>Test Monitoring Item 등록 실패</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestMitsuChannelGuid1" xml:space="preserve">
+    <value>수집 실패 Error Code : {0} Count = {1}</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestMitsuChannelGuid2" xml:space="preserve">
+    <value>수집 테스트</value>
+  </data>
+  <data name="UCChannelTest_ScanplcInformation" xml:space="preserve">
+    <value>PLC 스캔 정보</value>
+  </data>
+  <data name="UCChannelTest_SimpleCollection" xml:space="preserve">
+    <value>간편수집</value>
+  </data>
+  <data name="UCChannelTest_Start" xml:space="preserve">
+    <value>시 작</value>
+  </data>
+  <data name="UCChannelTest_StateplcInformation" xml:space="preserve">
+    <value>PLC 상태 정보</value>
+  </data>
+  <data name="UCChannelTest_Stop" xml:space="preserve">
+    <value>정 지</value>
+  </data>
+  <data name="UCChannelTest_Test" xml:space="preserve">
+    <value>테스트</value>
+  </data>
+  <data name="UCConnectionTest_CollectionAddressInput" xml:space="preserve">
+    <value>수집 주소 입력</value>
+  </data>
+  <data name="UCConnectionTest_CollectionCycle" xml:space="preserve">
+    <value>수집 주기</value>
+  </data>
+  <data name="UCConnectionTest_CollectionProgress" xml:space="preserve">
+    <value>수집 진행 내용</value>
+  </data>
+  <data name="UCConnectionTest_Connect" xml:space="preserve">
+    <value>연결</value>
+  </data>
+  <data name="UCConnectionTest_Continuousstart" xml:space="preserve">
+    <value>연속 시작</value>
+  </data>
+  <data name="UCConnectionTest_Manualtest" xml:space="preserve">
+    <value>수동 테스트</value>
+  </data>
+  <data name="UCConnectionTest_Monitorcontrol" xml:space="preserve">
+    <value>모니터 제어</value>
+  </data>
+  <data name="UCConnectionTest_Msg_btnConnect" xml:space="preserve">
+    <value>연결 실패
+통신 설정을 확인하세요</value>
+  </data>
+  <data name="UCConnectionTest_Msg_btnDisConnect" xml:space="preserve">
+    <value>해제 실패
+통신 설정을 확인하세요</value>
+  </data>
+  <data name="UCConnectionTest_Msg_ConnectionTestHelp1" xml:space="preserve">
+    <value>대기 시간이 없이 수집 후 바로 다시 명령을 보냄</value>
+  </data>
+  <data name="UCConnectionTest_Msg_ReadSelfData" xml:space="preserve">
+    <value>Error가 10번이상 발생하여 정지합니다.</value>
+  </data>
+  <data name="UCConnectionTest_Msg_tmrPlcInfoStart" xml:space="preserve">
+    <value>수집 실패 Error Code : {0} Count = {1}</value>
+  </data>
+  <data name="UCConnectionTest_PLCInformation" xml:space="preserve">
+    <value>PLC 정보</value>
+  </data>
+  <data name="UCConnectionTest_Start" xml:space="preserve">
+    <value>시작</value>
+  </data>
+  <data name="UCConnectionTest_Stop" xml:space="preserve">
+    <value>정지</value>
+  </data>
+  <data name="UCConnectionTest_Uncheck" xml:space="preserve">
+    <value>해제</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp1" xml:space="preserve">
+    <value>CCLink 선택시 IO Address 입력, 저장후 수집가능, 설정 정보 Open시 초기화됩니다.</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp2" xml:space="preserve">
+    <value>Network No입력, 1이상입력가능</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp3" xml:space="preserve">
+    <value>Station No 입력, 1이상 입력 가능</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp4" xml:space="preserve">
+    <value>Connect Type 상세 통신 설정</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp5" xml:space="preserve">
+    <value>설정할 내용이 없습니다.</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp6" xml:space="preserve">
+    <value>PC와 연결된 PLC 기본 통신설정</value>
+  </data>
+  <data name="UCConnectSetting_Msg_GetConfig" xml:space="preserve">
+    <value>설정이 없습니다.</value>
+  </data>
+  <data name="UCConnectSetting_Msg_SetConfig" xml:space="preserve">
+    <value>I/O Address는 16진수를 입력하세요.(ex: 03FF )</value>
+  </data>
+  <data name="UCMultiStepTagTable_Msg_mnuSelectItemDisplay" xml:space="preserve">
+    <value>접점</value>
+  </data>
+</root>

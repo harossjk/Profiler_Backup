@@ -1,0 +1,898 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CAsyncTcpClient_AnalyzeProfilerMessage_Msg" xml:space="preserve">
+    <value>Message error: </value>
+  </data>
+  <data name="CAsyncTcpClient_BeginConnect_Msg" xml:space="preserve">
+    <value>Connection failed reconnection attempt: </value>
+  </data>
+  <data name="CAsyncTcpClient_BeginSend_Msg" xml:space="preserve">
+    <value>Transmission error: </value>
+  </data>
+  <data name="CAsyncTcpClient_ConnectCallBack_Msg1" xml:space="preserve">
+    <value>Successful connection to the server: </value>
+  </data>
+  <data name="CAsyncTcpClient_ConnectCallBack_Msg2" xml:space="preserve">
+    <value>Failed to connect to the server: </value>
+  </data>
+  <data name="CAsyncTcpClient_OnReceiveCallBack_Msg1" xml:space="preserve">
+    <value>Message analysis failed: </value>
+  </data>
+  <data name="CAsyncTcpClient_OnReceiveCallBack_Msg2" xml:space="preserve">
+    <value>The server has been disconnected.</value>
+  </data>
+  <data name="CAsyncTcpServer_Receive_Msg" xml:space="preserve">
+    <value>The connection has been lost.</value>
+  </data>
+  <data name="CAsyncTcpServer_SendClientMessage_Msg" xml:space="preserve">
+    <value>Transmission error: </value>
+  </data>
+  <data name="CDDEAGroup_bCycleEnd_TimeOut_false" xml:space="preserve">
+    <value>[Info] Cycle end (time range normal)</value>
+  </data>
+  <data name="CDDEAGroup_bCycleEnd_TimeOut_true" xml:space="preserve">
+    <value>[Info] Cycle end (time range error)</value>
+  </data>
+  <data name="CDDEAGroup_bCycleStart" xml:space="preserve">
+    <value>[Info] Cycle start</value>
+  </data>
+  <data name="CDDEAGroup_BeforeRun_Msg1" xml:space="preserve">
+    <value>Problem with initial project analysis.</value>
+  </data>
+  <data name="CDDEAGroup_BeforeRun_Msg2" xml:space="preserve">
+    <value>LogWrite start fail</value>
+  </data>
+  <data name="CDDEAGroup_BrforeRunCollectMode_Exception_Msg" xml:space="preserve">
+    <value>[Error] Initial Project analysis error (</value>
+  </data>
+  <data name="CDDEAGroup_cCurrentpacketData_CurrentRecipe" xml:space="preserve">
+    <value>Current Recipe :</value>
+  </data>
+  <data name="CDDEAGroup_cCurrentpacketData_NotfoundRecipe" xml:space="preserve">
+    <value>Can not find Recipe address</value>
+  </data>
+  <data name="CDDEAGroup_cCurrentpacketData_RecipeWait" xml:space="preserve">
+    <value>Waiting for Recipe… Current Recipe : </value>
+  </data>
+  <data name="CDDEAGroup_ContactInoperate" xml:space="preserve">
+    <value>contact inoperative)</value>
+  </data>
+  <data name="CDDEAGroup_ContactOperate" xml:space="preserve">
+    <value>contact operative)</value>
+  </data>
+  <data name="CDDEAGroup_cPackerData_CurrentRecipe" xml:space="preserve">
+    <value>Current Recipe :</value>
+  </data>
+  <data name="CDDEAGroup_cPackerData_CurrentRecipe1" xml:space="preserve">
+    <value>Current Recipe :</value>
+  </data>
+  <data name="CDDEAGroup_cPackerData_NotfoundRecipe" xml:space="preserve">
+    <value>Can not find Recipe address.</value>
+  </data>
+  <data name="CDDEAGroup_cPackerData_RecipeWait" xml:space="preserve">
+    <value>Waiting for Recipe… Current Recipe : </value>
+  </data>
+  <data name="CDDEAGroup_cPacketData_CycleChanged" xml:space="preserve">
+    <value>Leave the initial value and change the cycle due to a recipe change.</value>
+  </data>
+  <data name="CDDEAGroup_cPacketData_PacketLeave" xml:space="preserve">
+    <value>Leave the initial value of the packet.</value>
+  </data>
+  <data name="CDDEAGroup_cPacketData_RecipeDifferent_Msg1" xml:space="preserve">
+    <value>Wait for different recipes when collecting in reference output acquisition mode (Do not save logs)</value>
+  </data>
+  <data name="CDDEAGroup_cPacketData_RecipeWait" xml:space="preserve">
+    <value>Waiting for Recipe… Current Recipe : </value>
+  </data>
+  <data name="CDDEAGroup_DoEvents_Format1" xml:space="preserve">
+    <value>{1} Number of words after combination (excluding filters) : {0}</value>
+  </data>
+  <data name="CDDEAGroup_DoEvents_Format2" xml:space="preserve">
+    <value>Nunber of contact after filtering : {0}</value>
+  </data>
+  <data name="CDDEAGroup_DoEvents_Format3" xml:space="preserve">
+    <value>{1} Number of words after filter collection combination (excluding filters) : {0}</value>
+  </data>
+  <data name="CDDEAGroup_DoEvents_Format4" xml:space="preserve">
+    <value>Number of filtered contacts : {0}</value>
+  </data>
+  <data name="CDDEAGroup_DoFragmentCycleProcess_Exception_Msg" xml:space="preserve">
+    <value>[Error] Error during cycle analysis(</value>
+  </data>
+  <data name="CDDEAGroup_DoFragmentMasterCycleProcess_Exception_Msg" xml:space="preserve">
+    <value>[Error] Cycle Check Error occurred (</value>
+  </data>
+  <data name="CDDEAGroup_DoFragmentMasterProces_Exception_Msg" xml:space="preserve">
+    <value>[Error] Error analyzing default data for full collection</value>
+  </data>
+  <data name="CDDEAGroup_DoThreadWork_Exception_Msg" xml:space="preserve">
+    <value>[Error] Problem while analyzing collection</value>
+  </data>
+  <data name="CDDEAGroup_EMCollctModeFrag_Format1" xml:space="preserve">
+    <value>Word Size of ~collection : {0}</value>
+  </data>
+  <data name="CDDEAGroup_EMCollctModeFrag_Format2" xml:space="preserve">
+    <value>Word Size of ~collection : {0}</value>
+  </data>
+  <data name="CDDEAGroup_EMCollctModeFrag_Msg1" xml:space="preserve">
+    <value>[Info] Total/Output collection Bundle count : </value>
+  </data>
+  <data name="CDDEAGroup_EMCollectModeLOB_Format1" xml:space="preserve">
+    <value>{1} Number of words after LOB collection combination (excluding filters) : {0}</value>
+  </data>
+  <data name="CDDEAGroup_EMCollectModeNormal_Msg" xml:space="preserve">
+    <value>Normal collection</value>
+  </data>
+  <data name="CDDEAGroup_EMCollectmodeParameterNormal_Msg" xml:space="preserve">
+    <value>Parameter collection</value>
+  </data>
+  <data name="CDDEAGroup_FilterNormalBundleListCount_Msg" xml:space="preserve">
+    <value>[Info] Number of bundle filters collection : </value>
+  </data>
+  <data name="CDDEAGroup_IndexSymbolNone" xml:space="preserve">
+    <value>Index symbol not found</value>
+  </data>
+  <data name="CDDEAGroup_Info" xml:space="preserve">
+    <value>[Info]</value>
+  </data>
+  <data name="CDDEAGroup_IOT_Error" xml:space="preserve">
+    <value>[Error] IOT(</value>
+  </data>
+  <data name="CDDEAGroup_IOT_ErrorLogWriteTextFile_Msg1" xml:space="preserve">
+    <value>Normal collection</value>
+  </data>
+  <data name="CDDEAGroup_IOT_ErrorLogWriteTextFile_Msg2" xml:space="preserve">
+    <value>_Non-collectable contact_</value>
+  </data>
+  <data name="CDDEAGroup_IOT_ErrorLogWriteTextFile_Msg3" xml:space="preserve">
+    <value>] Non-collectable contact list-----------
+</value>
+  </data>
+  <data name="CDDEAGroup_IOT_ErrorLogWriteTextFile_Msg4" xml:space="preserve">
+    <value>) The number of contacts that cannot be collected:</value>
+  </data>
+  <data name="CDDEAGroup_IOT_ErrorLogWriteTextFile_Msg5" xml:space="preserve">
+    <value>) Create non-collectable contact logs:</value>
+  </data>
+  <data name="CDDEAGroup_IOT_Info" xml:space="preserve">
+    <value>[Info] IOT(</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotConnection_Msg1" xml:space="preserve">
+    <value>) Information setting complete</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotConnection_Msg2" xml:space="preserve">
+    <value>) Communication connection completed</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotConnection_Msg3" xml:space="preserve">
+    <value>) Communication connection failed</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotDisconnect_Msg1" xml:space="preserve">
+    <value>) Communication disconnection success</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotDisconnect_Msg2" xml:space="preserve">
+    <value>) Communication connection failure</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotDisconnect_Msg3" xml:space="preserve">
+    <value>) Successful monitoring release</value>
+  </data>
+  <data name="CDDEAGroup_IOT_IotDisconnect_Msg4" xml:space="preserve">
+    <value>) Monitoring release failed</value>
+  </data>
+  <data name="CDDEAGroup_IOT_StartIotMonitor_Msg1" xml:space="preserve">
+    <value>) Monitoring connection success</value>
+  </data>
+  <data name="CDDEAGroup_IOT_StartIotMonitor_Msg2" xml:space="preserve">
+    <value>) Start monitoring</value>
+  </data>
+  <data name="CDDEAGroup_IOT_StartIotMonitor_Msg3" xml:space="preserve">
+    <value>) Monitoring connection failure</value>
+  </data>
+  <data name="CDDEAGroup_LOBBundleListCount_Msg" xml:space="preserve">
+    <value>[Info] Number of bundle LOB collection : </value>
+  </data>
+  <data name="CDDEAGroup_LS_ContactInoperate" xml:space="preserve">
+    <value>contact inoperative)</value>
+  </data>
+  <data name="CDDEAGroup_LS_ContactOperate" xml:space="preserve">
+    <value>contact operative)</value>
+  </data>
+  <data name="CDDEAGroup_LS_CycleEnd_Msg1" xml:space="preserve">
+    <value>[Info] Cycle end(effective :</value>
+  </data>
+  <data name="CDDEAGroup_LS_CycleEnd_Msg2" xml:space="preserve">
+    <value>[Info] Cycle end(effective)</value>
+  </data>
+  <data name="CDDEAGroup_LS_CycleEnd_Msg3" xml:space="preserve">
+    <value>[Info] Cycle end(invalid :</value>
+  </data>
+  <data name="CDDEAGroup_LS_CycleEnd_Msg4" xml:space="preserve">
+    <value>[Info] Cycle end(invalid)</value>
+  </data>
+  <data name="CDDEAGroup_LS_DoThreadWork_Msg" xml:space="preserve">
+    <value> [Error] Problem while analyzing collection (</value>
+  </data>
+  <data name="CDDEAGroup_NoneRefreshAddress" xml:space="preserve">
+    <value>There is no refresh address.</value>
+  </data>
+  <data name="CDDEAGroup_NormalBundleListCount_Msg" xml:space="preserve">
+    <value>Number of Bundle : </value>
+  </data>
+  <data name="CDDEAGroup_PackerInfo_Msg1" xml:space="preserve">
+    <value>[Info] Packet </value>
+  </data>
+  <data name="CDDEAGroup_RecipeMatch" xml:space="preserve">
+    <value>Recipe matches. Starts the collection of reference contacts.</value>
+  </data>
+  <data name="CDDEAGroup_sFilterNormalCycle_End_Msg1" xml:space="preserve">
+    <value>[Info] Cycle end(effective : </value>
+  </data>
+  <data name="CDDEAGroup_sFilterNormalCycle_End_Msg2" xml:space="preserve">
+    <value>[Info] Cycle end(effective)</value>
+  </data>
+  <data name="CDDEAGroup_sFilterNormalCycle_End_Msg3" xml:space="preserve">
+    <value>[Info] Cycle end(invalid :</value>
+  </data>
+  <data name="CDDEAGroup_sFilterNormalCycle_End_Msg4" xml:space="preserve">
+    <value>[Info] Cycle end(invalid)</value>
+  </data>
+  <data name="CDDEAGroup_WriteFragBitLogS_Exception_Msg" xml:space="preserve">
+    <value>[Error] Error bit analyzing (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg1" xml:space="preserve">
+    <value>[Info] Start collecting</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg10" xml:space="preserve">
+    <value>[Error] Retry collection (0x10A0005) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg11" xml:space="preserve">
+    <value>[Error] Stops with error persistence (0x10A0005) after 20 attempts of retry during PLC communication (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg12" xml:space="preserve">
+    <value>[Error] Retry collection (0x10A0006) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg13" xml:space="preserve">
+    <value>[Error] Stops with error persistence (0x10A0006) after 20 attempts of retry during PLC communication (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg14" xml:space="preserve">
+    <value>[Error] Retry Collection (0x1808505) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg15" xml:space="preserve">
+    <value>[Error] Stops due to error persistence (0x1808505) after 20 retries during PLC communication (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg16" xml:space="preserve">
+    <value>[Error] Collection ends due to disconnection of PLC connection (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg17" xml:space="preserve">
+    <value>[Error] Retry collection (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg18" xml:space="preserve">
+    <value>[Error] Error persistence after 20 retries during PLC communication (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg19" xml:space="preserve">
+    <value>Stop with(</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg2" xml:space="preserve">
+    <value>[Error] Retry collection (0x1808504) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg3" xml:space="preserve">
+    <value>[Error] Stops with error persistence (0x1808504) after 20 attempts of retry during PLC communication (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg4" xml:space="preserve">
+    <value>[Error] Retry collection (0x10A0002) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg5" xml:space="preserve">
+    <value>[Error] Stops with error persistence (0x10A0002) after 20 attempts of retry during PLC communication (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg6" xml:space="preserve">
+    <value>[Error] Retry collection (0x10A0003) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg7" xml:space="preserve">
+    <value>[Error] Stops with error persistence (0x10A0003) after 20 attempts of retry during PLC communication (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg8" xml:space="preserve">
+    <value>[Error] Collection retry (0x10A0004) (</value>
+  </data>
+  <data name="CDDEARead_CollectData_Msg9" xml:space="preserve">
+    <value>[Error] Stops with error persistence (0x10A0004)  after 20 attempts of retry during PLC communication (</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg1" xml:space="preserve">
+    <value>[Info] Parameter collection progress</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg2" xml:space="preserve">
+    <value>[Info] Completed parameter collection</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg3" xml:space="preserve">
+    <value>[Info] Retry collection (</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg4" xml:space="preserve">
+    <value>[Error] Stop error during PLC communication (</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg5" xml:space="preserve">
+    <value>[Info] Collection</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg6" xml:space="preserve">
+    <value>Retries (</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg7" xml:space="preserve">
+    <value>[Error] Parameter not collected</value>
+  </data>
+  <data name="CDDEARead_CollectLOBData_Msg8" xml:space="preserve">
+    <value>[Info] No parameters</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg1" xml:space="preserve">
+    <value>[Info] Normal collection starts</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg10" xml:space="preserve">
+    <value>[Info] Filter collection ends</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg11" xml:space="preserve">
+    <value>[Info] Current packet(No.</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg12" xml:space="preserve">
+    <value>No index collection packet)</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg13" xml:space="preserve">
+    <value>[Info] Filter collection ends</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg14" xml:space="preserve">
+    <value>[Error] Buffer Size of LS Monitor Items:</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg15" xml:space="preserve">
+    <value>=&gt; Please set it to less than 100.</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg16" xml:space="preserve">
+    <value>[Info] LS PLC acquisition execution failed!</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg17" xml:space="preserve">
+    <value>[Error] Problem while collecting LS(</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg2" xml:space="preserve">
+    <value>[Info] Fragment collection starts</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg3" xml:space="preserve">
+    <value>[Info] Standard collection starts</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg4" xml:space="preserve">
+    <value>[Info] LOB collection starts</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg5" xml:space="preserve">
+    <value>[Info] Filter collection starts</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg6" xml:space="preserve">
+    <value>[Info] Parameter collection starts</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg7" xml:space="preserve">
+    <value>[Error] Physically, filter collection is not working properly.</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg8" xml:space="preserve">
+    <value>[Info] LS PLC collection execution!</value>
+  </data>
+  <data name="CDDEARead_Dowork_LS_Msg9" xml:space="preserve">
+    <value>[Info] Total number of collected packets: </value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg1" xml:space="preserve">
+    <value>[Info] Normal collection starts</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg10" xml:space="preserve">
+    <value>[Info] Packet number: </value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg11" xml:space="preserve">
+    <value>[Info] Cycle number:</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg12" xml:space="preserve">
+    <value>[Info] Waiting for collection by changing recipe</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg13" xml:space="preserve">
+    <value>[Info] Fragment collection end</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg14" xml:space="preserve">
+    <value>[Info] Standard collection end</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg15" xml:space="preserve">
+    <value>[Info] Filter collection end</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg16" xml:space="preserve">
+    <value>[Info] Current packet(No.</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg17" xml:space="preserve">
+    <value>No index collection packet)</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg18" xml:space="preserve">
+    <value>[info] Normal collection end</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg19" xml:space="preserve">
+    <value>[Error] Problem while collecting(</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg2" xml:space="preserve">
+    <value>[Info] Fragment collection starts</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg3" xml:space="preserve">
+    <value>[Info] Standard collection starts</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg4" xml:space="preserve">
+    <value>[Info] LOB collection starts</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg5" xml:space="preserve">
+    <value>[Info] Filter collection starts</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg6" xml:space="preserve">
+    <value>[Info] Parameter collection starts</value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg7" xml:space="preserve">
+    <value>[Info] Initial number of packets collected: </value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg8" xml:space="preserve">
+    <value>[Info] Initial packet number for collection: </value>
+  </data>
+  <data name="CDDEARead_DoWork_Msg9" xml:space="preserve">
+    <value>[Info] Collection of standard contacts</value>
+  </data>
+  <data name="CDDEARead_FolderNameF" xml:space="preserve">
+    <value>Filter collect</value>
+  </data>
+  <data name="CDDEARead_FolderNameP" xml:space="preserve">
+    <value>Partial collect</value>
+  </data>
+  <data name="CDDEARead_Start_Msg1" xml:space="preserve">
+    <value>[Error] PLC connection failure</value>
+  </data>
+  <data name="CDDEARead_Start_Msg10" xml:space="preserve">
+    <value>=&gt; Please set it to less than 100.</value>
+  </data>
+  <data name="CDDEARead_Start_Msg11" xml:space="preserve">
+    <value>[Info] LS Monitoring Item registration failed!</value>
+  </data>
+  <data name="CDDEARead_Start_Msg12" xml:space="preserve">
+    <value>[Info] LS Monitor Items Buffer Size: </value>
+  </data>
+  <data name="CDDEARead_Start_Msg13" xml:space="preserve">
+    <value>[Info] LS Monitoring Item registration completed</value>
+  </data>
+  <data name="CDDEARead_Start_Msg14" xml:space="preserve">
+    <value>Calculating</value>
+  </data>
+  <data name="CDDEARead_Start_Msg2" xml:space="preserve">
+    <value>Normal Collection</value>
+  </data>
+  <data name="CDDEARead_Start_Msg3" xml:space="preserve">
+    <value>Filter Collection</value>
+  </data>
+  <data name="CDDEARead_Start_Msg4" xml:space="preserve">
+    <value>Parameter Collection</value>
+  </data>
+  <data name="CDDEARead_Start_Msg5" xml:space="preserve">
+    <value>[Error] Error occurred during the collection analysis process</value>
+  </data>
+  <data name="CDDEARead_Start_Msg6" xml:space="preserve">
+    <value>[Info] LS PLC connection success</value>
+  </data>
+  <data name="CDDEARead_Start_Msg7" xml:space="preserve">
+    <value>[Info] Total filtered Buffer Size: </value>
+  </data>
+  <data name="CDDEARead_Start_Msg8" xml:space="preserve">
+    <value>[Info] Filtered all contact list Log Csv path: </value>
+  </data>
+  <data name="CDDEARead_Start_Msg9" xml:space="preserve">
+    <value>[Error] Buffer Size of LS Monitor Items: </value>
+  </data>
+  <data name="CDDEARead_Stop_Msg1" xml:space="preserve">
+    <value>[Info] Process the remaining information to stop</value>
+  </data>
+  <data name="CDDEARead_Stop_Msg2" xml:space="preserve">
+    <value>[Info] Remaining Queue</value>
+  </data>
+  <data name="CDDEARead_Stop_Msg3" xml:space="preserve">
+    <value>[Info] Stop complete</value>
+  </data>
+  <data name="CDDEARead_UEventCycleChanged_Msg1" xml:space="preserve">
+    <value>[Info] Filter collection completed</value>
+  </data>
+  <data name="CDDEARead_UEventCycleChanged_Msg2" xml:space="preserve">
+    <value>[Info] Cycle start</value>
+  </data>
+  <data name="CDDEARead_UEventCycleChanged_Msg3" xml:space="preserve">
+    <value>[Info] Packet number:</value>
+  </data>
+  <data name="CDDEARead_UEventCycleChanged_Msg4" xml:space="preserve">
+    <value>[Info] Cycle number:</value>
+  </data>
+  <data name="CDDEARead_UEventCycleTimeOut_Msg" xml:space="preserve">
+    <value>[Info] Redo PLC Connection failed</value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg1" xml:space="preserve">
+    <value>[Info] Cycle scope condition not met</value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg2" xml:space="preserve">
+    <value>[Info] Completion of standard contact collection</value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg3" xml:space="preserve">
+    <value>[Info] Complete collection</value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg4" xml:space="preserve">
+    <value>[Info] Total number of packets:</value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg5" xml:space="preserve">
+    <value>[Info] End of cycle</value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg6" xml:space="preserve">
+    <value>[Info] The last packet of the standard contact collection</value>
+  </data>
+  <data name="CDDEARead_UEventFragMasterSwitch_Msg7" xml:space="preserve">
+    <value>[Info] Packet conversion:</value>
+  </data>
+  <data name="CDDEARead_VerifyBlock_Msg1" xml:space="preserve">
+    <value>[Info] Collection test by packet before collection (1 time)</value>
+  </data>
+  <data name="CDDEARead_VerifyBlock_Msg2" xml:space="preserve">
+    <value>[Information] Packet Count = 0 to collect, contact point to collect does not exist.</value>
+  </data>
+  <data name="CDDEARead_VerifyBlock_Msg3" xml:space="preserve">
+    <value>{0} th packet failed</value>
+  </data>
+  <data name="CDDEARead_VerifyBlock_Msg4" xml:space="preserve">
+    <value>[Error]</value>
+  </data>
+  <data name="CDDEARead_VerifyBlock_Msg5" xml:space="preserve">
+    <value>Non-collectable contact: {0}</value>
+  </data>
+  <data name="CDDEARead_VerifyBlock_Msg6" xml:space="preserve">
+    <value>[Info]</value>
+  </data>
+  <data name="CDDEATask_BeforeStop_Msg" xml:space="preserve">
+    <value>[Info] stop logarithmic recording</value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg1" xml:space="preserve">
+    <value>Fragment Collection</value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg2" xml:space="preserve">
+    <value>Standard Collection</value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg3" xml:space="preserve">
+    <value>Filter Collection</value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg4" xml:space="preserve">
+    <value>Parameter Collection</value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg5" xml:space="preserve">
+    <value>Normal Collection</value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg6" xml:space="preserve">
+    <value>[Info] File creation: </value>
+  </data>
+  <data name="CDDEATask_CreateCSV_Msg7" xml:space="preserve">
+    <value>[Error]Problem while creating file (</value>
+  </data>
+  <data name="CDDEATask_CreateXml_Msg1" xml:space="preserve">
+    <value>[Error] File creation error (</value>
+  </data>
+  <data name="CDDEATask_CreateXml_Msg2" xml:space="preserve">
+    <value>[Info] File creation: </value>
+  </data>
+  <data name="CDDEATask_CreateXml_Msg3" xml:space="preserve">
+    <value>[Error]Problem while creating file (</value>
+  </data>
+  <data name="CDDEATask_DoThreadWork_Msg" xml:space="preserve">
+    <value>[Error] Problem occurred while logging</value>
+  </data>
+  <data name="DDEA_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="UCChannelConfig_Defaultcommunicationsetting" xml:space="preserve">
+    <value>1. Default communication setting</value>
+  </data>
+  <data name="UCChannelConfig_Detailedcommunicationsetting" xml:space="preserve">
+    <value>2. Detailed communication setting</value>
+  </data>
+  <data name="UCChannelConfig_Msg_GetConfig" xml:space="preserve">
+    <value>There is no setting.</value>
+  </data>
+  <data name="UCChannelConfig_Msg_SetConfig" xml:space="preserve">
+    <value>Enter the hexadecimal number for the I / O Address (ex: 03FF).</value>
+  </data>
+  <data name="UCChannelConfig_Msg_Thereisnothingtoset" xml:space="preserve">
+    <value>There is nothing to set.</value>
+  </data>
+  <data name="UCChannelConfig_NetworkNoinput" xml:space="preserve">
+    <value>Network No input, 1 or more input is possible</value>
+  </data>
+  <data name="UCChannelConfig_Othercommunicationsetting" xml:space="preserve">
+    <value>3. Other communication setting</value>
+  </data>
+  <data name="UCChannelConfig_PCsidesettings" xml:space="preserve">
+    <value>-PC side settings-</value>
+  </data>
+  <data name="UCChannelConfig_PLCsidesettings" xml:space="preserve">
+    <value>-PLC side settings-</value>
+  </data>
+  <data name="UCChannelConfig_StationNoinput" xml:space="preserve">
+    <value>Station No input, 1 or more input is possible</value>
+  </data>
+  <data name="UCChannelTest_AreaLimitInformation" xml:space="preserve">
+    <value>Area Limit Information</value>
+  </data>
+  <data name="UCChannelTest_CollectionAddressInput" xml:space="preserve">
+    <value>Collection Address Input</value>
+  </data>
+  <data name="UCChannelTest_CollectionProgress" xml:space="preserve">
+    <value>Collection Progress</value>
+  </data>
+  <data name="UCChannelTest_Connectiontest" xml:space="preserve">
+    <value>Connection test</value>
+  </data>
+  <data name="UCChannelTest_Manualtest" xml:space="preserve">
+    <value>Manual test</value>
+  </data>
+  <data name="UCChannelTest_Msg_btnEasyCollectStart" xml:space="preserve">
+    <value>There is no input contact.</value>
+  </data>
+  <data name="UCChannelTest_Msg_btnEasyCollectStopGuid1" xml:space="preserve">
+    <value>Easy collection</value>
+  </data>
+  <data name="UCChannelTest_Msg_btnEasyCollectStopGuid2" xml:space="preserve">
+    <value>The log has been saved.</value>
+  </data>
+  <data name="UCChannelTest_Msg_btnEasyCollectStopGuid3" xml:space="preserve">
+    <value>Easy collection</value>
+  </data>
+  <data name="UCChannelTest_Msg_Connect" xml:space="preserve">
+    <value>Connection failed
+Please check your communication settings.</value>
+  </data>
+  <data name="UCChannelTest_Msg_Disconnect" xml:space="preserve">
+    <value>Unlock failed
+Please check your communication settings.</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualDataGuid1" xml:space="preserve">
+    <value>There is no input contact.</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualDataGuid2" xml:space="preserve">
+    <value>Easy collection</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualDataGuid3" xml:space="preserve">
+    <value>Error has occurred more than 10 times and stops.</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualGuid1" xml:space="preserve">
+    <value>There is no input contact.</value>
+  </data>
+  <data name="UCChannelTest_Msg_ReadManualGuid2" xml:space="preserve">
+    <value>Easy collection</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestHelp1" xml:space="preserve">
+    <value>Communication connection test progress and
+Check various information of PLC.</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestHelp2" xml:space="preserve">
+    <value>After connecting the communication with the set PLC communication information,
+Collect registered contacts.
+</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestLSChannelGuid1" xml:space="preserve">
+    <value>There is no input contact.</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestLSChannelGuid2" xml:space="preserve">
+    <value>Easy collection</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestLSChannelGuid3" xml:space="preserve">
+    <value>Test Monitoring Item registration failed</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestMitsuChannelGuid1" xml:space="preserve">
+    <value>Collect Failure Error Code: {0} Count = {1}</value>
+  </data>
+  <data name="UCChannelTest_Msg_TestMitsuChannelGuid2" xml:space="preserve">
+    <value>Collection testing</value>
+  </data>
+  <data name="UCChannelTest_ScanplcInformation" xml:space="preserve">
+    <value>Scan plc Information</value>
+  </data>
+  <data name="UCChannelTest_SimpleCollection" xml:space="preserve">
+    <value>Simple </value>
+  </data>
+  <data name="UCChannelTest_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="UCChannelTest_StateplcInformation" xml:space="preserve">
+    <value>State plc Information</value>
+  </data>
+  <data name="UCChannelTest_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="UCChannelTest_Test" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="UCConnectionTest_CollectionAddressInput" xml:space="preserve">
+    <value>Collection Address Input</value>
+  </data>
+  <data name="UCConnectionTest_CollectionCycle" xml:space="preserve">
+    <value>Collection Cycle</value>
+  </data>
+  <data name="UCConnectionTest_CollectionProgress" xml:space="preserve">
+    <value>Collection Progress</value>
+  </data>
+  <data name="UCConnectionTest_Connect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="UCConnectionTest_Continuousstart" xml:space="preserve">
+    <value>Continuous start</value>
+  </data>
+  <data name="UCConnectionTest_Manualtest" xml:space="preserve">
+    <value>Manual test</value>
+  </data>
+  <data name="UCConnectionTest_Monitorcontrol" xml:space="preserve">
+    <value>Monitor control</value>
+  </data>
+  <data name="UCConnectionTest_Msg_btnConnect" xml:space="preserve">
+    <value>Connection failed
+Please check your communication settings.</value>
+  </data>
+  <data name="UCConnectionTest_Msg_btnDisConnect" xml:space="preserve">
+    <value>Unlock failed
+Please check your communication settings.</value>
+  </data>
+  <data name="UCConnectionTest_Msg_ConnectionTestHelp1" xml:space="preserve">
+    <value>Send command again immediately after acquisition with no waiting time</value>
+  </data>
+  <data name="UCConnectionTest_Msg_ReadSelfData" xml:space="preserve">
+    <value>Error has occurred more than 10 times and stops.
+</value>
+  </data>
+  <data name="UCConnectionTest_Msg_tmrPlcInfoStart" xml:space="preserve">
+    <value>Collect Failure Error Code: {0} Count = {1}</value>
+  </data>
+  <data name="UCConnectionTest_PLCInformation" xml:space="preserve">
+    <value>PLC Information</value>
+  </data>
+  <data name="UCConnectionTest_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="UCConnectionTest_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="UCConnectionTest_Uncheck" xml:space="preserve">
+    <value>Uncheck </value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp1" xml:space="preserve">
+    <value>When selecting CCLink, input IO address, save and collect
+It is initialized when setting information is opened.</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp2" xml:space="preserve">
+    <value>Network No input, 1 or more input is possible</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp3" xml:space="preserve">
+    <value>Station No input, 1 or more input is possible</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp4" xml:space="preserve">
+    <value>Connect Type detailed communication settings</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp5" xml:space="preserve">
+    <value>There is nothing to set.</value>
+  </data>
+  <data name="UCConnectSetting_MsgConnectionSettingHelp6" xml:space="preserve">
+    <value>PLC basic communication setting connected with PC</value>
+  </data>
+  <data name="UCConnectSetting_Msg_GetConfig" xml:space="preserve">
+    <value>There is no setting.</value>
+  </data>
+  <data name="UCConnectSetting_Msg_SetConfig" xml:space="preserve">
+    <value>Enter the hexadecimal number for the I / O Address (ex: 03FF).</value>
+  </data>
+  <data name="UCMultiStepTagTable_Msg_mnuSelectItemDisplay" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+</root>
